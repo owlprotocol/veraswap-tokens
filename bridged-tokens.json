@@ -10,7 +10,7 @@
     "connections": [
       {
         "vm": "ethereum",
-        "chain": "base",
+        "chainId": 8453,
         "address": "0xa6536c88A7f86d2b189c58A5a19BF5F03241d6A0"
       }
     ]
@@ -27,7 +27,7 @@
     "connections": [
       {
         "vm": "ethereum",
-        "chain": "form",
+        "chainId": 478,
         "address": "0x40Ca4155c0334F7e0F6d7F80536B59EF8831c9fb"
       }
     ]
@@ -43,12 +43,12 @@
     "connections": [
       {
         "vm": "ethereum",
-        "chain": "ethereum",
+        "chainId": 1,
         "address": "0xdc89990a6fdC1C922b841f1d977835628A24Ed57"
       },
       {
         "vm": "ethereum",
-        "chain": "zircuit",
+        "chainId": 48900,
         "address": "0x7D5a79539d7B1c9aE5e54d18EEE188840f1Fe4CC"
       }
     ]
@@ -65,12 +65,12 @@
     "connections": [
       {
         "vm": "ethereum",
-        "chain": "arbitrum",
+        "chainId": 42161,
         "address": "0x6D251aADfc6Ff69031e01eA39bE3cb5BABf8438f"
       },
       {
         "vm": "ethereum",
-        "chain": "zircuit",
+        "chainId": 48900,
         "address": "0x7D5a79539d7B1c9aE5e54d18EEE188840f1Fe4CC"
       }
     ]
@@ -86,30 +86,13 @@
     "connections": [
       {
         "vm": "ethereum",
-        "chain": "arbitrum",
+        "chainId": 42161,
         "address": "0x6D251aADfc6Ff69031e01eA39bE3cb5BABf8438f"
       },
       {
         "vm": "ethereum",
-        "chain": "ethereum",
+        "chainId": 1,
         "address": "0xdc89990a6fdC1C922b841f1d977835628A24Ed57"
-      }
-    ]
-  },
-  {
-    "chainId": 1,
-    "address": "0xd34FE1685c28A68Bb4B8fAaadCb2769962AE737c",
-    "name": "Autocompounding Pirex Ether",
-    "symbol": "apxETH",
-    "decimals": 18,
-    "logoURI": "https://raw.githubusercontent.com/hyperlane-xyz/hyperlane-registry/main/deployments/warp_routes/APXETH/logo.svg",
-    "standard": "EvmHypCollateral",
-    "collateralAddress": "0x9ba021b0a9b958b5e75ce9f6dff97c7ee52cb3e6",
-    "connections": [
-      {
-        "vm": "sealevel",
-        "chain": "eclipsemainnet",
-        "address": "9pEgj7m2VkwLtJHPtTw5d8vbB7kfjzcXXCRgdwruW7C2"
       }
     ]
   },
@@ -124,13 +107,8 @@
     "connections": [
       {
         "vm": "ethereum",
-        "chain": "artela",
+        "chainId": 11820,
         "address": "0x0a78BC3CBBC79C4C6E5d4e5b2bbD042E58e93484"
-      },
-      {
-        "vm": "sealevel",
-        "chain": "solanamainnet",
-        "address": "ELAJhVNCRfipNT99YTfPBGTAgyD5x9mEv3DYr9fvRM2C"
       }
     ]
   },
@@ -144,7 +122,7 @@
     "connections": [
       {
         "vm": "ethereum",
-        "chain": "piccadilly",
+        "chainId": 65100003,
         "address": "0xB7A40dBEcf4b970BA58AFEC95f484CbCaEB6b234"
       }
     ]
@@ -159,7 +137,7 @@
     "connections": [
       {
         "vm": "ethereum",
-        "chain": "kalychain",
+        "chainId": 3888,
         "address": "0x0e2318b62a096AC68ad2D7F37592CBf0cA9c4Ddb"
       }
     ]
@@ -175,7 +153,7 @@
     "connections": [
       {
         "vm": "ethereum",
-        "chain": "zeronetwork",
+        "chainId": 543210,
         "address": "0xa32ea8B73C03eb21A8dC6126D9D0D65D1F8FC65d"
       }
     ]
@@ -192,7 +170,7 @@
     "connections": [
       {
         "vm": "ethereum",
-        "chain": "zeronetwork",
+        "chainId": 543210,
         "address": "0xf7F253769c36CC7e1B01988CFf3aE198dea2c172"
       }
     ]
@@ -209,7 +187,7 @@
     "connections": [
       {
         "vm": "ethereum",
-        "chain": "zeronetwork",
+        "chainId": 543210,
         "address": "0x3f7F02453518A55C0c6F89F0A6A8ab6c22Da01Df"
       }
     ]
@@ -226,7 +204,7 @@
     "connections": [
       {
         "vm": "ethereum",
-        "chain": "flowmainnet",
+        "chainId": 747,
         "address": "0xA0197b2044D28b08Be34d98b23c9312158Ea9A18"
       }
     ]
@@ -242,7 +220,7 @@
     "connections": [
       {
         "vm": "ethereum",
-        "chain": "superseed",
+        "chainId": 5330,
         "address": "0x0a78BC3CBBC79C4C6E5d4e5b2bbD042E58e93484"
       }
     ]
@@ -258,25 +236,8 @@
     "connections": [
       {
         "vm": "ethereum",
-        "chain": "ethereum",
+        "chainId": 1,
         "address": "0x7710d2FC9A2E0452b28a2cBf550429b579347199"
-      }
-    ]
-  },
-  {
-    "chainId": 8453,
-    "address": "0x22Fd11F93F0303346c9b9070cc67C4Bc7aB2dABB",
-    "name": "Cod3x Token",
-    "symbol": "CDX",
-    "decimals": 18,
-    "logoURI": "https://raw.githubusercontent.com/hyperlane-xyz/hyperlane-registry/main/deployments/warp_routes/CDX/logo.svg",
-    "standard": "EvmHypCollateral",
-    "collateralAddress": "0xC0D3700000c0e32716863323bFd936b54a1633d1",
-    "connections": [
-      {
-        "vm": "sealevel",
-        "chain": "solanamainnet",
-        "address": "Dt62xRfWf7h6cURDsr19tqGWhjHMdobNVQ25cfHtZXg7"
       }
     ]
   },
@@ -291,17 +252,17 @@
     "connections": [
       {
         "vm": "ethereum",
-        "chain": "bsc",
+        "chainId": 56,
         "address": "0x7379A18963039eA1284050b585f422e8156c9eC0"
       },
       {
         "vm": "ethereum",
-        "chain": "kalychain",
+        "chainId": 3888,
         "address": "0x6E92CAC380F7A7B86f4163fad0df2F277B16Edc6"
       },
       {
         "vm": "ethereum",
-        "chain": "polygon",
+        "chainId": 137,
         "address": "0x1E71a8d870F0C491d4fCC965A59493b8B7564949"
       }
     ]
@@ -317,17 +278,17 @@
     "connections": [
       {
         "vm": "ethereum",
-        "chain": "arbitrum",
+        "chainId": 42161,
         "address": "0x1e59F72de6c00c456f7F42708FE8b6b0782E84C6"
       },
       {
         "vm": "ethereum",
-        "chain": "kalychain",
+        "chainId": 3888,
         "address": "0x6E92CAC380F7A7B86f4163fad0df2F277B16Edc6"
       },
       {
         "vm": "ethereum",
-        "chain": "polygon",
+        "chainId": 137,
         "address": "0x1E71a8d870F0C491d4fCC965A59493b8B7564949"
       }
     ]
@@ -343,17 +304,17 @@
     "connections": [
       {
         "vm": "ethereum",
-        "chain": "arbitrum",
+        "chainId": 42161,
         "address": "0x1e59F72de6c00c456f7F42708FE8b6b0782E84C6"
       },
       {
         "vm": "ethereum",
-        "chain": "bsc",
+        "chainId": 56,
         "address": "0x7379A18963039eA1284050b585f422e8156c9eC0"
       },
       {
         "vm": "ethereum",
-        "chain": "kalychain",
+        "chainId": 3888,
         "address": "0x6E92CAC380F7A7B86f4163fad0df2F277B16Edc6"
       }
     ]
@@ -370,17 +331,17 @@
     "connections": [
       {
         "vm": "ethereum",
-        "chain": "bsc",
+        "chainId": 56,
         "address": "0xEb881635A2Dd87d2b7C0F7B206810fa2A1956552"
       },
       {
         "vm": "ethereum",
-        "chain": "linea",
+        "chainId": 59144,
         "address": "0xdF17853b7a56499d7d6CAe0cEa3003EfC8257B5b"
       },
       {
         "vm": "ethereum",
-        "chain": "polygon",
+        "chainId": 137,
         "address": "0xEb881635A2Dd87d2b7C0F7B206810fa2A1956552"
       }
     ]
@@ -397,17 +358,17 @@
     "connections": [
       {
         "vm": "ethereum",
-        "chain": "arbitrum",
+        "chainId": 42161,
         "address": "0xEb881635A2Dd87d2b7C0F7B206810fa2A1956552"
       },
       {
         "vm": "ethereum",
-        "chain": "linea",
+        "chainId": 59144,
         "address": "0xdF17853b7a56499d7d6CAe0cEa3003EfC8257B5b"
       },
       {
         "vm": "ethereum",
-        "chain": "polygon",
+        "chainId": 137,
         "address": "0xEb881635A2Dd87d2b7C0F7B206810fa2A1956552"
       }
     ]
@@ -423,17 +384,17 @@
     "connections": [
       {
         "vm": "ethereum",
-        "chain": "arbitrum",
+        "chainId": 42161,
         "address": "0xEb881635A2Dd87d2b7C0F7B206810fa2A1956552"
       },
       {
         "vm": "ethereum",
-        "chain": "bsc",
+        "chainId": 56,
         "address": "0xEb881635A2Dd87d2b7C0F7B206810fa2A1956552"
       },
       {
         "vm": "ethereum",
-        "chain": "polygon",
+        "chainId": 137,
         "address": "0xEb881635A2Dd87d2b7C0F7B206810fa2A1956552"
       }
     ]
@@ -450,17 +411,17 @@
     "connections": [
       {
         "vm": "ethereum",
-        "chain": "arbitrum",
+        "chainId": 42161,
         "address": "0xEb881635A2Dd87d2b7C0F7B206810fa2A1956552"
       },
       {
         "vm": "ethereum",
-        "chain": "bsc",
+        "chainId": 56,
         "address": "0xEb881635A2Dd87d2b7C0F7B206810fa2A1956552"
       },
       {
         "vm": "ethereum",
-        "chain": "linea",
+        "chainId": 59144,
         "address": "0xdF17853b7a56499d7d6CAe0cEa3003EfC8257B5b"
       }
     ]
@@ -477,7 +438,7 @@
     "connections": [
       {
         "vm": "ethereum",
-        "chain": "optimism",
+        "chainId": 10,
         "address": "0x8da914daf9fc05D0e31435f7bd9633ffFC41f20B"
       }
     ]
@@ -493,7 +454,7 @@
     "connections": [
       {
         "vm": "ethereum",
-        "chain": "base",
+        "chainId": 8453,
         "address": "0x91f016B43A73DFF60f5D910c530338f69Fa3FD0b"
       }
     ]
@@ -508,24 +469,8 @@
     "connections": [
       {
         "vm": "ethereum",
-        "chain": "euphoriatestnet",
+        "chainId": 6321,
         "address": "0x4BD4B868D23d1dB8181c1913C331d7AB1CeA8B24"
-      }
-    ]
-  },
-  {
-    "chainId": 42161,
-    "address": "0x93ca0d85837FF83158Cd14D65B169CdB223b1921",
-    "name": "Eclipse Fi",
-    "symbol": "ECLIP",
-    "decimals": 6,
-    "logoURI": "https://raw.githubusercontent.com/hyperlane-xyz/hyperlane-registry/main/deployments/warp_routes/ECLIP/logo.svg",
-    "standard": "EvmHypSynthetic",
-    "connections": [
-      {
-        "vm": "cosmos",
-        "chain": "neutron",
-        "address": "neutron1dvzvf870mx9uf65uqhx40yzx9gu4xlqqq2pnx362a0ndmustww3smumrf5"
       }
     ]
   },
@@ -540,7 +485,7 @@
     "connections": [
       {
         "vm": "ethereum",
-        "chain": "alfajores",
+        "chainId": 44787,
         "address": "0x78fe869f19f917fde4192c51c446Fbd3721788ee"
       }
     ]
@@ -555,67 +500,67 @@
     "connections": [
       {
         "vm": "ethereum",
-        "chain": "base",
+        "chainId": 8453,
         "address": "0x885598858b68562FE5001F8eE022522313257C7a"
       },
       {
         "vm": "ethereum",
-        "chain": "blast",
+        "chainId": 81457,
         "address": "0xA900858116D7605a01AfC7595450d8D78555Bc83"
       },
       {
         "vm": "ethereum",
-        "chain": "bsc",
+        "chainId": 56,
         "address": "0xFc9F3387eb4385785420f661CE7A9E486f404b8F"
       },
       {
         "vm": "ethereum",
-        "chain": "ethereum",
+        "chainId": 1,
         "address": "0x85E9ae52B10f35e3D15264F1E906895B1D7Da1a0"
       },
       {
         "vm": "ethereum",
-        "chain": "gnosis",
+        "chainId": 100,
         "address": "0x5DBeAEC137d1ef9a240599656073Ae3E717fae3c"
       },
       {
         "vm": "ethereum",
-        "chain": "mantle",
+        "chainId": 5000,
         "address": "0xA92D6084709469A2B2339919FfC568b7C5D7888D"
       },
       {
         "vm": "ethereum",
-        "chain": "mode",
+        "chainId": 34443,
         "address": "0xef043d913b196dc87CB1256850894AA72DAD5933"
       },
       {
         "vm": "ethereum",
-        "chain": "optimism",
+        "chainId": 10,
         "address": "0x14A77BdAb46bBEb7DAfc3E4cB4732A51241Ef539"
       },
       {
         "vm": "ethereum",
-        "chain": "polygon",
+        "chainId": 137,
         "address": "0xda8b55BB3Dc6B74042033f9493A5Bffa3d8EA779"
       },
       {
         "vm": "ethereum",
-        "chain": "scroll",
+        "chainId": 534352,
         "address": "0xF85379CF296f84871dee84826153d6F5ccA9de3B"
       },
       {
         "vm": "ethereum",
-        "chain": "zeronetwork",
+        "chainId": 543210,
         "address": "0x2E2c9BeE342398E26156Da12769262087de6EdDC"
       },
       {
         "vm": "ethereum",
-        "chain": "zoramainnet",
+        "chainId": 7777777,
         "address": "0xA900858116D7605a01AfC7595450d8D78555Bc83"
       },
       {
         "vm": "ethereum",
-        "chain": "lisk",
+        "chainId": 1135,
         "address": "0x85E9ae52B10f35e3D15264F1E906895B1D7Da1a0"
       }
     ]
@@ -630,67 +575,67 @@
     "connections": [
       {
         "vm": "ethereum",
-        "chain": "arbitrum",
+        "chainId": 42161,
         "address": "0x6B8D1F18819DACA1fB966CF8Cff12feb4c00EB88"
       },
       {
         "vm": "ethereum",
-        "chain": "blast",
+        "chainId": 81457,
         "address": "0xA900858116D7605a01AfC7595450d8D78555Bc83"
       },
       {
         "vm": "ethereum",
-        "chain": "bsc",
+        "chainId": 56,
         "address": "0xFc9F3387eb4385785420f661CE7A9E486f404b8F"
       },
       {
         "vm": "ethereum",
-        "chain": "ethereum",
+        "chainId": 1,
         "address": "0x85E9ae52B10f35e3D15264F1E906895B1D7Da1a0"
       },
       {
         "vm": "ethereum",
-        "chain": "gnosis",
+        "chainId": 100,
         "address": "0x5DBeAEC137d1ef9a240599656073Ae3E717fae3c"
       },
       {
         "vm": "ethereum",
-        "chain": "mantle",
+        "chainId": 5000,
         "address": "0xA92D6084709469A2B2339919FfC568b7C5D7888D"
       },
       {
         "vm": "ethereum",
-        "chain": "mode",
+        "chainId": 34443,
         "address": "0xef043d913b196dc87CB1256850894AA72DAD5933"
       },
       {
         "vm": "ethereum",
-        "chain": "optimism",
+        "chainId": 10,
         "address": "0x14A77BdAb46bBEb7DAfc3E4cB4732A51241Ef539"
       },
       {
         "vm": "ethereum",
-        "chain": "polygon",
+        "chainId": 137,
         "address": "0xda8b55BB3Dc6B74042033f9493A5Bffa3d8EA779"
       },
       {
         "vm": "ethereum",
-        "chain": "scroll",
+        "chainId": 534352,
         "address": "0xF85379CF296f84871dee84826153d6F5ccA9de3B"
       },
       {
         "vm": "ethereum",
-        "chain": "zeronetwork",
+        "chainId": 543210,
         "address": "0x2E2c9BeE342398E26156Da12769262087de6EdDC"
       },
       {
         "vm": "ethereum",
-        "chain": "zoramainnet",
+        "chainId": 7777777,
         "address": "0xA900858116D7605a01AfC7595450d8D78555Bc83"
       },
       {
         "vm": "ethereum",
-        "chain": "lisk",
+        "chainId": 1135,
         "address": "0x85E9ae52B10f35e3D15264F1E906895B1D7Da1a0"
       }
     ]
@@ -705,67 +650,67 @@
     "connections": [
       {
         "vm": "ethereum",
-        "chain": "arbitrum",
+        "chainId": 42161,
         "address": "0x6B8D1F18819DACA1fB966CF8Cff12feb4c00EB88"
       },
       {
         "vm": "ethereum",
-        "chain": "base",
+        "chainId": 8453,
         "address": "0x885598858b68562FE5001F8eE022522313257C7a"
       },
       {
         "vm": "ethereum",
-        "chain": "bsc",
+        "chainId": 56,
         "address": "0xFc9F3387eb4385785420f661CE7A9E486f404b8F"
       },
       {
         "vm": "ethereum",
-        "chain": "ethereum",
+        "chainId": 1,
         "address": "0x85E9ae52B10f35e3D15264F1E906895B1D7Da1a0"
       },
       {
         "vm": "ethereum",
-        "chain": "gnosis",
+        "chainId": 100,
         "address": "0x5DBeAEC137d1ef9a240599656073Ae3E717fae3c"
       },
       {
         "vm": "ethereum",
-        "chain": "mantle",
+        "chainId": 5000,
         "address": "0xA92D6084709469A2B2339919FfC568b7C5D7888D"
       },
       {
         "vm": "ethereum",
-        "chain": "mode",
+        "chainId": 34443,
         "address": "0xef043d913b196dc87CB1256850894AA72DAD5933"
       },
       {
         "vm": "ethereum",
-        "chain": "optimism",
+        "chainId": 10,
         "address": "0x14A77BdAb46bBEb7DAfc3E4cB4732A51241Ef539"
       },
       {
         "vm": "ethereum",
-        "chain": "polygon",
+        "chainId": 137,
         "address": "0xda8b55BB3Dc6B74042033f9493A5Bffa3d8EA779"
       },
       {
         "vm": "ethereum",
-        "chain": "scroll",
+        "chainId": 534352,
         "address": "0xF85379CF296f84871dee84826153d6F5ccA9de3B"
       },
       {
         "vm": "ethereum",
-        "chain": "zeronetwork",
+        "chainId": 543210,
         "address": "0x2E2c9BeE342398E26156Da12769262087de6EdDC"
       },
       {
         "vm": "ethereum",
-        "chain": "zoramainnet",
+        "chainId": 7777777,
         "address": "0xA900858116D7605a01AfC7595450d8D78555Bc83"
       },
       {
         "vm": "ethereum",
-        "chain": "lisk",
+        "chainId": 1135,
         "address": "0x85E9ae52B10f35e3D15264F1E906895B1D7Da1a0"
       }
     ]
@@ -781,67 +726,67 @@
     "connections": [
       {
         "vm": "ethereum",
-        "chain": "arbitrum",
+        "chainId": 42161,
         "address": "0x6B8D1F18819DACA1fB966CF8Cff12feb4c00EB88"
       },
       {
         "vm": "ethereum",
-        "chain": "base",
+        "chainId": 8453,
         "address": "0x885598858b68562FE5001F8eE022522313257C7a"
       },
       {
         "vm": "ethereum",
-        "chain": "blast",
+        "chainId": 81457,
         "address": "0xA900858116D7605a01AfC7595450d8D78555Bc83"
       },
       {
         "vm": "ethereum",
-        "chain": "ethereum",
+        "chainId": 1,
         "address": "0x85E9ae52B10f35e3D15264F1E906895B1D7Da1a0"
       },
       {
         "vm": "ethereum",
-        "chain": "gnosis",
+        "chainId": 100,
         "address": "0x5DBeAEC137d1ef9a240599656073Ae3E717fae3c"
       },
       {
         "vm": "ethereum",
-        "chain": "mantle",
+        "chainId": 5000,
         "address": "0xA92D6084709469A2B2339919FfC568b7C5D7888D"
       },
       {
         "vm": "ethereum",
-        "chain": "mode",
+        "chainId": 34443,
         "address": "0xef043d913b196dc87CB1256850894AA72DAD5933"
       },
       {
         "vm": "ethereum",
-        "chain": "optimism",
+        "chainId": 10,
         "address": "0x14A77BdAb46bBEb7DAfc3E4cB4732A51241Ef539"
       },
       {
         "vm": "ethereum",
-        "chain": "polygon",
+        "chainId": 137,
         "address": "0xda8b55BB3Dc6B74042033f9493A5Bffa3d8EA779"
       },
       {
         "vm": "ethereum",
-        "chain": "scroll",
+        "chainId": 534352,
         "address": "0xF85379CF296f84871dee84826153d6F5ccA9de3B"
       },
       {
         "vm": "ethereum",
-        "chain": "zeronetwork",
+        "chainId": 543210,
         "address": "0x2E2c9BeE342398E26156Da12769262087de6EdDC"
       },
       {
         "vm": "ethereum",
-        "chain": "zoramainnet",
+        "chainId": 7777777,
         "address": "0xA900858116D7605a01AfC7595450d8D78555Bc83"
       },
       {
         "vm": "ethereum",
-        "chain": "lisk",
+        "chainId": 1135,
         "address": "0x85E9ae52B10f35e3D15264F1E906895B1D7Da1a0"
       }
     ]
@@ -856,67 +801,67 @@
     "connections": [
       {
         "vm": "ethereum",
-        "chain": "arbitrum",
+        "chainId": 42161,
         "address": "0x6B8D1F18819DACA1fB966CF8Cff12feb4c00EB88"
       },
       {
         "vm": "ethereum",
-        "chain": "base",
+        "chainId": 8453,
         "address": "0x885598858b68562FE5001F8eE022522313257C7a"
       },
       {
         "vm": "ethereum",
-        "chain": "blast",
+        "chainId": 81457,
         "address": "0xA900858116D7605a01AfC7595450d8D78555Bc83"
       },
       {
         "vm": "ethereum",
-        "chain": "bsc",
+        "chainId": 56,
         "address": "0xFc9F3387eb4385785420f661CE7A9E486f404b8F"
       },
       {
         "vm": "ethereum",
-        "chain": "gnosis",
+        "chainId": 100,
         "address": "0x5DBeAEC137d1ef9a240599656073Ae3E717fae3c"
       },
       {
         "vm": "ethereum",
-        "chain": "mantle",
+        "chainId": 5000,
         "address": "0xA92D6084709469A2B2339919FfC568b7C5D7888D"
       },
       {
         "vm": "ethereum",
-        "chain": "mode",
+        "chainId": 34443,
         "address": "0xef043d913b196dc87CB1256850894AA72DAD5933"
       },
       {
         "vm": "ethereum",
-        "chain": "optimism",
+        "chainId": 10,
         "address": "0x14A77BdAb46bBEb7DAfc3E4cB4732A51241Ef539"
       },
       {
         "vm": "ethereum",
-        "chain": "polygon",
+        "chainId": 137,
         "address": "0xda8b55BB3Dc6B74042033f9493A5Bffa3d8EA779"
       },
       {
         "vm": "ethereum",
-        "chain": "scroll",
+        "chainId": 534352,
         "address": "0xF85379CF296f84871dee84826153d6F5ccA9de3B"
       },
       {
         "vm": "ethereum",
-        "chain": "zeronetwork",
+        "chainId": 543210,
         "address": "0x2E2c9BeE342398E26156Da12769262087de6EdDC"
       },
       {
         "vm": "ethereum",
-        "chain": "zoramainnet",
+        "chainId": 7777777,
         "address": "0xA900858116D7605a01AfC7595450d8D78555Bc83"
       },
       {
         "vm": "ethereum",
-        "chain": "lisk",
+        "chainId": 1135,
         "address": "0x85E9ae52B10f35e3D15264F1E906895B1D7Da1a0"
       }
     ]
@@ -932,67 +877,67 @@
     "connections": [
       {
         "vm": "ethereum",
-        "chain": "arbitrum",
+        "chainId": 42161,
         "address": "0x6B8D1F18819DACA1fB966CF8Cff12feb4c00EB88"
       },
       {
         "vm": "ethereum",
-        "chain": "base",
+        "chainId": 8453,
         "address": "0x885598858b68562FE5001F8eE022522313257C7a"
       },
       {
         "vm": "ethereum",
-        "chain": "blast",
+        "chainId": 81457,
         "address": "0xA900858116D7605a01AfC7595450d8D78555Bc83"
       },
       {
         "vm": "ethereum",
-        "chain": "bsc",
+        "chainId": 56,
         "address": "0xFc9F3387eb4385785420f661CE7A9E486f404b8F"
       },
       {
         "vm": "ethereum",
-        "chain": "ethereum",
+        "chainId": 1,
         "address": "0x85E9ae52B10f35e3D15264F1E906895B1D7Da1a0"
       },
       {
         "vm": "ethereum",
-        "chain": "mantle",
+        "chainId": 5000,
         "address": "0xA92D6084709469A2B2339919FfC568b7C5D7888D"
       },
       {
         "vm": "ethereum",
-        "chain": "mode",
+        "chainId": 34443,
         "address": "0xef043d913b196dc87CB1256850894AA72DAD5933"
       },
       {
         "vm": "ethereum",
-        "chain": "optimism",
+        "chainId": 10,
         "address": "0x14A77BdAb46bBEb7DAfc3E4cB4732A51241Ef539"
       },
       {
         "vm": "ethereum",
-        "chain": "polygon",
+        "chainId": 137,
         "address": "0xda8b55BB3Dc6B74042033f9493A5Bffa3d8EA779"
       },
       {
         "vm": "ethereum",
-        "chain": "scroll",
+        "chainId": 534352,
         "address": "0xF85379CF296f84871dee84826153d6F5ccA9de3B"
       },
       {
         "vm": "ethereum",
-        "chain": "zeronetwork",
+        "chainId": 543210,
         "address": "0x2E2c9BeE342398E26156Da12769262087de6EdDC"
       },
       {
         "vm": "ethereum",
-        "chain": "zoramainnet",
+        "chainId": 7777777,
         "address": "0xA900858116D7605a01AfC7595450d8D78555Bc83"
       },
       {
         "vm": "ethereum",
-        "chain": "lisk",
+        "chainId": 1135,
         "address": "0x85E9ae52B10f35e3D15264F1E906895B1D7Da1a0"
       }
     ]
@@ -1008,67 +953,67 @@
     "connections": [
       {
         "vm": "ethereum",
-        "chain": "arbitrum",
+        "chainId": 42161,
         "address": "0x6B8D1F18819DACA1fB966CF8Cff12feb4c00EB88"
       },
       {
         "vm": "ethereum",
-        "chain": "base",
+        "chainId": 8453,
         "address": "0x885598858b68562FE5001F8eE022522313257C7a"
       },
       {
         "vm": "ethereum",
-        "chain": "blast",
+        "chainId": 81457,
         "address": "0xA900858116D7605a01AfC7595450d8D78555Bc83"
       },
       {
         "vm": "ethereum",
-        "chain": "bsc",
+        "chainId": 56,
         "address": "0xFc9F3387eb4385785420f661CE7A9E486f404b8F"
       },
       {
         "vm": "ethereum",
-        "chain": "ethereum",
+        "chainId": 1,
         "address": "0x85E9ae52B10f35e3D15264F1E906895B1D7Da1a0"
       },
       {
         "vm": "ethereum",
-        "chain": "gnosis",
+        "chainId": 100,
         "address": "0x5DBeAEC137d1ef9a240599656073Ae3E717fae3c"
       },
       {
         "vm": "ethereum",
-        "chain": "mode",
+        "chainId": 34443,
         "address": "0xef043d913b196dc87CB1256850894AA72DAD5933"
       },
       {
         "vm": "ethereum",
-        "chain": "optimism",
+        "chainId": 10,
         "address": "0x14A77BdAb46bBEb7DAfc3E4cB4732A51241Ef539"
       },
       {
         "vm": "ethereum",
-        "chain": "polygon",
+        "chainId": 137,
         "address": "0xda8b55BB3Dc6B74042033f9493A5Bffa3d8EA779"
       },
       {
         "vm": "ethereum",
-        "chain": "scroll",
+        "chainId": 534352,
         "address": "0xF85379CF296f84871dee84826153d6F5ccA9de3B"
       },
       {
         "vm": "ethereum",
-        "chain": "zeronetwork",
+        "chainId": 543210,
         "address": "0x2E2c9BeE342398E26156Da12769262087de6EdDC"
       },
       {
         "vm": "ethereum",
-        "chain": "zoramainnet",
+        "chainId": 7777777,
         "address": "0xA900858116D7605a01AfC7595450d8D78555Bc83"
       },
       {
         "vm": "ethereum",
-        "chain": "lisk",
+        "chainId": 1135,
         "address": "0x85E9ae52B10f35e3D15264F1E906895B1D7Da1a0"
       }
     ]
@@ -1083,67 +1028,67 @@
     "connections": [
       {
         "vm": "ethereum",
-        "chain": "arbitrum",
+        "chainId": 42161,
         "address": "0x6B8D1F18819DACA1fB966CF8Cff12feb4c00EB88"
       },
       {
         "vm": "ethereum",
-        "chain": "base",
+        "chainId": 8453,
         "address": "0x885598858b68562FE5001F8eE022522313257C7a"
       },
       {
         "vm": "ethereum",
-        "chain": "blast",
+        "chainId": 81457,
         "address": "0xA900858116D7605a01AfC7595450d8D78555Bc83"
       },
       {
         "vm": "ethereum",
-        "chain": "bsc",
+        "chainId": 56,
         "address": "0xFc9F3387eb4385785420f661CE7A9E486f404b8F"
       },
       {
         "vm": "ethereum",
-        "chain": "ethereum",
+        "chainId": 1,
         "address": "0x85E9ae52B10f35e3D15264F1E906895B1D7Da1a0"
       },
       {
         "vm": "ethereum",
-        "chain": "gnosis",
+        "chainId": 100,
         "address": "0x5DBeAEC137d1ef9a240599656073Ae3E717fae3c"
       },
       {
         "vm": "ethereum",
-        "chain": "mantle",
+        "chainId": 5000,
         "address": "0xA92D6084709469A2B2339919FfC568b7C5D7888D"
       },
       {
         "vm": "ethereum",
-        "chain": "optimism",
+        "chainId": 10,
         "address": "0x14A77BdAb46bBEb7DAfc3E4cB4732A51241Ef539"
       },
       {
         "vm": "ethereum",
-        "chain": "polygon",
+        "chainId": 137,
         "address": "0xda8b55BB3Dc6B74042033f9493A5Bffa3d8EA779"
       },
       {
         "vm": "ethereum",
-        "chain": "scroll",
+        "chainId": 534352,
         "address": "0xF85379CF296f84871dee84826153d6F5ccA9de3B"
       },
       {
         "vm": "ethereum",
-        "chain": "zeronetwork",
+        "chainId": 543210,
         "address": "0x2E2c9BeE342398E26156Da12769262087de6EdDC"
       },
       {
         "vm": "ethereum",
-        "chain": "zoramainnet",
+        "chainId": 7777777,
         "address": "0xA900858116D7605a01AfC7595450d8D78555Bc83"
       },
       {
         "vm": "ethereum",
-        "chain": "lisk",
+        "chainId": 1135,
         "address": "0x85E9ae52B10f35e3D15264F1E906895B1D7Da1a0"
       }
     ]
@@ -1158,67 +1103,67 @@
     "connections": [
       {
         "vm": "ethereum",
-        "chain": "arbitrum",
+        "chainId": 42161,
         "address": "0x6B8D1F18819DACA1fB966CF8Cff12feb4c00EB88"
       },
       {
         "vm": "ethereum",
-        "chain": "base",
+        "chainId": 8453,
         "address": "0x885598858b68562FE5001F8eE022522313257C7a"
       },
       {
         "vm": "ethereum",
-        "chain": "blast",
+        "chainId": 81457,
         "address": "0xA900858116D7605a01AfC7595450d8D78555Bc83"
       },
       {
         "vm": "ethereum",
-        "chain": "bsc",
+        "chainId": 56,
         "address": "0xFc9F3387eb4385785420f661CE7A9E486f404b8F"
       },
       {
         "vm": "ethereum",
-        "chain": "ethereum",
+        "chainId": 1,
         "address": "0x85E9ae52B10f35e3D15264F1E906895B1D7Da1a0"
       },
       {
         "vm": "ethereum",
-        "chain": "gnosis",
+        "chainId": 100,
         "address": "0x5DBeAEC137d1ef9a240599656073Ae3E717fae3c"
       },
       {
         "vm": "ethereum",
-        "chain": "mantle",
+        "chainId": 5000,
         "address": "0xA92D6084709469A2B2339919FfC568b7C5D7888D"
       },
       {
         "vm": "ethereum",
-        "chain": "mode",
+        "chainId": 34443,
         "address": "0xef043d913b196dc87CB1256850894AA72DAD5933"
       },
       {
         "vm": "ethereum",
-        "chain": "polygon",
+        "chainId": 137,
         "address": "0xda8b55BB3Dc6B74042033f9493A5Bffa3d8EA779"
       },
       {
         "vm": "ethereum",
-        "chain": "scroll",
+        "chainId": 534352,
         "address": "0xF85379CF296f84871dee84826153d6F5ccA9de3B"
       },
       {
         "vm": "ethereum",
-        "chain": "zeronetwork",
+        "chainId": 543210,
         "address": "0x2E2c9BeE342398E26156Da12769262087de6EdDC"
       },
       {
         "vm": "ethereum",
-        "chain": "zoramainnet",
+        "chainId": 7777777,
         "address": "0xA900858116D7605a01AfC7595450d8D78555Bc83"
       },
       {
         "vm": "ethereum",
-        "chain": "lisk",
+        "chainId": 1135,
         "address": "0x85E9ae52B10f35e3D15264F1E906895B1D7Da1a0"
       }
     ]
@@ -1234,67 +1179,67 @@
     "connections": [
       {
         "vm": "ethereum",
-        "chain": "arbitrum",
+        "chainId": 42161,
         "address": "0x6B8D1F18819DACA1fB966CF8Cff12feb4c00EB88"
       },
       {
         "vm": "ethereum",
-        "chain": "base",
+        "chainId": 8453,
         "address": "0x885598858b68562FE5001F8eE022522313257C7a"
       },
       {
         "vm": "ethereum",
-        "chain": "blast",
+        "chainId": 81457,
         "address": "0xA900858116D7605a01AfC7595450d8D78555Bc83"
       },
       {
         "vm": "ethereum",
-        "chain": "bsc",
+        "chainId": 56,
         "address": "0xFc9F3387eb4385785420f661CE7A9E486f404b8F"
       },
       {
         "vm": "ethereum",
-        "chain": "ethereum",
+        "chainId": 1,
         "address": "0x85E9ae52B10f35e3D15264F1E906895B1D7Da1a0"
       },
       {
         "vm": "ethereum",
-        "chain": "gnosis",
+        "chainId": 100,
         "address": "0x5DBeAEC137d1ef9a240599656073Ae3E717fae3c"
       },
       {
         "vm": "ethereum",
-        "chain": "mantle",
+        "chainId": 5000,
         "address": "0xA92D6084709469A2B2339919FfC568b7C5D7888D"
       },
       {
         "vm": "ethereum",
-        "chain": "mode",
+        "chainId": 34443,
         "address": "0xef043d913b196dc87CB1256850894AA72DAD5933"
       },
       {
         "vm": "ethereum",
-        "chain": "optimism",
+        "chainId": 10,
         "address": "0x14A77BdAb46bBEb7DAfc3E4cB4732A51241Ef539"
       },
       {
         "vm": "ethereum",
-        "chain": "scroll",
+        "chainId": 534352,
         "address": "0xF85379CF296f84871dee84826153d6F5ccA9de3B"
       },
       {
         "vm": "ethereum",
-        "chain": "zeronetwork",
+        "chainId": 543210,
         "address": "0x2E2c9BeE342398E26156Da12769262087de6EdDC"
       },
       {
         "vm": "ethereum",
-        "chain": "zoramainnet",
+        "chainId": 7777777,
         "address": "0xA900858116D7605a01AfC7595450d8D78555Bc83"
       },
       {
         "vm": "ethereum",
-        "chain": "lisk",
+        "chainId": 1135,
         "address": "0x85E9ae52B10f35e3D15264F1E906895B1D7Da1a0"
       }
     ]
@@ -1309,67 +1254,67 @@
     "connections": [
       {
         "vm": "ethereum",
-        "chain": "arbitrum",
+        "chainId": 42161,
         "address": "0x6B8D1F18819DACA1fB966CF8Cff12feb4c00EB88"
       },
       {
         "vm": "ethereum",
-        "chain": "base",
+        "chainId": 8453,
         "address": "0x885598858b68562FE5001F8eE022522313257C7a"
       },
       {
         "vm": "ethereum",
-        "chain": "blast",
+        "chainId": 81457,
         "address": "0xA900858116D7605a01AfC7595450d8D78555Bc83"
       },
       {
         "vm": "ethereum",
-        "chain": "bsc",
+        "chainId": 56,
         "address": "0xFc9F3387eb4385785420f661CE7A9E486f404b8F"
       },
       {
         "vm": "ethereum",
-        "chain": "ethereum",
+        "chainId": 1,
         "address": "0x85E9ae52B10f35e3D15264F1E906895B1D7Da1a0"
       },
       {
         "vm": "ethereum",
-        "chain": "gnosis",
+        "chainId": 100,
         "address": "0x5DBeAEC137d1ef9a240599656073Ae3E717fae3c"
       },
       {
         "vm": "ethereum",
-        "chain": "mantle",
+        "chainId": 5000,
         "address": "0xA92D6084709469A2B2339919FfC568b7C5D7888D"
       },
       {
         "vm": "ethereum",
-        "chain": "mode",
+        "chainId": 34443,
         "address": "0xef043d913b196dc87CB1256850894AA72DAD5933"
       },
       {
         "vm": "ethereum",
-        "chain": "optimism",
+        "chainId": 10,
         "address": "0x14A77BdAb46bBEb7DAfc3E4cB4732A51241Ef539"
       },
       {
         "vm": "ethereum",
-        "chain": "polygon",
+        "chainId": 137,
         "address": "0xda8b55BB3Dc6B74042033f9493A5Bffa3d8EA779"
       },
       {
         "vm": "ethereum",
-        "chain": "zeronetwork",
+        "chainId": 543210,
         "address": "0x2E2c9BeE342398E26156Da12769262087de6EdDC"
       },
       {
         "vm": "ethereum",
-        "chain": "zoramainnet",
+        "chainId": 7777777,
         "address": "0xA900858116D7605a01AfC7595450d8D78555Bc83"
       },
       {
         "vm": "ethereum",
-        "chain": "lisk",
+        "chainId": 1135,
         "address": "0x85E9ae52B10f35e3D15264F1E906895B1D7Da1a0"
       }
     ]
@@ -1384,67 +1329,67 @@
     "connections": [
       {
         "vm": "ethereum",
-        "chain": "arbitrum",
+        "chainId": 42161,
         "address": "0x6B8D1F18819DACA1fB966CF8Cff12feb4c00EB88"
       },
       {
         "vm": "ethereum",
-        "chain": "base",
+        "chainId": 8453,
         "address": "0x885598858b68562FE5001F8eE022522313257C7a"
       },
       {
         "vm": "ethereum",
-        "chain": "blast",
+        "chainId": 81457,
         "address": "0xA900858116D7605a01AfC7595450d8D78555Bc83"
       },
       {
         "vm": "ethereum",
-        "chain": "bsc",
+        "chainId": 56,
         "address": "0xFc9F3387eb4385785420f661CE7A9E486f404b8F"
       },
       {
         "vm": "ethereum",
-        "chain": "ethereum",
+        "chainId": 1,
         "address": "0x85E9ae52B10f35e3D15264F1E906895B1D7Da1a0"
       },
       {
         "vm": "ethereum",
-        "chain": "gnosis",
+        "chainId": 100,
         "address": "0x5DBeAEC137d1ef9a240599656073Ae3E717fae3c"
       },
       {
         "vm": "ethereum",
-        "chain": "mantle",
+        "chainId": 5000,
         "address": "0xA92D6084709469A2B2339919FfC568b7C5D7888D"
       },
       {
         "vm": "ethereum",
-        "chain": "mode",
+        "chainId": 34443,
         "address": "0xef043d913b196dc87CB1256850894AA72DAD5933"
       },
       {
         "vm": "ethereum",
-        "chain": "optimism",
+        "chainId": 10,
         "address": "0x14A77BdAb46bBEb7DAfc3E4cB4732A51241Ef539"
       },
       {
         "vm": "ethereum",
-        "chain": "polygon",
+        "chainId": 137,
         "address": "0xda8b55BB3Dc6B74042033f9493A5Bffa3d8EA779"
       },
       {
         "vm": "ethereum",
-        "chain": "scroll",
+        "chainId": 534352,
         "address": "0xF85379CF296f84871dee84826153d6F5ccA9de3B"
       },
       {
         "vm": "ethereum",
-        "chain": "zeronetwork",
+        "chainId": 543210,
         "address": "0x2E2c9BeE342398E26156Da12769262087de6EdDC"
       },
       {
         "vm": "ethereum",
-        "chain": "lisk",
+        "chainId": 1135,
         "address": "0x85E9ae52B10f35e3D15264F1E906895B1D7Da1a0"
       }
     ]
@@ -1459,67 +1404,67 @@
     "connections": [
       {
         "vm": "ethereum",
-        "chain": "arbitrum",
+        "chainId": 42161,
         "address": "0x6B8D1F18819DACA1fB966CF8Cff12feb4c00EB88"
       },
       {
         "vm": "ethereum",
-        "chain": "base",
+        "chainId": 8453,
         "address": "0x885598858b68562FE5001F8eE022522313257C7a"
       },
       {
         "vm": "ethereum",
-        "chain": "blast",
+        "chainId": 81457,
         "address": "0xA900858116D7605a01AfC7595450d8D78555Bc83"
       },
       {
         "vm": "ethereum",
-        "chain": "bsc",
+        "chainId": 56,
         "address": "0xFc9F3387eb4385785420f661CE7A9E486f404b8F"
       },
       {
         "vm": "ethereum",
-        "chain": "ethereum",
+        "chainId": 1,
         "address": "0x85E9ae52B10f35e3D15264F1E906895B1D7Da1a0"
       },
       {
         "vm": "ethereum",
-        "chain": "gnosis",
+        "chainId": 100,
         "address": "0x5DBeAEC137d1ef9a240599656073Ae3E717fae3c"
       },
       {
         "vm": "ethereum",
-        "chain": "mantle",
+        "chainId": 5000,
         "address": "0xA92D6084709469A2B2339919FfC568b7C5D7888D"
       },
       {
         "vm": "ethereum",
-        "chain": "mode",
+        "chainId": 34443,
         "address": "0xef043d913b196dc87CB1256850894AA72DAD5933"
       },
       {
         "vm": "ethereum",
-        "chain": "optimism",
+        "chainId": 10,
         "address": "0x14A77BdAb46bBEb7DAfc3E4cB4732A51241Ef539"
       },
       {
         "vm": "ethereum",
-        "chain": "polygon",
+        "chainId": 137,
         "address": "0xda8b55BB3Dc6B74042033f9493A5Bffa3d8EA779"
       },
       {
         "vm": "ethereum",
-        "chain": "scroll",
+        "chainId": 534352,
         "address": "0xF85379CF296f84871dee84826153d6F5ccA9de3B"
       },
       {
         "vm": "ethereum",
-        "chain": "zeronetwork",
+        "chainId": 543210,
         "address": "0x2E2c9BeE342398E26156Da12769262087de6EdDC"
       },
       {
         "vm": "ethereum",
-        "chain": "zoramainnet",
+        "chainId": 7777777,
         "address": "0xA900858116D7605a01AfC7595450d8D78555Bc83"
       }
     ]
@@ -1534,17 +1479,17 @@
     "connections": [
       {
         "vm": "ethereum",
-        "chain": "bsc",
+        "chainId": 56,
         "address": "0xF29AD0640731c50d0c7C999D1f8d5Ffb9E2A3da3"
       },
       {
         "vm": "ethereum",
-        "chain": "kalychain",
+        "chainId": 3888,
         "address": "0xfdbB253753dDE60b11211B169dC872AaE672879b"
       },
       {
         "vm": "ethereum",
-        "chain": "polygon",
+        "chainId": 137,
         "address": "0xb974461a9ef2Ff3F408798f551929647ceaB13b4"
       }
     ]
@@ -1560,17 +1505,17 @@
     "connections": [
       {
         "vm": "ethereum",
-        "chain": "arbitrum",
+        "chainId": 42161,
         "address": "0x14CFC15Da10d5cfC6A494E183c795067573C7F51"
       },
       {
         "vm": "ethereum",
-        "chain": "kalychain",
+        "chainId": 3888,
         "address": "0xfdbB253753dDE60b11211B169dC872AaE672879b"
       },
       {
         "vm": "ethereum",
-        "chain": "polygon",
+        "chainId": 137,
         "address": "0xb974461a9ef2Ff3F408798f551929647ceaB13b4"
       }
     ]
@@ -1586,17 +1531,17 @@
     "connections": [
       {
         "vm": "ethereum",
-        "chain": "arbitrum",
+        "chainId": 42161,
         "address": "0x14CFC15Da10d5cfC6A494E183c795067573C7F51"
       },
       {
         "vm": "ethereum",
-        "chain": "bsc",
+        "chainId": 56,
         "address": "0xF29AD0640731c50d0c7C999D1f8d5Ffb9E2A3da3"
       },
       {
         "vm": "ethereum",
-        "chain": "kalychain",
+        "chainId": 3888,
         "address": "0xfdbB253753dDE60b11211B169dC872AaE672879b"
       }
     ]
@@ -1612,12 +1557,12 @@
     "connections": [
       {
         "vm": "ethereum",
-        "chain": "ethereum",
+        "chainId": 1,
         "address": "0xE0A5921Bcc37eb2FeCc452AE574b86bD4c332196"
       },
       {
         "vm": "ethereum",
-        "chain": "lumiaprism",
+        "chainId": 994873017,
         "address": "0xdCB5227EA8E5FDE0f761A55dC669EC09807E7C8b"
       }
     ]
@@ -1633,12 +1578,12 @@
     "connections": [
       {
         "vm": "ethereum",
-        "chain": "base",
+        "chainId": 8453,
         "address": "0xE4A9622Bf50025fE99A576D484AEf16280A5304f"
       },
       {
         "vm": "ethereum",
-        "chain": "lumiaprism",
+        "chainId": 994873017,
         "address": "0xdCB5227EA8E5FDE0f761A55dC669EC09807E7C8b"
       }
     ]
@@ -1654,7 +1599,7 @@
     "connections": [
       {
         "vm": "ethereum",
-        "chain": "hyperevm",
+        "chainId": 999,
         "address": "0x1fbcCdc677c10671eE50b46C61F0f7d135112450"
       }
     ]
@@ -1670,7 +1615,7 @@
     "connections": [
       {
         "vm": "ethereum",
-        "chain": "vana",
+        "chainId": 1480,
         "address": "0x3e6Dba802d62aba2361Dd632fbC9f547AA6789aE"
       }
     ]
@@ -1686,7 +1631,7 @@
     "connections": [
       {
         "vm": "ethereum",
-        "chain": "viction",
+        "chainId": 88,
         "address": "0x182e8d7c5f1b06201b102123fc7df0eaeb445a7b"
       }
     ]
@@ -1702,7 +1647,7 @@
     "connections": [
       {
         "vm": "ethereum",
-        "chain": "ethereum",
+        "chainId": 1,
         "address": "0x15b5D6B614242B118AA404528A7f3E2Ad241e4A4"
       }
     ]
@@ -1718,7 +1663,7 @@
     "connections": [
       {
         "vm": "ethereum",
-        "chain": "piccadilly",
+        "chainId": 65100003,
         "address": "0x49195E6251aFa947319F29351be4bDfA617C6720"
       }
     ]
@@ -1735,72 +1680,72 @@
     "connections": [
       {
         "vm": "ethereum",
-        "chain": "base",
+        "chainId": 8453,
         "address": "0x2552516453368e42705D791F674b312b8b87CD9e"
       },
       {
         "vm": "ethereum",
-        "chain": "blast",
+        "chainId": 81457,
         "address": "0x486b39378f99f073A3043C6Aabe8666876A8F3C5"
       },
       {
         "vm": "ethereum",
-        "chain": "bsc",
+        "chainId": 56,
         "address": "0xE00C6185a5c19219F1FFeD213b4406a254968c26"
       },
       {
         "vm": "ethereum",
-        "chain": "ethereum",
+        "chainId": 1,
         "address": "0xC59336D8edDa9722B4f1Ec104007191Ec16f7087"
       },
       {
         "vm": "ethereum",
-        "chain": "fraxtal",
+        "chainId": 252,
         "address": "0x3aE8635A4D581d40a6Edfb3f2ED480f9532994F5"
       },
       {
         "vm": "ethereum",
-        "chain": "linea",
+        "chainId": 59144,
         "address": "0xC59336D8edDa9722B4f1Ec104007191Ec16f7087"
       },
       {
         "vm": "ethereum",
-        "chain": "mode",
+        "chainId": 34443,
         "address": "0xC59336D8edDa9722B4f1Ec104007191Ec16f7087"
       },
       {
         "vm": "ethereum",
-        "chain": "optimism",
+        "chainId": 10,
         "address": "0xacEB607CdF59EB8022Cc0699eEF3eCF246d149e2"
       },
       {
         "vm": "ethereum",
-        "chain": "sei",
+        "chainId": 1329,
         "address": "0xE5163F148C82a0818545d5D34e30BC1EDA870cB9"
       },
       {
         "vm": "ethereum",
-        "chain": "swell",
+        "chainId": 1923,
         "address": "0xA166219dF110BDA97b91e65D4BB4Aae4159978b9"
       },
       {
         "vm": "ethereum",
-        "chain": "taiko",
+        "chainId": 167000,
         "address": "0x5eAFB1D4b5BDFaFE81715EeBcC7713e418C80E78"
       },
       {
         "vm": "ethereum",
-        "chain": "zircuit",
+        "chainId": 48900,
         "address": "0x2552516453368e42705D791F674b312b8b87CD9e"
       },
       {
         "vm": "ethereum",
-        "chain": "berachain",
+        "chainId": 80094,
         "address": "0x50105110D9e14Eb3d1e4BA7C32daC7f002AC50FD"
       },
       {
         "vm": "ethereum",
-        "chain": "unichain",
+        "chainId": 130,
         "address": "0xFf0247f72b0d7ceD319D8457dD30622a2bed78B5"
       }
     ]
@@ -1817,72 +1762,72 @@
     "connections": [
       {
         "vm": "ethereum",
-        "chain": "arbitrum",
+        "chainId": 42161,
         "address": "0xB26bBfC6d1F469C821Ea25099017862e7368F4E8"
       },
       {
         "vm": "ethereum",
-        "chain": "blast",
+        "chainId": 81457,
         "address": "0x486b39378f99f073A3043C6Aabe8666876A8F3C5"
       },
       {
         "vm": "ethereum",
-        "chain": "bsc",
+        "chainId": 56,
         "address": "0xE00C6185a5c19219F1FFeD213b4406a254968c26"
       },
       {
         "vm": "ethereum",
-        "chain": "ethereum",
+        "chainId": 1,
         "address": "0xC59336D8edDa9722B4f1Ec104007191Ec16f7087"
       },
       {
         "vm": "ethereum",
-        "chain": "fraxtal",
+        "chainId": 252,
         "address": "0x3aE8635A4D581d40a6Edfb3f2ED480f9532994F5"
       },
       {
         "vm": "ethereum",
-        "chain": "linea",
+        "chainId": 59144,
         "address": "0xC59336D8edDa9722B4f1Ec104007191Ec16f7087"
       },
       {
         "vm": "ethereum",
-        "chain": "mode",
+        "chainId": 34443,
         "address": "0xC59336D8edDa9722B4f1Ec104007191Ec16f7087"
       },
       {
         "vm": "ethereum",
-        "chain": "optimism",
+        "chainId": 10,
         "address": "0xacEB607CdF59EB8022Cc0699eEF3eCF246d149e2"
       },
       {
         "vm": "ethereum",
-        "chain": "sei",
+        "chainId": 1329,
         "address": "0xE5163F148C82a0818545d5D34e30BC1EDA870cB9"
       },
       {
         "vm": "ethereum",
-        "chain": "swell",
+        "chainId": 1923,
         "address": "0xA166219dF110BDA97b91e65D4BB4Aae4159978b9"
       },
       {
         "vm": "ethereum",
-        "chain": "taiko",
+        "chainId": 167000,
         "address": "0x5eAFB1D4b5BDFaFE81715EeBcC7713e418C80E78"
       },
       {
         "vm": "ethereum",
-        "chain": "zircuit",
+        "chainId": 48900,
         "address": "0x2552516453368e42705D791F674b312b8b87CD9e"
       },
       {
         "vm": "ethereum",
-        "chain": "berachain",
+        "chainId": 80094,
         "address": "0x50105110D9e14Eb3d1e4BA7C32daC7f002AC50FD"
       },
       {
         "vm": "ethereum",
-        "chain": "unichain",
+        "chainId": 130,
         "address": "0xFf0247f72b0d7ceD319D8457dD30622a2bed78B5"
       }
     ]
@@ -1899,72 +1844,72 @@
     "connections": [
       {
         "vm": "ethereum",
-        "chain": "arbitrum",
+        "chainId": 42161,
         "address": "0xB26bBfC6d1F469C821Ea25099017862e7368F4E8"
       },
       {
         "vm": "ethereum",
-        "chain": "base",
+        "chainId": 8453,
         "address": "0x2552516453368e42705D791F674b312b8b87CD9e"
       },
       {
         "vm": "ethereum",
-        "chain": "bsc",
+        "chainId": 56,
         "address": "0xE00C6185a5c19219F1FFeD213b4406a254968c26"
       },
       {
         "vm": "ethereum",
-        "chain": "ethereum",
+        "chainId": 1,
         "address": "0xC59336D8edDa9722B4f1Ec104007191Ec16f7087"
       },
       {
         "vm": "ethereum",
-        "chain": "fraxtal",
+        "chainId": 252,
         "address": "0x3aE8635A4D581d40a6Edfb3f2ED480f9532994F5"
       },
       {
         "vm": "ethereum",
-        "chain": "linea",
+        "chainId": 59144,
         "address": "0xC59336D8edDa9722B4f1Ec104007191Ec16f7087"
       },
       {
         "vm": "ethereum",
-        "chain": "mode",
+        "chainId": 34443,
         "address": "0xC59336D8edDa9722B4f1Ec104007191Ec16f7087"
       },
       {
         "vm": "ethereum",
-        "chain": "optimism",
+        "chainId": 10,
         "address": "0xacEB607CdF59EB8022Cc0699eEF3eCF246d149e2"
       },
       {
         "vm": "ethereum",
-        "chain": "sei",
+        "chainId": 1329,
         "address": "0xE5163F148C82a0818545d5D34e30BC1EDA870cB9"
       },
       {
         "vm": "ethereum",
-        "chain": "swell",
+        "chainId": 1923,
         "address": "0xA166219dF110BDA97b91e65D4BB4Aae4159978b9"
       },
       {
         "vm": "ethereum",
-        "chain": "taiko",
+        "chainId": 167000,
         "address": "0x5eAFB1D4b5BDFaFE81715EeBcC7713e418C80E78"
       },
       {
         "vm": "ethereum",
-        "chain": "zircuit",
+        "chainId": 48900,
         "address": "0x2552516453368e42705D791F674b312b8b87CD9e"
       },
       {
         "vm": "ethereum",
-        "chain": "berachain",
+        "chainId": 80094,
         "address": "0x50105110D9e14Eb3d1e4BA7C32daC7f002AC50FD"
       },
       {
         "vm": "ethereum",
-        "chain": "unichain",
+        "chainId": 130,
         "address": "0xFf0247f72b0d7ceD319D8457dD30622a2bed78B5"
       }
     ]
@@ -1981,72 +1926,72 @@
     "connections": [
       {
         "vm": "ethereum",
-        "chain": "arbitrum",
+        "chainId": 42161,
         "address": "0xB26bBfC6d1F469C821Ea25099017862e7368F4E8"
       },
       {
         "vm": "ethereum",
-        "chain": "base",
+        "chainId": 8453,
         "address": "0x2552516453368e42705D791F674b312b8b87CD9e"
       },
       {
         "vm": "ethereum",
-        "chain": "blast",
+        "chainId": 81457,
         "address": "0x486b39378f99f073A3043C6Aabe8666876A8F3C5"
       },
       {
         "vm": "ethereum",
-        "chain": "ethereum",
+        "chainId": 1,
         "address": "0xC59336D8edDa9722B4f1Ec104007191Ec16f7087"
       },
       {
         "vm": "ethereum",
-        "chain": "fraxtal",
+        "chainId": 252,
         "address": "0x3aE8635A4D581d40a6Edfb3f2ED480f9532994F5"
       },
       {
         "vm": "ethereum",
-        "chain": "linea",
+        "chainId": 59144,
         "address": "0xC59336D8edDa9722B4f1Ec104007191Ec16f7087"
       },
       {
         "vm": "ethereum",
-        "chain": "mode",
+        "chainId": 34443,
         "address": "0xC59336D8edDa9722B4f1Ec104007191Ec16f7087"
       },
       {
         "vm": "ethereum",
-        "chain": "optimism",
+        "chainId": 10,
         "address": "0xacEB607CdF59EB8022Cc0699eEF3eCF246d149e2"
       },
       {
         "vm": "ethereum",
-        "chain": "sei",
+        "chainId": 1329,
         "address": "0xE5163F148C82a0818545d5D34e30BC1EDA870cB9"
       },
       {
         "vm": "ethereum",
-        "chain": "swell",
+        "chainId": 1923,
         "address": "0xA166219dF110BDA97b91e65D4BB4Aae4159978b9"
       },
       {
         "vm": "ethereum",
-        "chain": "taiko",
+        "chainId": 167000,
         "address": "0x5eAFB1D4b5BDFaFE81715EeBcC7713e418C80E78"
       },
       {
         "vm": "ethereum",
-        "chain": "zircuit",
+        "chainId": 48900,
         "address": "0x2552516453368e42705D791F674b312b8b87CD9e"
       },
       {
         "vm": "ethereum",
-        "chain": "berachain",
+        "chainId": 80094,
         "address": "0x50105110D9e14Eb3d1e4BA7C32daC7f002AC50FD"
       },
       {
         "vm": "ethereum",
-        "chain": "unichain",
+        "chainId": 130,
         "address": "0xFf0247f72b0d7ceD319D8457dD30622a2bed78B5"
       }
     ]
@@ -2063,72 +2008,72 @@
     "connections": [
       {
         "vm": "ethereum",
-        "chain": "arbitrum",
+        "chainId": 42161,
         "address": "0xB26bBfC6d1F469C821Ea25099017862e7368F4E8"
       },
       {
         "vm": "ethereum",
-        "chain": "base",
+        "chainId": 8453,
         "address": "0x2552516453368e42705D791F674b312b8b87CD9e"
       },
       {
         "vm": "ethereum",
-        "chain": "blast",
+        "chainId": 81457,
         "address": "0x486b39378f99f073A3043C6Aabe8666876A8F3C5"
       },
       {
         "vm": "ethereum",
-        "chain": "bsc",
+        "chainId": 56,
         "address": "0xE00C6185a5c19219F1FFeD213b4406a254968c26"
       },
       {
         "vm": "ethereum",
-        "chain": "fraxtal",
+        "chainId": 252,
         "address": "0x3aE8635A4D581d40a6Edfb3f2ED480f9532994F5"
       },
       {
         "vm": "ethereum",
-        "chain": "linea",
+        "chainId": 59144,
         "address": "0xC59336D8edDa9722B4f1Ec104007191Ec16f7087"
       },
       {
         "vm": "ethereum",
-        "chain": "mode",
+        "chainId": 34443,
         "address": "0xC59336D8edDa9722B4f1Ec104007191Ec16f7087"
       },
       {
         "vm": "ethereum",
-        "chain": "optimism",
+        "chainId": 10,
         "address": "0xacEB607CdF59EB8022Cc0699eEF3eCF246d149e2"
       },
       {
         "vm": "ethereum",
-        "chain": "sei",
+        "chainId": 1329,
         "address": "0xE5163F148C82a0818545d5D34e30BC1EDA870cB9"
       },
       {
         "vm": "ethereum",
-        "chain": "swell",
+        "chainId": 1923,
         "address": "0xA166219dF110BDA97b91e65D4BB4Aae4159978b9"
       },
       {
         "vm": "ethereum",
-        "chain": "taiko",
+        "chainId": 167000,
         "address": "0x5eAFB1D4b5BDFaFE81715EeBcC7713e418C80E78"
       },
       {
         "vm": "ethereum",
-        "chain": "zircuit",
+        "chainId": 48900,
         "address": "0x2552516453368e42705D791F674b312b8b87CD9e"
       },
       {
         "vm": "ethereum",
-        "chain": "berachain",
+        "chainId": 80094,
         "address": "0x50105110D9e14Eb3d1e4BA7C32daC7f002AC50FD"
       },
       {
         "vm": "ethereum",
-        "chain": "unichain",
+        "chainId": 130,
         "address": "0xFf0247f72b0d7ceD319D8457dD30622a2bed78B5"
       }
     ]
@@ -2145,72 +2090,72 @@
     "connections": [
       {
         "vm": "ethereum",
-        "chain": "arbitrum",
+        "chainId": 42161,
         "address": "0xB26bBfC6d1F469C821Ea25099017862e7368F4E8"
       },
       {
         "vm": "ethereum",
-        "chain": "base",
+        "chainId": 8453,
         "address": "0x2552516453368e42705D791F674b312b8b87CD9e"
       },
       {
         "vm": "ethereum",
-        "chain": "blast",
+        "chainId": 81457,
         "address": "0x486b39378f99f073A3043C6Aabe8666876A8F3C5"
       },
       {
         "vm": "ethereum",
-        "chain": "bsc",
+        "chainId": 56,
         "address": "0xE00C6185a5c19219F1FFeD213b4406a254968c26"
       },
       {
         "vm": "ethereum",
-        "chain": "ethereum",
+        "chainId": 1,
         "address": "0xC59336D8edDa9722B4f1Ec104007191Ec16f7087"
       },
       {
         "vm": "ethereum",
-        "chain": "linea",
+        "chainId": 59144,
         "address": "0xC59336D8edDa9722B4f1Ec104007191Ec16f7087"
       },
       {
         "vm": "ethereum",
-        "chain": "mode",
+        "chainId": 34443,
         "address": "0xC59336D8edDa9722B4f1Ec104007191Ec16f7087"
       },
       {
         "vm": "ethereum",
-        "chain": "optimism",
+        "chainId": 10,
         "address": "0xacEB607CdF59EB8022Cc0699eEF3eCF246d149e2"
       },
       {
         "vm": "ethereum",
-        "chain": "sei",
+        "chainId": 1329,
         "address": "0xE5163F148C82a0818545d5D34e30BC1EDA870cB9"
       },
       {
         "vm": "ethereum",
-        "chain": "swell",
+        "chainId": 1923,
         "address": "0xA166219dF110BDA97b91e65D4BB4Aae4159978b9"
       },
       {
         "vm": "ethereum",
-        "chain": "taiko",
+        "chainId": 167000,
         "address": "0x5eAFB1D4b5BDFaFE81715EeBcC7713e418C80E78"
       },
       {
         "vm": "ethereum",
-        "chain": "zircuit",
+        "chainId": 48900,
         "address": "0x2552516453368e42705D791F674b312b8b87CD9e"
       },
       {
         "vm": "ethereum",
-        "chain": "berachain",
+        "chainId": 80094,
         "address": "0x50105110D9e14Eb3d1e4BA7C32daC7f002AC50FD"
       },
       {
         "vm": "ethereum",
-        "chain": "unichain",
+        "chainId": 130,
         "address": "0xFf0247f72b0d7ceD319D8457dD30622a2bed78B5"
       }
     ]
@@ -2227,72 +2172,72 @@
     "connections": [
       {
         "vm": "ethereum",
-        "chain": "arbitrum",
+        "chainId": 42161,
         "address": "0xB26bBfC6d1F469C821Ea25099017862e7368F4E8"
       },
       {
         "vm": "ethereum",
-        "chain": "base",
+        "chainId": 8453,
         "address": "0x2552516453368e42705D791F674b312b8b87CD9e"
       },
       {
         "vm": "ethereum",
-        "chain": "blast",
+        "chainId": 81457,
         "address": "0x486b39378f99f073A3043C6Aabe8666876A8F3C5"
       },
       {
         "vm": "ethereum",
-        "chain": "bsc",
+        "chainId": 56,
         "address": "0xE00C6185a5c19219F1FFeD213b4406a254968c26"
       },
       {
         "vm": "ethereum",
-        "chain": "ethereum",
+        "chainId": 1,
         "address": "0xC59336D8edDa9722B4f1Ec104007191Ec16f7087"
       },
       {
         "vm": "ethereum",
-        "chain": "fraxtal",
+        "chainId": 252,
         "address": "0x3aE8635A4D581d40a6Edfb3f2ED480f9532994F5"
       },
       {
         "vm": "ethereum",
-        "chain": "mode",
+        "chainId": 34443,
         "address": "0xC59336D8edDa9722B4f1Ec104007191Ec16f7087"
       },
       {
         "vm": "ethereum",
-        "chain": "optimism",
+        "chainId": 10,
         "address": "0xacEB607CdF59EB8022Cc0699eEF3eCF246d149e2"
       },
       {
         "vm": "ethereum",
-        "chain": "sei",
+        "chainId": 1329,
         "address": "0xE5163F148C82a0818545d5D34e30BC1EDA870cB9"
       },
       {
         "vm": "ethereum",
-        "chain": "swell",
+        "chainId": 1923,
         "address": "0xA166219dF110BDA97b91e65D4BB4Aae4159978b9"
       },
       {
         "vm": "ethereum",
-        "chain": "taiko",
+        "chainId": 167000,
         "address": "0x5eAFB1D4b5BDFaFE81715EeBcC7713e418C80E78"
       },
       {
         "vm": "ethereum",
-        "chain": "zircuit",
+        "chainId": 48900,
         "address": "0x2552516453368e42705D791F674b312b8b87CD9e"
       },
       {
         "vm": "ethereum",
-        "chain": "berachain",
+        "chainId": 80094,
         "address": "0x50105110D9e14Eb3d1e4BA7C32daC7f002AC50FD"
       },
       {
         "vm": "ethereum",
-        "chain": "unichain",
+        "chainId": 130,
         "address": "0xFf0247f72b0d7ceD319D8457dD30622a2bed78B5"
       }
     ]
@@ -2309,72 +2254,72 @@
     "connections": [
       {
         "vm": "ethereum",
-        "chain": "arbitrum",
+        "chainId": 42161,
         "address": "0xB26bBfC6d1F469C821Ea25099017862e7368F4E8"
       },
       {
         "vm": "ethereum",
-        "chain": "base",
+        "chainId": 8453,
         "address": "0x2552516453368e42705D791F674b312b8b87CD9e"
       },
       {
         "vm": "ethereum",
-        "chain": "blast",
+        "chainId": 81457,
         "address": "0x486b39378f99f073A3043C6Aabe8666876A8F3C5"
       },
       {
         "vm": "ethereum",
-        "chain": "bsc",
+        "chainId": 56,
         "address": "0xE00C6185a5c19219F1FFeD213b4406a254968c26"
       },
       {
         "vm": "ethereum",
-        "chain": "ethereum",
+        "chainId": 1,
         "address": "0xC59336D8edDa9722B4f1Ec104007191Ec16f7087"
       },
       {
         "vm": "ethereum",
-        "chain": "fraxtal",
+        "chainId": 252,
         "address": "0x3aE8635A4D581d40a6Edfb3f2ED480f9532994F5"
       },
       {
         "vm": "ethereum",
-        "chain": "linea",
+        "chainId": 59144,
         "address": "0xC59336D8edDa9722B4f1Ec104007191Ec16f7087"
       },
       {
         "vm": "ethereum",
-        "chain": "optimism",
+        "chainId": 10,
         "address": "0xacEB607CdF59EB8022Cc0699eEF3eCF246d149e2"
       },
       {
         "vm": "ethereum",
-        "chain": "sei",
+        "chainId": 1329,
         "address": "0xE5163F148C82a0818545d5D34e30BC1EDA870cB9"
       },
       {
         "vm": "ethereum",
-        "chain": "swell",
+        "chainId": 1923,
         "address": "0xA166219dF110BDA97b91e65D4BB4Aae4159978b9"
       },
       {
         "vm": "ethereum",
-        "chain": "taiko",
+        "chainId": 167000,
         "address": "0x5eAFB1D4b5BDFaFE81715EeBcC7713e418C80E78"
       },
       {
         "vm": "ethereum",
-        "chain": "zircuit",
+        "chainId": 48900,
         "address": "0x2552516453368e42705D791F674b312b8b87CD9e"
       },
       {
         "vm": "ethereum",
-        "chain": "berachain",
+        "chainId": 80094,
         "address": "0x50105110D9e14Eb3d1e4BA7C32daC7f002AC50FD"
       },
       {
         "vm": "ethereum",
-        "chain": "unichain",
+        "chainId": 130,
         "address": "0xFf0247f72b0d7ceD319D8457dD30622a2bed78B5"
       }
     ]
@@ -2391,72 +2336,72 @@
     "connections": [
       {
         "vm": "ethereum",
-        "chain": "arbitrum",
+        "chainId": 42161,
         "address": "0xB26bBfC6d1F469C821Ea25099017862e7368F4E8"
       },
       {
         "vm": "ethereum",
-        "chain": "base",
+        "chainId": 8453,
         "address": "0x2552516453368e42705D791F674b312b8b87CD9e"
       },
       {
         "vm": "ethereum",
-        "chain": "blast",
+        "chainId": 81457,
         "address": "0x486b39378f99f073A3043C6Aabe8666876A8F3C5"
       },
       {
         "vm": "ethereum",
-        "chain": "bsc",
+        "chainId": 56,
         "address": "0xE00C6185a5c19219F1FFeD213b4406a254968c26"
       },
       {
         "vm": "ethereum",
-        "chain": "ethereum",
+        "chainId": 1,
         "address": "0xC59336D8edDa9722B4f1Ec104007191Ec16f7087"
       },
       {
         "vm": "ethereum",
-        "chain": "fraxtal",
+        "chainId": 252,
         "address": "0x3aE8635A4D581d40a6Edfb3f2ED480f9532994F5"
       },
       {
         "vm": "ethereum",
-        "chain": "linea",
+        "chainId": 59144,
         "address": "0xC59336D8edDa9722B4f1Ec104007191Ec16f7087"
       },
       {
         "vm": "ethereum",
-        "chain": "mode",
+        "chainId": 34443,
         "address": "0xC59336D8edDa9722B4f1Ec104007191Ec16f7087"
       },
       {
         "vm": "ethereum",
-        "chain": "sei",
+        "chainId": 1329,
         "address": "0xE5163F148C82a0818545d5D34e30BC1EDA870cB9"
       },
       {
         "vm": "ethereum",
-        "chain": "swell",
+        "chainId": 1923,
         "address": "0xA166219dF110BDA97b91e65D4BB4Aae4159978b9"
       },
       {
         "vm": "ethereum",
-        "chain": "taiko",
+        "chainId": 167000,
         "address": "0x5eAFB1D4b5BDFaFE81715EeBcC7713e418C80E78"
       },
       {
         "vm": "ethereum",
-        "chain": "zircuit",
+        "chainId": 48900,
         "address": "0x2552516453368e42705D791F674b312b8b87CD9e"
       },
       {
         "vm": "ethereum",
-        "chain": "berachain",
+        "chainId": 80094,
         "address": "0x50105110D9e14Eb3d1e4BA7C32daC7f002AC50FD"
       },
       {
         "vm": "ethereum",
-        "chain": "unichain",
+        "chainId": 130,
         "address": "0xFf0247f72b0d7ceD319D8457dD30622a2bed78B5"
       }
     ]
@@ -2473,72 +2418,72 @@
     "connections": [
       {
         "vm": "ethereum",
-        "chain": "arbitrum",
+        "chainId": 42161,
         "address": "0xB26bBfC6d1F469C821Ea25099017862e7368F4E8"
       },
       {
         "vm": "ethereum",
-        "chain": "base",
+        "chainId": 8453,
         "address": "0x2552516453368e42705D791F674b312b8b87CD9e"
       },
       {
         "vm": "ethereum",
-        "chain": "blast",
+        "chainId": 81457,
         "address": "0x486b39378f99f073A3043C6Aabe8666876A8F3C5"
       },
       {
         "vm": "ethereum",
-        "chain": "bsc",
+        "chainId": 56,
         "address": "0xE00C6185a5c19219F1FFeD213b4406a254968c26"
       },
       {
         "vm": "ethereum",
-        "chain": "ethereum",
+        "chainId": 1,
         "address": "0xC59336D8edDa9722B4f1Ec104007191Ec16f7087"
       },
       {
         "vm": "ethereum",
-        "chain": "fraxtal",
+        "chainId": 252,
         "address": "0x3aE8635A4D581d40a6Edfb3f2ED480f9532994F5"
       },
       {
         "vm": "ethereum",
-        "chain": "linea",
+        "chainId": 59144,
         "address": "0xC59336D8edDa9722B4f1Ec104007191Ec16f7087"
       },
       {
         "vm": "ethereum",
-        "chain": "mode",
+        "chainId": 34443,
         "address": "0xC59336D8edDa9722B4f1Ec104007191Ec16f7087"
       },
       {
         "vm": "ethereum",
-        "chain": "optimism",
+        "chainId": 10,
         "address": "0xacEB607CdF59EB8022Cc0699eEF3eCF246d149e2"
       },
       {
         "vm": "ethereum",
-        "chain": "swell",
+        "chainId": 1923,
         "address": "0xA166219dF110BDA97b91e65D4BB4Aae4159978b9"
       },
       {
         "vm": "ethereum",
-        "chain": "taiko",
+        "chainId": 167000,
         "address": "0x5eAFB1D4b5BDFaFE81715EeBcC7713e418C80E78"
       },
       {
         "vm": "ethereum",
-        "chain": "zircuit",
+        "chainId": 48900,
         "address": "0x2552516453368e42705D791F674b312b8b87CD9e"
       },
       {
         "vm": "ethereum",
-        "chain": "berachain",
+        "chainId": 80094,
         "address": "0x50105110D9e14Eb3d1e4BA7C32daC7f002AC50FD"
       },
       {
         "vm": "ethereum",
-        "chain": "unichain",
+        "chainId": 130,
         "address": "0xFf0247f72b0d7ceD319D8457dD30622a2bed78B5"
       }
     ]
@@ -2555,72 +2500,72 @@
     "connections": [
       {
         "vm": "ethereum",
-        "chain": "arbitrum",
+        "chainId": 42161,
         "address": "0xB26bBfC6d1F469C821Ea25099017862e7368F4E8"
       },
       {
         "vm": "ethereum",
-        "chain": "base",
+        "chainId": 8453,
         "address": "0x2552516453368e42705D791F674b312b8b87CD9e"
       },
       {
         "vm": "ethereum",
-        "chain": "blast",
+        "chainId": 81457,
         "address": "0x486b39378f99f073A3043C6Aabe8666876A8F3C5"
       },
       {
         "vm": "ethereum",
-        "chain": "bsc",
+        "chainId": 56,
         "address": "0xE00C6185a5c19219F1FFeD213b4406a254968c26"
       },
       {
         "vm": "ethereum",
-        "chain": "ethereum",
+        "chainId": 1,
         "address": "0xC59336D8edDa9722B4f1Ec104007191Ec16f7087"
       },
       {
         "vm": "ethereum",
-        "chain": "fraxtal",
+        "chainId": 252,
         "address": "0x3aE8635A4D581d40a6Edfb3f2ED480f9532994F5"
       },
       {
         "vm": "ethereum",
-        "chain": "linea",
+        "chainId": 59144,
         "address": "0xC59336D8edDa9722B4f1Ec104007191Ec16f7087"
       },
       {
         "vm": "ethereum",
-        "chain": "mode",
+        "chainId": 34443,
         "address": "0xC59336D8edDa9722B4f1Ec104007191Ec16f7087"
       },
       {
         "vm": "ethereum",
-        "chain": "optimism",
+        "chainId": 10,
         "address": "0xacEB607CdF59EB8022Cc0699eEF3eCF246d149e2"
       },
       {
         "vm": "ethereum",
-        "chain": "sei",
+        "chainId": 1329,
         "address": "0xE5163F148C82a0818545d5D34e30BC1EDA870cB9"
       },
       {
         "vm": "ethereum",
-        "chain": "swell",
+        "chainId": 1923,
         "address": "0xA166219dF110BDA97b91e65D4BB4Aae4159978b9"
       },
       {
         "vm": "ethereum",
-        "chain": "zircuit",
+        "chainId": 48900,
         "address": "0x2552516453368e42705D791F674b312b8b87CD9e"
       },
       {
         "vm": "ethereum",
-        "chain": "berachain",
+        "chainId": 80094,
         "address": "0x50105110D9e14Eb3d1e4BA7C32daC7f002AC50FD"
       },
       {
         "vm": "ethereum",
-        "chain": "unichain",
+        "chainId": 130,
         "address": "0xFf0247f72b0d7ceD319D8457dD30622a2bed78B5"
       }
     ]
@@ -2637,72 +2582,72 @@
     "connections": [
       {
         "vm": "ethereum",
-        "chain": "arbitrum",
+        "chainId": 42161,
         "address": "0xB26bBfC6d1F469C821Ea25099017862e7368F4E8"
       },
       {
         "vm": "ethereum",
-        "chain": "base",
+        "chainId": 8453,
         "address": "0x2552516453368e42705D791F674b312b8b87CD9e"
       },
       {
         "vm": "ethereum",
-        "chain": "blast",
+        "chainId": 81457,
         "address": "0x486b39378f99f073A3043C6Aabe8666876A8F3C5"
       },
       {
         "vm": "ethereum",
-        "chain": "bsc",
+        "chainId": 56,
         "address": "0xE00C6185a5c19219F1FFeD213b4406a254968c26"
       },
       {
         "vm": "ethereum",
-        "chain": "ethereum",
+        "chainId": 1,
         "address": "0xC59336D8edDa9722B4f1Ec104007191Ec16f7087"
       },
       {
         "vm": "ethereum",
-        "chain": "fraxtal",
+        "chainId": 252,
         "address": "0x3aE8635A4D581d40a6Edfb3f2ED480f9532994F5"
       },
       {
         "vm": "ethereum",
-        "chain": "linea",
+        "chainId": 59144,
         "address": "0xC59336D8edDa9722B4f1Ec104007191Ec16f7087"
       },
       {
         "vm": "ethereum",
-        "chain": "mode",
+        "chainId": 34443,
         "address": "0xC59336D8edDa9722B4f1Ec104007191Ec16f7087"
       },
       {
         "vm": "ethereum",
-        "chain": "optimism",
+        "chainId": 10,
         "address": "0xacEB607CdF59EB8022Cc0699eEF3eCF246d149e2"
       },
       {
         "vm": "ethereum",
-        "chain": "sei",
+        "chainId": 1329,
         "address": "0xE5163F148C82a0818545d5D34e30BC1EDA870cB9"
       },
       {
         "vm": "ethereum",
-        "chain": "swell",
+        "chainId": 1923,
         "address": "0xA166219dF110BDA97b91e65D4BB4Aae4159978b9"
       },
       {
         "vm": "ethereum",
-        "chain": "taiko",
+        "chainId": 167000,
         "address": "0x5eAFB1D4b5BDFaFE81715EeBcC7713e418C80E78"
       },
       {
         "vm": "ethereum",
-        "chain": "berachain",
+        "chainId": 80094,
         "address": "0x50105110D9e14Eb3d1e4BA7C32daC7f002AC50FD"
       },
       {
         "vm": "ethereum",
-        "chain": "unichain",
+        "chainId": 130,
         "address": "0xFf0247f72b0d7ceD319D8457dD30622a2bed78B5"
       }
     ]
@@ -2719,72 +2664,72 @@
     "connections": [
       {
         "vm": "ethereum",
-        "chain": "arbitrum",
+        "chainId": 42161,
         "address": "0xB26bBfC6d1F469C821Ea25099017862e7368F4E8"
       },
       {
         "vm": "ethereum",
-        "chain": "base",
+        "chainId": 8453,
         "address": "0x2552516453368e42705D791F674b312b8b87CD9e"
       },
       {
         "vm": "ethereum",
-        "chain": "blast",
+        "chainId": 81457,
         "address": "0x486b39378f99f073A3043C6Aabe8666876A8F3C5"
       },
       {
         "vm": "ethereum",
-        "chain": "bsc",
+        "chainId": 56,
         "address": "0xE00C6185a5c19219F1FFeD213b4406a254968c26"
       },
       {
         "vm": "ethereum",
-        "chain": "ethereum",
+        "chainId": 1,
         "address": "0xC59336D8edDa9722B4f1Ec104007191Ec16f7087"
       },
       {
         "vm": "ethereum",
-        "chain": "fraxtal",
+        "chainId": 252,
         "address": "0x3aE8635A4D581d40a6Edfb3f2ED480f9532994F5"
       },
       {
         "vm": "ethereum",
-        "chain": "linea",
+        "chainId": 59144,
         "address": "0xC59336D8edDa9722B4f1Ec104007191Ec16f7087"
       },
       {
         "vm": "ethereum",
-        "chain": "mode",
+        "chainId": 34443,
         "address": "0xC59336D8edDa9722B4f1Ec104007191Ec16f7087"
       },
       {
         "vm": "ethereum",
-        "chain": "optimism",
+        "chainId": 10,
         "address": "0xacEB607CdF59EB8022Cc0699eEF3eCF246d149e2"
       },
       {
         "vm": "ethereum",
-        "chain": "sei",
+        "chainId": 1329,
         "address": "0xE5163F148C82a0818545d5D34e30BC1EDA870cB9"
       },
       {
         "vm": "ethereum",
-        "chain": "swell",
+        "chainId": 1923,
         "address": "0xA166219dF110BDA97b91e65D4BB4Aae4159978b9"
       },
       {
         "vm": "ethereum",
-        "chain": "taiko",
+        "chainId": 167000,
         "address": "0x5eAFB1D4b5BDFaFE81715EeBcC7713e418C80E78"
       },
       {
         "vm": "ethereum",
-        "chain": "zircuit",
+        "chainId": 48900,
         "address": "0x2552516453368e42705D791F674b312b8b87CD9e"
       },
       {
         "vm": "ethereum",
-        "chain": "unichain",
+        "chainId": 130,
         "address": "0xFf0247f72b0d7ceD319D8457dD30622a2bed78B5"
       }
     ]
@@ -2801,72 +2746,72 @@
     "connections": [
       {
         "vm": "ethereum",
-        "chain": "arbitrum",
+        "chainId": 42161,
         "address": "0xB26bBfC6d1F469C821Ea25099017862e7368F4E8"
       },
       {
         "vm": "ethereum",
-        "chain": "base",
+        "chainId": 8453,
         "address": "0x2552516453368e42705D791F674b312b8b87CD9e"
       },
       {
         "vm": "ethereum",
-        "chain": "blast",
+        "chainId": 81457,
         "address": "0x486b39378f99f073A3043C6Aabe8666876A8F3C5"
       },
       {
         "vm": "ethereum",
-        "chain": "bsc",
+        "chainId": 56,
         "address": "0xE00C6185a5c19219F1FFeD213b4406a254968c26"
       },
       {
         "vm": "ethereum",
-        "chain": "ethereum",
+        "chainId": 1,
         "address": "0xC59336D8edDa9722B4f1Ec104007191Ec16f7087"
       },
       {
         "vm": "ethereum",
-        "chain": "fraxtal",
+        "chainId": 252,
         "address": "0x3aE8635A4D581d40a6Edfb3f2ED480f9532994F5"
       },
       {
         "vm": "ethereum",
-        "chain": "linea",
+        "chainId": 59144,
         "address": "0xC59336D8edDa9722B4f1Ec104007191Ec16f7087"
       },
       {
         "vm": "ethereum",
-        "chain": "mode",
+        "chainId": 34443,
         "address": "0xC59336D8edDa9722B4f1Ec104007191Ec16f7087"
       },
       {
         "vm": "ethereum",
-        "chain": "optimism",
+        "chainId": 10,
         "address": "0xacEB607CdF59EB8022Cc0699eEF3eCF246d149e2"
       },
       {
         "vm": "ethereum",
-        "chain": "sei",
+        "chainId": 1329,
         "address": "0xE5163F148C82a0818545d5D34e30BC1EDA870cB9"
       },
       {
         "vm": "ethereum",
-        "chain": "swell",
+        "chainId": 1923,
         "address": "0xA166219dF110BDA97b91e65D4BB4Aae4159978b9"
       },
       {
         "vm": "ethereum",
-        "chain": "taiko",
+        "chainId": 167000,
         "address": "0x5eAFB1D4b5BDFaFE81715EeBcC7713e418C80E78"
       },
       {
         "vm": "ethereum",
-        "chain": "zircuit",
+        "chainId": 48900,
         "address": "0x2552516453368e42705D791F674b312b8b87CD9e"
       },
       {
         "vm": "ethereum",
-        "chain": "berachain",
+        "chainId": 80094,
         "address": "0x50105110D9e14Eb3d1e4BA7C32daC7f002AC50FD"
       }
     ]
@@ -2882,72 +2827,72 @@
     "connections": [
       {
         "vm": "ethereum",
-        "chain": "base",
+        "chainId": 8453,
         "address": "0xBbcA34fF173339094cAc51e33BADeE86AA2C35b5"
       },
       {
         "vm": "ethereum",
-        "chain": "blast",
+        "chainId": 81457,
         "address": "0x89E3530137aD51743536443a3EC838b502E72eb7"
       },
       {
         "vm": "ethereum",
-        "chain": "bsc",
+        "chainId": 56,
         "address": "0x01bFbc80b32469c36DB4C7fc564E75475dfC278C"
       },
       {
         "vm": "ethereum",
-        "chain": "ethereum",
+        "chainId": 1,
         "address": "0xdfA407edf065b7ECfD95c3c5F4C32F9f34a5Fe80"
       },
       {
         "vm": "ethereum",
-        "chain": "fraxtal",
+        "chainId": 252,
         "address": "0x21581dE0CB0Ce91E87b9d5124543C75Fa01ED9CC"
       },
       {
         "vm": "ethereum",
-        "chain": "linea",
+        "chainId": 59144,
         "address": "0x9E3075E067932d744119e583B34d11b144CE1e4A"
       },
       {
         "vm": "ethereum",
-        "chain": "mode",
+        "chainId": 34443,
         "address": "0xd4C1905BB1D26BC93DAC913e13CaCC278CdCC80D"
       },
       {
         "vm": "ethereum",
-        "chain": "optimism",
+        "chainId": 10,
         "address": "0xbA6BbAe1c1d25fFdd5bB74192d687A25d5e65326"
       },
       {
         "vm": "ethereum",
-        "chain": "sei",
+        "chainId": 1329,
         "address": "0xdD313D475f8A9d81CBE2eA953a357f52e10BA357"
       },
       {
         "vm": "ethereum",
-        "chain": "swell",
+        "chainId": 1923,
         "address": "0x7712b534bF2b9fb7fA8D14EE83fDd077691a76C2"
       },
       {
         "vm": "ethereum",
-        "chain": "taiko",
+        "chainId": 167000,
         "address": "0x652e2F475Af7b1154817E09f5408f9011037492a"
       },
       {
         "vm": "ethereum",
-        "chain": "zircuit",
+        "chainId": 48900,
         "address": "0xa2656c131A9F204F73944D7B60DDB17565E71292"
       },
       {
         "vm": "ethereum",
-        "chain": "berachain",
+        "chainId": 80094,
         "address": "0xDF96074eefdD1Ae137C008bE165A3Ed4A55718FA"
       },
       {
         "vm": "ethereum",
-        "chain": "unichain",
+        "chainId": 130,
         "address": "0x910FF91a92c9141b8352Ad3e50cF13ef9F3169A1"
       }
     ]
@@ -2963,72 +2908,72 @@
     "connections": [
       {
         "vm": "ethereum",
-        "chain": "arbitrum",
+        "chainId": 42161,
         "address": "0x3F536e156eD291c135ACb1D20F77C3B948E0F8a5"
       },
       {
         "vm": "ethereum",
-        "chain": "blast",
+        "chainId": 81457,
         "address": "0x89E3530137aD51743536443a3EC838b502E72eb7"
       },
       {
         "vm": "ethereum",
-        "chain": "bsc",
+        "chainId": 56,
         "address": "0x01bFbc80b32469c36DB4C7fc564E75475dfC278C"
       },
       {
         "vm": "ethereum",
-        "chain": "ethereum",
+        "chainId": 1,
         "address": "0xdfA407edf065b7ECfD95c3c5F4C32F9f34a5Fe80"
       },
       {
         "vm": "ethereum",
-        "chain": "fraxtal",
+        "chainId": 252,
         "address": "0x21581dE0CB0Ce91E87b9d5124543C75Fa01ED9CC"
       },
       {
         "vm": "ethereum",
-        "chain": "linea",
+        "chainId": 59144,
         "address": "0x9E3075E067932d744119e583B34d11b144CE1e4A"
       },
       {
         "vm": "ethereum",
-        "chain": "mode",
+        "chainId": 34443,
         "address": "0xd4C1905BB1D26BC93DAC913e13CaCC278CdCC80D"
       },
       {
         "vm": "ethereum",
-        "chain": "optimism",
+        "chainId": 10,
         "address": "0xbA6BbAe1c1d25fFdd5bB74192d687A25d5e65326"
       },
       {
         "vm": "ethereum",
-        "chain": "sei",
+        "chainId": 1329,
         "address": "0xdD313D475f8A9d81CBE2eA953a357f52e10BA357"
       },
       {
         "vm": "ethereum",
-        "chain": "swell",
+        "chainId": 1923,
         "address": "0x7712b534bF2b9fb7fA8D14EE83fDd077691a76C2"
       },
       {
         "vm": "ethereum",
-        "chain": "taiko",
+        "chainId": 167000,
         "address": "0x652e2F475Af7b1154817E09f5408f9011037492a"
       },
       {
         "vm": "ethereum",
-        "chain": "zircuit",
+        "chainId": 48900,
         "address": "0xa2656c131A9F204F73944D7B60DDB17565E71292"
       },
       {
         "vm": "ethereum",
-        "chain": "berachain",
+        "chainId": 80094,
         "address": "0xDF96074eefdD1Ae137C008bE165A3Ed4A55718FA"
       },
       {
         "vm": "ethereum",
-        "chain": "unichain",
+        "chainId": 130,
         "address": "0x910FF91a92c9141b8352Ad3e50cF13ef9F3169A1"
       }
     ]
@@ -3044,72 +2989,72 @@
     "connections": [
       {
         "vm": "ethereum",
-        "chain": "arbitrum",
+        "chainId": 42161,
         "address": "0x3F536e156eD291c135ACb1D20F77C3B948E0F8a5"
       },
       {
         "vm": "ethereum",
-        "chain": "base",
+        "chainId": 8453,
         "address": "0xBbcA34fF173339094cAc51e33BADeE86AA2C35b5"
       },
       {
         "vm": "ethereum",
-        "chain": "bsc",
+        "chainId": 56,
         "address": "0x01bFbc80b32469c36DB4C7fc564E75475dfC278C"
       },
       {
         "vm": "ethereum",
-        "chain": "ethereum",
+        "chainId": 1,
         "address": "0xdfA407edf065b7ECfD95c3c5F4C32F9f34a5Fe80"
       },
       {
         "vm": "ethereum",
-        "chain": "fraxtal",
+        "chainId": 252,
         "address": "0x21581dE0CB0Ce91E87b9d5124543C75Fa01ED9CC"
       },
       {
         "vm": "ethereum",
-        "chain": "linea",
+        "chainId": 59144,
         "address": "0x9E3075E067932d744119e583B34d11b144CE1e4A"
       },
       {
         "vm": "ethereum",
-        "chain": "mode",
+        "chainId": 34443,
         "address": "0xd4C1905BB1D26BC93DAC913e13CaCC278CdCC80D"
       },
       {
         "vm": "ethereum",
-        "chain": "optimism",
+        "chainId": 10,
         "address": "0xbA6BbAe1c1d25fFdd5bB74192d687A25d5e65326"
       },
       {
         "vm": "ethereum",
-        "chain": "sei",
+        "chainId": 1329,
         "address": "0xdD313D475f8A9d81CBE2eA953a357f52e10BA357"
       },
       {
         "vm": "ethereum",
-        "chain": "swell",
+        "chainId": 1923,
         "address": "0x7712b534bF2b9fb7fA8D14EE83fDd077691a76C2"
       },
       {
         "vm": "ethereum",
-        "chain": "taiko",
+        "chainId": 167000,
         "address": "0x652e2F475Af7b1154817E09f5408f9011037492a"
       },
       {
         "vm": "ethereum",
-        "chain": "zircuit",
+        "chainId": 48900,
         "address": "0xa2656c131A9F204F73944D7B60DDB17565E71292"
       },
       {
         "vm": "ethereum",
-        "chain": "berachain",
+        "chainId": 80094,
         "address": "0xDF96074eefdD1Ae137C008bE165A3Ed4A55718FA"
       },
       {
         "vm": "ethereum",
-        "chain": "unichain",
+        "chainId": 130,
         "address": "0x910FF91a92c9141b8352Ad3e50cF13ef9F3169A1"
       }
     ]
@@ -3125,72 +3070,72 @@
     "connections": [
       {
         "vm": "ethereum",
-        "chain": "arbitrum",
+        "chainId": 42161,
         "address": "0x3F536e156eD291c135ACb1D20F77C3B948E0F8a5"
       },
       {
         "vm": "ethereum",
-        "chain": "base",
+        "chainId": 8453,
         "address": "0xBbcA34fF173339094cAc51e33BADeE86AA2C35b5"
       },
       {
         "vm": "ethereum",
-        "chain": "blast",
+        "chainId": 81457,
         "address": "0x89E3530137aD51743536443a3EC838b502E72eb7"
       },
       {
         "vm": "ethereum",
-        "chain": "ethereum",
+        "chainId": 1,
         "address": "0xdfA407edf065b7ECfD95c3c5F4C32F9f34a5Fe80"
       },
       {
         "vm": "ethereum",
-        "chain": "fraxtal",
+        "chainId": 252,
         "address": "0x21581dE0CB0Ce91E87b9d5124543C75Fa01ED9CC"
       },
       {
         "vm": "ethereum",
-        "chain": "linea",
+        "chainId": 59144,
         "address": "0x9E3075E067932d744119e583B34d11b144CE1e4A"
       },
       {
         "vm": "ethereum",
-        "chain": "mode",
+        "chainId": 34443,
         "address": "0xd4C1905BB1D26BC93DAC913e13CaCC278CdCC80D"
       },
       {
         "vm": "ethereum",
-        "chain": "optimism",
+        "chainId": 10,
         "address": "0xbA6BbAe1c1d25fFdd5bB74192d687A25d5e65326"
       },
       {
         "vm": "ethereum",
-        "chain": "sei",
+        "chainId": 1329,
         "address": "0xdD313D475f8A9d81CBE2eA953a357f52e10BA357"
       },
       {
         "vm": "ethereum",
-        "chain": "swell",
+        "chainId": 1923,
         "address": "0x7712b534bF2b9fb7fA8D14EE83fDd077691a76C2"
       },
       {
         "vm": "ethereum",
-        "chain": "taiko",
+        "chainId": 167000,
         "address": "0x652e2F475Af7b1154817E09f5408f9011037492a"
       },
       {
         "vm": "ethereum",
-        "chain": "zircuit",
+        "chainId": 48900,
         "address": "0xa2656c131A9F204F73944D7B60DDB17565E71292"
       },
       {
         "vm": "ethereum",
-        "chain": "berachain",
+        "chainId": 80094,
         "address": "0xDF96074eefdD1Ae137C008bE165A3Ed4A55718FA"
       },
       {
         "vm": "ethereum",
-        "chain": "unichain",
+        "chainId": 130,
         "address": "0x910FF91a92c9141b8352Ad3e50cF13ef9F3169A1"
       }
     ]
@@ -3206,72 +3151,72 @@
     "connections": [
       {
         "vm": "ethereum",
-        "chain": "arbitrum",
+        "chainId": 42161,
         "address": "0x3F536e156eD291c135ACb1D20F77C3B948E0F8a5"
       },
       {
         "vm": "ethereum",
-        "chain": "base",
+        "chainId": 8453,
         "address": "0xBbcA34fF173339094cAc51e33BADeE86AA2C35b5"
       },
       {
         "vm": "ethereum",
-        "chain": "blast",
+        "chainId": 81457,
         "address": "0x89E3530137aD51743536443a3EC838b502E72eb7"
       },
       {
         "vm": "ethereum",
-        "chain": "bsc",
+        "chainId": 56,
         "address": "0x01bFbc80b32469c36DB4C7fc564E75475dfC278C"
       },
       {
         "vm": "ethereum",
-        "chain": "fraxtal",
+        "chainId": 252,
         "address": "0x21581dE0CB0Ce91E87b9d5124543C75Fa01ED9CC"
       },
       {
         "vm": "ethereum",
-        "chain": "linea",
+        "chainId": 59144,
         "address": "0x9E3075E067932d744119e583B34d11b144CE1e4A"
       },
       {
         "vm": "ethereum",
-        "chain": "mode",
+        "chainId": 34443,
         "address": "0xd4C1905BB1D26BC93DAC913e13CaCC278CdCC80D"
       },
       {
         "vm": "ethereum",
-        "chain": "optimism",
+        "chainId": 10,
         "address": "0xbA6BbAe1c1d25fFdd5bB74192d687A25d5e65326"
       },
       {
         "vm": "ethereum",
-        "chain": "sei",
+        "chainId": 1329,
         "address": "0xdD313D475f8A9d81CBE2eA953a357f52e10BA357"
       },
       {
         "vm": "ethereum",
-        "chain": "swell",
+        "chainId": 1923,
         "address": "0x7712b534bF2b9fb7fA8D14EE83fDd077691a76C2"
       },
       {
         "vm": "ethereum",
-        "chain": "taiko",
+        "chainId": 167000,
         "address": "0x652e2F475Af7b1154817E09f5408f9011037492a"
       },
       {
         "vm": "ethereum",
-        "chain": "zircuit",
+        "chainId": 48900,
         "address": "0xa2656c131A9F204F73944D7B60DDB17565E71292"
       },
       {
         "vm": "ethereum",
-        "chain": "berachain",
+        "chainId": 80094,
         "address": "0xDF96074eefdD1Ae137C008bE165A3Ed4A55718FA"
       },
       {
         "vm": "ethereum",
-        "chain": "unichain",
+        "chainId": 130,
         "address": "0x910FF91a92c9141b8352Ad3e50cF13ef9F3169A1"
       }
     ]
@@ -3287,72 +3232,72 @@
     "connections": [
       {
         "vm": "ethereum",
-        "chain": "arbitrum",
+        "chainId": 42161,
         "address": "0x3F536e156eD291c135ACb1D20F77C3B948E0F8a5"
       },
       {
         "vm": "ethereum",
-        "chain": "base",
+        "chainId": 8453,
         "address": "0xBbcA34fF173339094cAc51e33BADeE86AA2C35b5"
       },
       {
         "vm": "ethereum",
-        "chain": "blast",
+        "chainId": 81457,
         "address": "0x89E3530137aD51743536443a3EC838b502E72eb7"
       },
       {
         "vm": "ethereum",
-        "chain": "bsc",
+        "chainId": 56,
         "address": "0x01bFbc80b32469c36DB4C7fc564E75475dfC278C"
       },
       {
         "vm": "ethereum",
-        "chain": "ethereum",
+        "chainId": 1,
         "address": "0xdfA407edf065b7ECfD95c3c5F4C32F9f34a5Fe80"
       },
       {
         "vm": "ethereum",
-        "chain": "linea",
+        "chainId": 59144,
         "address": "0x9E3075E067932d744119e583B34d11b144CE1e4A"
       },
       {
         "vm": "ethereum",
-        "chain": "mode",
+        "chainId": 34443,
         "address": "0xd4C1905BB1D26BC93DAC913e13CaCC278CdCC80D"
       },
       {
         "vm": "ethereum",
-        "chain": "optimism",
+        "chainId": 10,
         "address": "0xbA6BbAe1c1d25fFdd5bB74192d687A25d5e65326"
       },
       {
         "vm": "ethereum",
-        "chain": "sei",
+        "chainId": 1329,
         "address": "0xdD313D475f8A9d81CBE2eA953a357f52e10BA357"
       },
       {
         "vm": "ethereum",
-        "chain": "swell",
+        "chainId": 1923,
         "address": "0x7712b534bF2b9fb7fA8D14EE83fDd077691a76C2"
       },
       {
         "vm": "ethereum",
-        "chain": "taiko",
+        "chainId": 167000,
         "address": "0x652e2F475Af7b1154817E09f5408f9011037492a"
       },
       {
         "vm": "ethereum",
-        "chain": "zircuit",
+        "chainId": 48900,
         "address": "0xa2656c131A9F204F73944D7B60DDB17565E71292"
       },
       {
         "vm": "ethereum",
-        "chain": "berachain",
+        "chainId": 80094,
         "address": "0xDF96074eefdD1Ae137C008bE165A3Ed4A55718FA"
       },
       {
         "vm": "ethereum",
-        "chain": "unichain",
+        "chainId": 130,
         "address": "0x910FF91a92c9141b8352Ad3e50cF13ef9F3169A1"
       }
     ]
@@ -3368,72 +3313,72 @@
     "connections": [
       {
         "vm": "ethereum",
-        "chain": "arbitrum",
+        "chainId": 42161,
         "address": "0x3F536e156eD291c135ACb1D20F77C3B948E0F8a5"
       },
       {
         "vm": "ethereum",
-        "chain": "base",
+        "chainId": 8453,
         "address": "0xBbcA34fF173339094cAc51e33BADeE86AA2C35b5"
       },
       {
         "vm": "ethereum",
-        "chain": "blast",
+        "chainId": 81457,
         "address": "0x89E3530137aD51743536443a3EC838b502E72eb7"
       },
       {
         "vm": "ethereum",
-        "chain": "bsc",
+        "chainId": 56,
         "address": "0x01bFbc80b32469c36DB4C7fc564E75475dfC278C"
       },
       {
         "vm": "ethereum",
-        "chain": "ethereum",
+        "chainId": 1,
         "address": "0xdfA407edf065b7ECfD95c3c5F4C32F9f34a5Fe80"
       },
       {
         "vm": "ethereum",
-        "chain": "fraxtal",
+        "chainId": 252,
         "address": "0x21581dE0CB0Ce91E87b9d5124543C75Fa01ED9CC"
       },
       {
         "vm": "ethereum",
-        "chain": "mode",
+        "chainId": 34443,
         "address": "0xd4C1905BB1D26BC93DAC913e13CaCC278CdCC80D"
       },
       {
         "vm": "ethereum",
-        "chain": "optimism",
+        "chainId": 10,
         "address": "0xbA6BbAe1c1d25fFdd5bB74192d687A25d5e65326"
       },
       {
         "vm": "ethereum",
-        "chain": "sei",
+        "chainId": 1329,
         "address": "0xdD313D475f8A9d81CBE2eA953a357f52e10BA357"
       },
       {
         "vm": "ethereum",
-        "chain": "swell",
+        "chainId": 1923,
         "address": "0x7712b534bF2b9fb7fA8D14EE83fDd077691a76C2"
       },
       {
         "vm": "ethereum",
-        "chain": "taiko",
+        "chainId": 167000,
         "address": "0x652e2F475Af7b1154817E09f5408f9011037492a"
       },
       {
         "vm": "ethereum",
-        "chain": "zircuit",
+        "chainId": 48900,
         "address": "0xa2656c131A9F204F73944D7B60DDB17565E71292"
       },
       {
         "vm": "ethereum",
-        "chain": "berachain",
+        "chainId": 80094,
         "address": "0xDF96074eefdD1Ae137C008bE165A3Ed4A55718FA"
       },
       {
         "vm": "ethereum",
-        "chain": "unichain",
+        "chainId": 130,
         "address": "0x910FF91a92c9141b8352Ad3e50cF13ef9F3169A1"
       }
     ]
@@ -3449,72 +3394,72 @@
     "connections": [
       {
         "vm": "ethereum",
-        "chain": "arbitrum",
+        "chainId": 42161,
         "address": "0x3F536e156eD291c135ACb1D20F77C3B948E0F8a5"
       },
       {
         "vm": "ethereum",
-        "chain": "base",
+        "chainId": 8453,
         "address": "0xBbcA34fF173339094cAc51e33BADeE86AA2C35b5"
       },
       {
         "vm": "ethereum",
-        "chain": "blast",
+        "chainId": 81457,
         "address": "0x89E3530137aD51743536443a3EC838b502E72eb7"
       },
       {
         "vm": "ethereum",
-        "chain": "bsc",
+        "chainId": 56,
         "address": "0x01bFbc80b32469c36DB4C7fc564E75475dfC278C"
       },
       {
         "vm": "ethereum",
-        "chain": "ethereum",
+        "chainId": 1,
         "address": "0xdfA407edf065b7ECfD95c3c5F4C32F9f34a5Fe80"
       },
       {
         "vm": "ethereum",
-        "chain": "fraxtal",
+        "chainId": 252,
         "address": "0x21581dE0CB0Ce91E87b9d5124543C75Fa01ED9CC"
       },
       {
         "vm": "ethereum",
-        "chain": "linea",
+        "chainId": 59144,
         "address": "0x9E3075E067932d744119e583B34d11b144CE1e4A"
       },
       {
         "vm": "ethereum",
-        "chain": "optimism",
+        "chainId": 10,
         "address": "0xbA6BbAe1c1d25fFdd5bB74192d687A25d5e65326"
       },
       {
         "vm": "ethereum",
-        "chain": "sei",
+        "chainId": 1329,
         "address": "0xdD313D475f8A9d81CBE2eA953a357f52e10BA357"
       },
       {
         "vm": "ethereum",
-        "chain": "swell",
+        "chainId": 1923,
         "address": "0x7712b534bF2b9fb7fA8D14EE83fDd077691a76C2"
       },
       {
         "vm": "ethereum",
-        "chain": "taiko",
+        "chainId": 167000,
         "address": "0x652e2F475Af7b1154817E09f5408f9011037492a"
       },
       {
         "vm": "ethereum",
-        "chain": "zircuit",
+        "chainId": 48900,
         "address": "0xa2656c131A9F204F73944D7B60DDB17565E71292"
       },
       {
         "vm": "ethereum",
-        "chain": "berachain",
+        "chainId": 80094,
         "address": "0xDF96074eefdD1Ae137C008bE165A3Ed4A55718FA"
       },
       {
         "vm": "ethereum",
-        "chain": "unichain",
+        "chainId": 130,
         "address": "0x910FF91a92c9141b8352Ad3e50cF13ef9F3169A1"
       }
     ]
@@ -3530,72 +3475,72 @@
     "connections": [
       {
         "vm": "ethereum",
-        "chain": "arbitrum",
+        "chainId": 42161,
         "address": "0x3F536e156eD291c135ACb1D20F77C3B948E0F8a5"
       },
       {
         "vm": "ethereum",
-        "chain": "base",
+        "chainId": 8453,
         "address": "0xBbcA34fF173339094cAc51e33BADeE86AA2C35b5"
       },
       {
         "vm": "ethereum",
-        "chain": "blast",
+        "chainId": 81457,
         "address": "0x89E3530137aD51743536443a3EC838b502E72eb7"
       },
       {
         "vm": "ethereum",
-        "chain": "bsc",
+        "chainId": 56,
         "address": "0x01bFbc80b32469c36DB4C7fc564E75475dfC278C"
       },
       {
         "vm": "ethereum",
-        "chain": "ethereum",
+        "chainId": 1,
         "address": "0xdfA407edf065b7ECfD95c3c5F4C32F9f34a5Fe80"
       },
       {
         "vm": "ethereum",
-        "chain": "fraxtal",
+        "chainId": 252,
         "address": "0x21581dE0CB0Ce91E87b9d5124543C75Fa01ED9CC"
       },
       {
         "vm": "ethereum",
-        "chain": "linea",
+        "chainId": 59144,
         "address": "0x9E3075E067932d744119e583B34d11b144CE1e4A"
       },
       {
         "vm": "ethereum",
-        "chain": "mode",
+        "chainId": 34443,
         "address": "0xd4C1905BB1D26BC93DAC913e13CaCC278CdCC80D"
       },
       {
         "vm": "ethereum",
-        "chain": "sei",
+        "chainId": 1329,
         "address": "0xdD313D475f8A9d81CBE2eA953a357f52e10BA357"
       },
       {
         "vm": "ethereum",
-        "chain": "swell",
+        "chainId": 1923,
         "address": "0x7712b534bF2b9fb7fA8D14EE83fDd077691a76C2"
       },
       {
         "vm": "ethereum",
-        "chain": "taiko",
+        "chainId": 167000,
         "address": "0x652e2F475Af7b1154817E09f5408f9011037492a"
       },
       {
         "vm": "ethereum",
-        "chain": "zircuit",
+        "chainId": 48900,
         "address": "0xa2656c131A9F204F73944D7B60DDB17565E71292"
       },
       {
         "vm": "ethereum",
-        "chain": "berachain",
+        "chainId": 80094,
         "address": "0xDF96074eefdD1Ae137C008bE165A3Ed4A55718FA"
       },
       {
         "vm": "ethereum",
-        "chain": "unichain",
+        "chainId": 130,
         "address": "0x910FF91a92c9141b8352Ad3e50cF13ef9F3169A1"
       }
     ]
@@ -3611,72 +3556,72 @@
     "connections": [
       {
         "vm": "ethereum",
-        "chain": "arbitrum",
+        "chainId": 42161,
         "address": "0x3F536e156eD291c135ACb1D20F77C3B948E0F8a5"
       },
       {
         "vm": "ethereum",
-        "chain": "base",
+        "chainId": 8453,
         "address": "0xBbcA34fF173339094cAc51e33BADeE86AA2C35b5"
       },
       {
         "vm": "ethereum",
-        "chain": "blast",
+        "chainId": 81457,
         "address": "0x89E3530137aD51743536443a3EC838b502E72eb7"
       },
       {
         "vm": "ethereum",
-        "chain": "bsc",
+        "chainId": 56,
         "address": "0x01bFbc80b32469c36DB4C7fc564E75475dfC278C"
       },
       {
         "vm": "ethereum",
-        "chain": "ethereum",
+        "chainId": 1,
         "address": "0xdfA407edf065b7ECfD95c3c5F4C32F9f34a5Fe80"
       },
       {
         "vm": "ethereum",
-        "chain": "fraxtal",
+        "chainId": 252,
         "address": "0x21581dE0CB0Ce91E87b9d5124543C75Fa01ED9CC"
       },
       {
         "vm": "ethereum",
-        "chain": "linea",
+        "chainId": 59144,
         "address": "0x9E3075E067932d744119e583B34d11b144CE1e4A"
       },
       {
         "vm": "ethereum",
-        "chain": "mode",
+        "chainId": 34443,
         "address": "0xd4C1905BB1D26BC93DAC913e13CaCC278CdCC80D"
       },
       {
         "vm": "ethereum",
-        "chain": "optimism",
+        "chainId": 10,
         "address": "0xbA6BbAe1c1d25fFdd5bB74192d687A25d5e65326"
       },
       {
         "vm": "ethereum",
-        "chain": "swell",
+        "chainId": 1923,
         "address": "0x7712b534bF2b9fb7fA8D14EE83fDd077691a76C2"
       },
       {
         "vm": "ethereum",
-        "chain": "taiko",
+        "chainId": 167000,
         "address": "0x652e2F475Af7b1154817E09f5408f9011037492a"
       },
       {
         "vm": "ethereum",
-        "chain": "zircuit",
+        "chainId": 48900,
         "address": "0xa2656c131A9F204F73944D7B60DDB17565E71292"
       },
       {
         "vm": "ethereum",
-        "chain": "berachain",
+        "chainId": 80094,
         "address": "0xDF96074eefdD1Ae137C008bE165A3Ed4A55718FA"
       },
       {
         "vm": "ethereum",
-        "chain": "unichain",
+        "chainId": 130,
         "address": "0x910FF91a92c9141b8352Ad3e50cF13ef9F3169A1"
       }
     ]
@@ -3692,72 +3637,72 @@
     "connections": [
       {
         "vm": "ethereum",
-        "chain": "arbitrum",
+        "chainId": 42161,
         "address": "0x3F536e156eD291c135ACb1D20F77C3B948E0F8a5"
       },
       {
         "vm": "ethereum",
-        "chain": "base",
+        "chainId": 8453,
         "address": "0xBbcA34fF173339094cAc51e33BADeE86AA2C35b5"
       },
       {
         "vm": "ethereum",
-        "chain": "blast",
+        "chainId": 81457,
         "address": "0x89E3530137aD51743536443a3EC838b502E72eb7"
       },
       {
         "vm": "ethereum",
-        "chain": "bsc",
+        "chainId": 56,
         "address": "0x01bFbc80b32469c36DB4C7fc564E75475dfC278C"
       },
       {
         "vm": "ethereum",
-        "chain": "ethereum",
+        "chainId": 1,
         "address": "0xdfA407edf065b7ECfD95c3c5F4C32F9f34a5Fe80"
       },
       {
         "vm": "ethereum",
-        "chain": "fraxtal",
+        "chainId": 252,
         "address": "0x21581dE0CB0Ce91E87b9d5124543C75Fa01ED9CC"
       },
       {
         "vm": "ethereum",
-        "chain": "linea",
+        "chainId": 59144,
         "address": "0x9E3075E067932d744119e583B34d11b144CE1e4A"
       },
       {
         "vm": "ethereum",
-        "chain": "mode",
+        "chainId": 34443,
         "address": "0xd4C1905BB1D26BC93DAC913e13CaCC278CdCC80D"
       },
       {
         "vm": "ethereum",
-        "chain": "optimism",
+        "chainId": 10,
         "address": "0xbA6BbAe1c1d25fFdd5bB74192d687A25d5e65326"
       },
       {
         "vm": "ethereum",
-        "chain": "sei",
+        "chainId": 1329,
         "address": "0xdD313D475f8A9d81CBE2eA953a357f52e10BA357"
       },
       {
         "vm": "ethereum",
-        "chain": "swell",
+        "chainId": 1923,
         "address": "0x7712b534bF2b9fb7fA8D14EE83fDd077691a76C2"
       },
       {
         "vm": "ethereum",
-        "chain": "zircuit",
+        "chainId": 48900,
         "address": "0xa2656c131A9F204F73944D7B60DDB17565E71292"
       },
       {
         "vm": "ethereum",
-        "chain": "berachain",
+        "chainId": 80094,
         "address": "0xDF96074eefdD1Ae137C008bE165A3Ed4A55718FA"
       },
       {
         "vm": "ethereum",
-        "chain": "unichain",
+        "chainId": 130,
         "address": "0x910FF91a92c9141b8352Ad3e50cF13ef9F3169A1"
       }
     ]
@@ -3773,72 +3718,72 @@
     "connections": [
       {
         "vm": "ethereum",
-        "chain": "arbitrum",
+        "chainId": 42161,
         "address": "0x3F536e156eD291c135ACb1D20F77C3B948E0F8a5"
       },
       {
         "vm": "ethereum",
-        "chain": "base",
+        "chainId": 8453,
         "address": "0xBbcA34fF173339094cAc51e33BADeE86AA2C35b5"
       },
       {
         "vm": "ethereum",
-        "chain": "blast",
+        "chainId": 81457,
         "address": "0x89E3530137aD51743536443a3EC838b502E72eb7"
       },
       {
         "vm": "ethereum",
-        "chain": "bsc",
+        "chainId": 56,
         "address": "0x01bFbc80b32469c36DB4C7fc564E75475dfC278C"
       },
       {
         "vm": "ethereum",
-        "chain": "ethereum",
+        "chainId": 1,
         "address": "0xdfA407edf065b7ECfD95c3c5F4C32F9f34a5Fe80"
       },
       {
         "vm": "ethereum",
-        "chain": "fraxtal",
+        "chainId": 252,
         "address": "0x21581dE0CB0Ce91E87b9d5124543C75Fa01ED9CC"
       },
       {
         "vm": "ethereum",
-        "chain": "linea",
+        "chainId": 59144,
         "address": "0x9E3075E067932d744119e583B34d11b144CE1e4A"
       },
       {
         "vm": "ethereum",
-        "chain": "mode",
+        "chainId": 34443,
         "address": "0xd4C1905BB1D26BC93DAC913e13CaCC278CdCC80D"
       },
       {
         "vm": "ethereum",
-        "chain": "optimism",
+        "chainId": 10,
         "address": "0xbA6BbAe1c1d25fFdd5bB74192d687A25d5e65326"
       },
       {
         "vm": "ethereum",
-        "chain": "sei",
+        "chainId": 1329,
         "address": "0xdD313D475f8A9d81CBE2eA953a357f52e10BA357"
       },
       {
         "vm": "ethereum",
-        "chain": "swell",
+        "chainId": 1923,
         "address": "0x7712b534bF2b9fb7fA8D14EE83fDd077691a76C2"
       },
       {
         "vm": "ethereum",
-        "chain": "taiko",
+        "chainId": 167000,
         "address": "0x652e2F475Af7b1154817E09f5408f9011037492a"
       },
       {
         "vm": "ethereum",
-        "chain": "berachain",
+        "chainId": 80094,
         "address": "0xDF96074eefdD1Ae137C008bE165A3Ed4A55718FA"
       },
       {
         "vm": "ethereum",
-        "chain": "unichain",
+        "chainId": 130,
         "address": "0x910FF91a92c9141b8352Ad3e50cF13ef9F3169A1"
       }
     ]
@@ -3854,72 +3799,72 @@
     "connections": [
       {
         "vm": "ethereum",
-        "chain": "arbitrum",
+        "chainId": 42161,
         "address": "0x3F536e156eD291c135ACb1D20F77C3B948E0F8a5"
       },
       {
         "vm": "ethereum",
-        "chain": "base",
+        "chainId": 8453,
         "address": "0xBbcA34fF173339094cAc51e33BADeE86AA2C35b5"
       },
       {
         "vm": "ethereum",
-        "chain": "blast",
+        "chainId": 81457,
         "address": "0x89E3530137aD51743536443a3EC838b502E72eb7"
       },
       {
         "vm": "ethereum",
-        "chain": "bsc",
+        "chainId": 56,
         "address": "0x01bFbc80b32469c36DB4C7fc564E75475dfC278C"
       },
       {
         "vm": "ethereum",
-        "chain": "ethereum",
+        "chainId": 1,
         "address": "0xdfA407edf065b7ECfD95c3c5F4C32F9f34a5Fe80"
       },
       {
         "vm": "ethereum",
-        "chain": "fraxtal",
+        "chainId": 252,
         "address": "0x21581dE0CB0Ce91E87b9d5124543C75Fa01ED9CC"
       },
       {
         "vm": "ethereum",
-        "chain": "linea",
+        "chainId": 59144,
         "address": "0x9E3075E067932d744119e583B34d11b144CE1e4A"
       },
       {
         "vm": "ethereum",
-        "chain": "mode",
+        "chainId": 34443,
         "address": "0xd4C1905BB1D26BC93DAC913e13CaCC278CdCC80D"
       },
       {
         "vm": "ethereum",
-        "chain": "optimism",
+        "chainId": 10,
         "address": "0xbA6BbAe1c1d25fFdd5bB74192d687A25d5e65326"
       },
       {
         "vm": "ethereum",
-        "chain": "sei",
+        "chainId": 1329,
         "address": "0xdD313D475f8A9d81CBE2eA953a357f52e10BA357"
       },
       {
         "vm": "ethereum",
-        "chain": "swell",
+        "chainId": 1923,
         "address": "0x7712b534bF2b9fb7fA8D14EE83fDd077691a76C2"
       },
       {
         "vm": "ethereum",
-        "chain": "taiko",
+        "chainId": 167000,
         "address": "0x652e2F475Af7b1154817E09f5408f9011037492a"
       },
       {
         "vm": "ethereum",
-        "chain": "zircuit",
+        "chainId": 48900,
         "address": "0xa2656c131A9F204F73944D7B60DDB17565E71292"
       },
       {
         "vm": "ethereum",
-        "chain": "unichain",
+        "chainId": 130,
         "address": "0x910FF91a92c9141b8352Ad3e50cF13ef9F3169A1"
       }
     ]
@@ -3935,72 +3880,72 @@
     "connections": [
       {
         "vm": "ethereum",
-        "chain": "arbitrum",
+        "chainId": 42161,
         "address": "0x3F536e156eD291c135ACb1D20F77C3B948E0F8a5"
       },
       {
         "vm": "ethereum",
-        "chain": "base",
+        "chainId": 8453,
         "address": "0xBbcA34fF173339094cAc51e33BADeE86AA2C35b5"
       },
       {
         "vm": "ethereum",
-        "chain": "blast",
+        "chainId": 81457,
         "address": "0x89E3530137aD51743536443a3EC838b502E72eb7"
       },
       {
         "vm": "ethereum",
-        "chain": "bsc",
+        "chainId": 56,
         "address": "0x01bFbc80b32469c36DB4C7fc564E75475dfC278C"
       },
       {
         "vm": "ethereum",
-        "chain": "ethereum",
+        "chainId": 1,
         "address": "0xdfA407edf065b7ECfD95c3c5F4C32F9f34a5Fe80"
       },
       {
         "vm": "ethereum",
-        "chain": "fraxtal",
+        "chainId": 252,
         "address": "0x21581dE0CB0Ce91E87b9d5124543C75Fa01ED9CC"
       },
       {
         "vm": "ethereum",
-        "chain": "linea",
+        "chainId": 59144,
         "address": "0x9E3075E067932d744119e583B34d11b144CE1e4A"
       },
       {
         "vm": "ethereum",
-        "chain": "mode",
+        "chainId": 34443,
         "address": "0xd4C1905BB1D26BC93DAC913e13CaCC278CdCC80D"
       },
       {
         "vm": "ethereum",
-        "chain": "optimism",
+        "chainId": 10,
         "address": "0xbA6BbAe1c1d25fFdd5bB74192d687A25d5e65326"
       },
       {
         "vm": "ethereum",
-        "chain": "sei",
+        "chainId": 1329,
         "address": "0xdD313D475f8A9d81CBE2eA953a357f52e10BA357"
       },
       {
         "vm": "ethereum",
-        "chain": "swell",
+        "chainId": 1923,
         "address": "0x7712b534bF2b9fb7fA8D14EE83fDd077691a76C2"
       },
       {
         "vm": "ethereum",
-        "chain": "taiko",
+        "chainId": 167000,
         "address": "0x652e2F475Af7b1154817E09f5408f9011037492a"
       },
       {
         "vm": "ethereum",
-        "chain": "zircuit",
+        "chainId": 48900,
         "address": "0xa2656c131A9F204F73944D7B60DDB17565E71292"
       },
       {
         "vm": "ethereum",
-        "chain": "berachain",
+        "chainId": 80094,
         "address": "0xDF96074eefdD1Ae137C008bE165A3Ed4A55718FA"
       }
     ]
@@ -4017,7 +3962,7 @@
     "connections": [
       {
         "vm": "ethereum",
-        "chain": "ethereum",
+        "chainId": 1,
         "address": "0x9AD81058c6C3Bf552C9014CB30E824717A0ee21b"
       }
     ]
@@ -4034,7 +3979,7 @@
     "connections": [
       {
         "vm": "ethereum",
-        "chain": "sei",
+        "chainId": 1329,
         "address": "0xeA895A7Ff45d8d3857A04c1E38A362f3bd9a076f"
       }
     ]
@@ -4051,7 +3996,7 @@
     "connections": [
       {
         "vm": "ethereum",
-        "chain": "form",
+        "chainId": 478,
         "address": "0x688da80Dfe2916c0a0Aa360323E52Aa5881AdB78"
       }
     ]
@@ -4067,7 +4012,7 @@
     "connections": [
       {
         "vm": "ethereum",
-        "chain": "ethereum",
+        "chainId": 1,
         "address": "0xEa35E107fB64Ff8C3c8c37DB2d23A7179f31D8EC"
       }
     ]
@@ -4083,7 +4028,7 @@
     "connections": [
       {
         "vm": "ethereum",
-        "chain": "base",
+        "chainId": 8453,
         "address": "0x6a5579ABECE07b73d4d92a8bBFF51aF827bB21f1"
       }
     ]
@@ -4100,7 +4045,7 @@
     "connections": [
       {
         "vm": "ethereum",
-        "chain": "form",
+        "chainId": 478,
         "address": "0x96D51cc3f7500d501bAeB1A2a62BB96fa03532F8"
       }
     ]
@@ -4117,7 +4062,7 @@
     "connections": [
       {
         "vm": "ethereum",
-        "chain": "bsc",
+        "chainId": 56,
         "address": "0xFF0948a6e1aAFfB7131844cC3944a11e969543d0"
       }
     ]
@@ -4133,7 +4078,7 @@
     "connections": [
       {
         "vm": "ethereum",
-        "chain": "base",
+        "chainId": 8453,
         "address": "0x0f318DDd7b7af11dE1335B55dc5528b79cc4E0aE"
       }
     ]
@@ -4150,7 +4095,7 @@
     "connections": [
       {
         "vm": "ethereum",
-        "chain": "zeronetwork",
+        "chainId": 543210,
         "address": "0x7d6dF201ed9fD35146F89aE98818843eDdadc053"
       }
     ]
@@ -4165,17 +4110,17 @@
     "connections": [
       {
         "vm": "ethereum",
-        "chain": "bsc",
+        "chainId": 56,
         "address": "0x02CF1778c07584D92b610E0C03fA285DfD00c354"
       },
       {
         "vm": "ethereum",
-        "chain": "kalychain",
+        "chainId": 3888,
         "address": "0x8A1ABbB167b149F2493C8141091028fD812Da6E4"
       },
       {
         "vm": "ethereum",
-        "chain": "polygon",
+        "chainId": 137,
         "address": "0x285C14145EB75A1918B48f93E126139ea1a0f294"
       }
     ]
@@ -4190,17 +4135,17 @@
     "connections": [
       {
         "vm": "ethereum",
-        "chain": "arbitrum",
+        "chainId": 42161,
         "address": "0x7542c62565f48520A34Cf79884656efDEdD38176"
       },
       {
         "vm": "ethereum",
-        "chain": "kalychain",
+        "chainId": 3888,
         "address": "0x8A1ABbB167b149F2493C8141091028fD812Da6E4"
       },
       {
         "vm": "ethereum",
-        "chain": "polygon",
+        "chainId": 137,
         "address": "0x285C14145EB75A1918B48f93E126139ea1a0f294"
       }
     ]
@@ -4215,17 +4160,17 @@
     "connections": [
       {
         "vm": "ethereum",
-        "chain": "arbitrum",
+        "chainId": 42161,
         "address": "0x7542c62565f48520A34Cf79884656efDEdD38176"
       },
       {
         "vm": "ethereum",
-        "chain": "bsc",
+        "chainId": 56,
         "address": "0x02CF1778c07584D92b610E0C03fA285DfD00c354"
       },
       {
         "vm": "ethereum",
-        "chain": "kalychain",
+        "chainId": 3888,
         "address": "0x8A1ABbB167b149F2493C8141091028fD812Da6E4"
       }
     ]
@@ -4242,7 +4187,7 @@
     "connections": [
       {
         "vm": "ethereum",
-        "chain": "celo",
+        "chainId": 42220,
         "address": "0x2201B4cC55c82EE23554C9CDA5CFF62BBa01c69D"
       }
     ]
@@ -4258,7 +4203,7 @@
     "connections": [
       {
         "vm": "ethereum",
-        "chain": "arthera",
+        "chainId": 10242,
         "address": "0xa6D019ea6D132FF091d5bef0B077EC1e045c9461"
       }
     ]
@@ -4274,25 +4219,8 @@
     "connections": [
       {
         "vm": "ethereum",
-        "chain": "artheratestnet",
+        "chainId": 10243,
         "address": "0x48867511B5c9c6A0E28b36553cd0DC9A0A95A6D2"
-      }
-    ]
-  },
-  {
-    "chainId": 42161,
-    "address": "0x79EdA6DAfB2B9531930CbD9240A73B5eF0e8c9E2",
-    "name": "LogX Network",
-    "symbol": "LOGX",
-    "decimals": 18,
-    "logoURI": "https://raw.githubusercontent.com/hyperlane-xyz/hyperlane-registry/main/deployments/warp_routes/LOGX/logo.svg",
-    "standard": "EvmHypCollateral",
-    "collateralAddress": "0x59062301Fb510F4ea2417B67404CB16D31E604BA",
-    "connections": [
-      {
-        "vm": "sealevel",
-        "chain": "solanamainnet",
-        "address": "975wpF9KmWTVnh398Qs6VcnDtYZsXVWtKiSkXfWH22GP"
       }
     ]
   },
@@ -4307,12 +4235,12 @@
     "connections": [
       {
         "vm": "ethereum",
-        "chain": "ethereum",
+        "chainId": 1,
         "address": "0xdD313D475f8A9d81CBE2eA953a357f52e10BA357"
       },
       {
         "vm": "ethereum",
-        "chain": "lumiaprism",
+        "chainId": 994873017,
         "address": "0x98eF2a7DD4261BE8691DCb4B95a08De84d4Ffe5B"
       }
     ]
@@ -4329,12 +4257,12 @@
     "connections": [
       {
         "vm": "ethereum",
-        "chain": "bsc",
+        "chainId": 56,
         "address": "0x7F39BcdCa8E0E581c1d43aaa1cB862AA1c8C2047"
       },
       {
         "vm": "ethereum",
-        "chain": "lumiaprism",
+        "chainId": 994873017,
         "address": "0x98eF2a7DD4261BE8691DCb4B95a08De84d4Ffe5B"
       }
     ]
@@ -4350,7 +4278,7 @@
     "connections": [
       {
         "vm": "ethereum",
-        "chain": "treasure",
+        "chainId": 61166,
         "address": "0x01c94f24F8D72BB9C3f61c4ED0b9b86BfC23BADd"
       }
     ]
@@ -4365,7 +4293,7 @@
     "connections": [
       {
         "vm": "ethereum",
-        "chain": "arbitrum",
+        "chainId": 42161,
         "address": "0x240d04a70B038369C8DF703B78B3b47332EeE116"
       }
     ]
@@ -4382,25 +4310,8 @@
     "connections": [
       {
         "vm": "ethereum",
-        "chain": "zeronetwork",
+        "chainId": 543210,
         "address": "0xEE7bF7bB7575163edd413e36E9f06a124b51B9fa"
-      }
-    ]
-  },
-  {
-    "chainId": 185,
-    "address": "0x787561C5131d9328a28Ef810867299176a5b66C4",
-    "name": "Mint",
-    "symbol": "MINT",
-    "decimals": 18,
-    "logoURI": "https://raw.githubusercontent.com/hyperlane-xyz/hyperlane-registry/main/deployments/warp_routes/MINT/logo.svg",
-    "standard": "EvmHypCollateral",
-    "collateralAddress": "0x8511138208529fe1b9a37b863c7EEE3Fe234b7Ab",
-    "connections": [
-      {
-        "vm": "sealevel",
-        "chain": "solanamainnet",
-        "address": "DTp6yLfHyGo46Zu7xrbXwUF3YZSaYV2W7UhQb8q9QN5Q"
       }
     ]
   },
@@ -4414,7 +4325,7 @@
     "connections": [
       {
         "vm": "ethereum",
-        "chain": "piccadilly",
+        "chainId": 65100003,
         "address": "0xB671973E737c1793eE5AbCaA97769d7a81445704"
       }
     ]
@@ -4431,12 +4342,12 @@
     "connections": [
       {
         "vm": "ethereum",
-        "chain": "oortmainnet",
+        "chainId": 970,
         "address": "0x15366f1a7c71baa6fd1c8FAB56b30faf98d56a3B"
       },
       {
         "vm": "ethereum",
-        "chain": "ethereum",
+        "chainId": 1,
         "address": "0x70f34d5cC2527Cd81de9F6e7C9208f26f7252697"
       }
     ]
@@ -4453,12 +4364,12 @@
     "connections": [
       {
         "vm": "ethereum",
-        "chain": "bsc",
+        "chainId": 56,
         "address": "0x15366f1a7c71baa6fd1c8FAB56b30faf98d56a3B"
       },
       {
         "vm": "ethereum",
-        "chain": "oortmainnet",
+        "chainId": 970,
         "address": "0x15366f1a7c71baa6fd1c8FAB56b30faf98d56a3B"
       }
     ]
@@ -4475,7 +4386,7 @@
     "connections": [
       {
         "vm": "ethereum",
-        "chain": "superseed",
+        "chainId": 5330,
         "address": "0x4e128A1b613A9C9Ecf650FeE461c353612559fcf"
       }
     ]
@@ -4491,7 +4402,7 @@
     "connections": [
       {
         "vm": "ethereum",
-        "chain": "optimism",
+        "chainId": 10,
         "address": "0x0Ea3C23A4dC198c289D5443ac302335aBc86E6b1"
       }
     ]
@@ -4508,12 +4419,12 @@
     "connections": [
       {
         "vm": "ethereum",
-        "chain": "bsc",
+        "chainId": 56,
         "address": "0xDcE63e8cc7f1E2Ed25a226166abE3217c19d0BF1"
       },
       {
         "vm": "ethereum",
-        "chain": "lumiaprism",
+        "chainId": 994873017,
         "address": "0x1fdfD1486b8339638C6b92f8a96D698D8182D2b1"
       }
     ]
@@ -4529,12 +4440,12 @@
     "connections": [
       {
         "vm": "ethereum",
-        "chain": "ethereum",
+        "chainId": 1,
         "address": "0xC868Ea07031eE67dCE475D535F1AA0e5571Ba92a"
       },
       {
         "vm": "ethereum",
-        "chain": "lumiaprism",
+        "chainId": 994873017,
         "address": "0x1fdfD1486b8339638C6b92f8a96D698D8182D2b1"
       }
     ]
@@ -4549,7 +4460,7 @@
     "connections": [
       {
         "vm": "ethereum",
-        "chain": "kalychain",
+        "chainId": 3888,
         "address": "0x706C9a63d7c8b7Aaf85DDCca52654645f470E8Ac"
       }
     ]
@@ -4565,7 +4476,7 @@
     "connections": [
       {
         "vm": "ethereum",
-        "chain": "zeronetwork",
+        "chainId": 543210,
         "address": "0x3d7dBc3dab88C0e3c3Dcb6901a6163bb02417e6B"
       }
     ]
@@ -4582,12 +4493,12 @@
     "connections": [
       {
         "vm": "ethereum",
-        "chain": "ethereum",
+        "chainId": 1,
         "address": "0x25C147Bd61bdaB6ce5A1Ae4939d2765092e0e2F8"
       },
       {
         "vm": "ethereum",
-        "chain": "polygon",
+        "chainId": 137,
         "address": "0x6539BB7b4533E5cc004CeD6429431b3594923650"
       }
     ]
@@ -4604,12 +4515,12 @@
     "connections": [
       {
         "vm": "ethereum",
-        "chain": "bsc",
+        "chainId": 56,
         "address": "0xA83e1e21e82038e425e7a47aD7c2e059D7F1cae6"
       },
       {
         "vm": "ethereum",
-        "chain": "polygon",
+        "chainId": 137,
         "address": "0x6539BB7b4533E5cc004CeD6429431b3594923650"
       }
     ]
@@ -4625,12 +4536,12 @@
     "connections": [
       {
         "vm": "ethereum",
-        "chain": "bsc",
+        "chainId": 56,
         "address": "0xA83e1e21e82038e425e7a47aD7c2e059D7F1cae6"
       },
       {
         "vm": "ethereum",
-        "chain": "ethereum",
+        "chainId": 1,
         "address": "0x25C147Bd61bdaB6ce5A1Ae4939d2765092e0e2F8"
       }
     ]
@@ -4647,12 +4558,12 @@
     "connections": [
       {
         "vm": "ethereum",
-        "chain": "polygon",
+        "chainId": 137,
         "address": "0x23Ae469604E3c1b581ADabf07c035472FbdB5Ee1"
       },
       {
         "vm": "ethereum",
-        "chain": "prom",
+        "chainId": 227,
         "address": "0xc1f4b896B94bd57dEfB7b6e630Bb91995b86CbAC"
       }
     ]
@@ -4668,12 +4579,12 @@
     "connections": [
       {
         "vm": "ethereum",
-        "chain": "bsc",
+        "chainId": 56,
         "address": "0x700b9322F6Cce0c8EFF4754bE9AcE88Ce6582821"
       },
       {
         "vm": "ethereum",
-        "chain": "prom",
+        "chainId": 227,
         "address": "0xc1f4b896B94bd57dEfB7b6e630Bb91995b86CbAC"
       }
     ]
@@ -4690,12 +4601,12 @@
     "connections": [
       {
         "vm": "ethereum",
-        "chain": "zircuit",
+        "chainId": 48900,
         "address": "0x8303Ce0E207BB44a3D3B2313AC219d0fC73b3764"
       },
       {
         "vm": "ethereum",
-        "chain": "swell",
+        "chainId": 1923,
         "address": "0x982AbBb04F91acc47aD0CB0A11f29d50c5007934"
       }
     ]
@@ -4712,12 +4623,12 @@
     "connections": [
       {
         "vm": "ethereum",
-        "chain": "ethereum",
+        "chainId": 1,
         "address": "0x0220b1EA1b56ECE8e2b62c8965659f0A621e9ebd"
       },
       {
         "vm": "ethereum",
-        "chain": "swell",
+        "chainId": 1923,
         "address": "0x982AbBb04F91acc47aD0CB0A11f29d50c5007934"
       }
     ]
@@ -4734,7 +4645,7 @@
     "connections": [
       {
         "vm": "ethereum",
-        "chain": "ethereum",
+        "chainId": 1,
         "address": "0xc32848c38Dd5A5098Cd53d33e425c1013a4E06A8"
       }
     ]
@@ -4751,7 +4662,7 @@
     "connections": [
       {
         "vm": "ethereum",
-        "chain": "base",
+        "chainId": 8453,
         "address": "0xF4eae2f139D8032b8410Fef46f6873cD71A0FD76"
       }
     ]
@@ -4767,7 +4678,7 @@
     "connections": [
       {
         "vm": "ethereum",
-        "chain": "zircuit",
+        "chainId": 48900,
         "address": "0x4d08A785212Ce848cFc35e198E86F5ebcb388c86"
       }
     ]
@@ -4782,7 +4693,7 @@
     "connections": [
       {
         "vm": "ethereum",
-        "chain": "ethereum",
+        "chainId": 1,
         "address": "0x7D77702f1c7A1662923FD654f904127988Caa3fD"
       }
     ]
@@ -4799,12 +4710,12 @@
     "connections": [
       {
         "vm": "ethereum",
-        "chain": "ethereum",
+        "chainId": 1,
         "address": "0x53cce6d10e43d1b3d11872ad22ec2acd8d2537b8"
       },
       {
         "vm": "ethereum",
-        "chain": "treasure",
+        "chainId": 61166,
         "address": "0xb73e4f558F7d4436d77a18f56e4EE9d01764c641"
       }
     ]
@@ -4820,18 +4731,13 @@
     "connections": [
       {
         "vm": "ethereum",
-        "chain": "arbitrum",
+        "chainId": 42161,
         "address": "0xa4bbac7ed5bda8ec71a1af5ee84d4c5a737bd875"
       },
       {
         "vm": "ethereum",
-        "chain": "treasure",
+        "chainId": 61166,
         "address": "0xb73e4f558F7d4436d77a18f56e4EE9d01764c641"
-      },
-      {
-        "vm": "sealevel",
-        "chain": "solanamainnet",
-        "address": "7Z7mZ4d31sfC3mcQYQXUNo6j9snByT2gs5eDkXYmZAyn"
       }
     ]
   },
@@ -4846,18 +4752,13 @@
     "connections": [
       {
         "vm": "ethereum",
-        "chain": "arbitrum",
+        "chainId": 42161,
         "address": "0xa4bbac7ed5bda8ec71a1af5ee84d4c5a737bd875"
       },
       {
         "vm": "ethereum",
-        "chain": "ethereum",
+        "chainId": 1,
         "address": "0x53cce6d10e43d1b3d11872ad22ec2acd8d2537b8"
-      },
-      {
-        "vm": "sealevel",
-        "chain": "solanamainnet",
-        "address": "7Z7mZ4d31sfC3mcQYQXUNo6j9snByT2gs5eDkXYmZAyn"
       }
     ]
   },
@@ -4872,40 +4773,8 @@
     "connections": [
       {
         "vm": "ethereum",
-        "chain": "euphoriatestnet",
+        "chainId": 6321,
         "address": "0x120f461C4d95412c4a1BC4e8BE6917C9da404510"
-      }
-    ]
-  },
-  {
-    "chainId": 42161,
-    "address": "0xD56734d7f9979dD94FAE3d67C7e928234e71cD4C",
-    "name": "TIA.n",
-    "symbol": "TIA.n",
-    "decimals": 6,
-    "logoURI": "https://raw.githubusercontent.com/hyperlane-xyz/hyperlane-registry/main/deployments/warp_routes/TIA/logo.svg",
-    "standard": "EvmHypSynthetic",
-    "connections": [
-      {
-        "vm": "cosmos",
-        "chain": "neutron",
-        "address": "neutron1jyyjd3x0jhgswgm6nnctxvzla8ypx50tew3ayxxwkrjfxhvje6kqzvzudq"
-      }
-    ]
-  },
-  {
-    "chainId": 984122,
-    "address": "0x832d26B6904BA7539248Db4D58614251FD63dC05",
-    "name": "TIA",
-    "symbol": "TIA",
-    "decimals": 18,
-    "logoURI": "https://raw.githubusercontent.com/hyperlane-xyz/hyperlane-registry/main/deployments/warp_routes/TIA/logo.svg",
-    "standard": "EvmNative",
-    "connections": [
-      {
-        "vm": "cosmos",
-        "chain": "stride",
-        "address": "stride1h4rhlwcmdwnnd99agxm3gp7uqkr4vcjd73m4586hcuklh3vdtldqgqmjxc"
       }
     ]
   },
@@ -4921,7 +4790,7 @@
     "connections": [
       {
         "vm": "ethereum",
-        "chain": "optimism",
+        "chainId": 10,
         "address": "0xf2aCC7a8Cd1fAA7a178B1569e11505372ea7943B"
       }
     ]
@@ -4937,25 +4806,8 @@
     "connections": [
       {
         "vm": "ethereum",
-        "chain": "base",
+        "chainId": 8453,
         "address": "0xf2aCC7a8Cd1fAA7a178B1569e11505372ea7943B"
-      }
-    ]
-  },
-  {
-    "chainId": 8453,
-    "address": "0xcc9EcE816641c8350Db06af375811107B1Aa0b9d",
-    "name": "Big Tony",
-    "symbol": "TONY",
-    "decimals": 18,
-    "logoURI": "https://raw.githubusercontent.com/hyperlane-xyz/hyperlane-registry/main/deployments/warp_routes/TONY/logo.svg",
-    "standard": "EvmHypCollateral",
-    "collateralAddress": "0xb22a793a81ff5b6ad37f40d5fe1e0ac4184d52f3",
-    "connections": [
-      {
-        "vm": "sealevel",
-        "chain": "solanamainnet",
-        "address": "Fa4zQJCH7id5KL1eFJt2mHyFpUNfCCSkHgtMrLvrRJBN"
       }
     ]
   },
@@ -4969,38 +4821,33 @@
     "standard": "EvmHypSynthetic",
     "connections": [
       {
-        "vm": "sealevel",
-        "chain": "solanamainnet",
-        "address": "21tAY4poz2VXvghqdSQpn9j7gYravQmGpuQi8pHPx9DS"
-      },
-      {
         "vm": "ethereum",
-        "chain": "arbitrum",
+        "chainId": 42161,
         "address": "0x5155EB1bcD30189915cF84717550Acfa537068bF"
       },
       {
         "vm": "ethereum",
-        "chain": "flowmainnet",
+        "chainId": 747,
         "address": "0xD3378b419feae4e3A4Bb4f3349DBa43a1B511760"
       },
       {
         "vm": "ethereum",
-        "chain": "form",
+        "chainId": 478,
         "address": "0x8528bAa7d1d386E7967603e480fa2B558a23644c"
       },
       {
         "vm": "ethereum",
-        "chain": "avalanche",
+        "chainId": 43114,
         "address": "0x0e2A546a53678ee8F8605748193a8c114fA0317F"
       },
       {
         "vm": "ethereum",
-        "chain": "worldchain",
+        "chainId": 480,
         "address": "0x0fC7b3518C03BfA5e01995285b1eF3c4B55c8922"
       },
       {
         "vm": "ethereum",
-        "chain": "optimism",
+        "chainId": 10,
         "address": "0xe36c02471e708a9f16da58168da744b059a1c6fe"
       }
     ]
@@ -5016,37 +4863,32 @@
     "connections": [
       {
         "vm": "ethereum",
-        "chain": "base",
+        "chainId": 8453,
         "address": "0x53c0499e7E4aBD3e7994ca161523FD50A12Bb8C8"
       },
       {
         "vm": "ethereum",
-        "chain": "flowmainnet",
+        "chainId": 747,
         "address": "0xD3378b419feae4e3A4Bb4f3349DBa43a1B511760"
       },
       {
         "vm": "ethereum",
-        "chain": "form",
+        "chainId": 478,
         "address": "0x8528bAa7d1d386E7967603e480fa2B558a23644c"
       },
       {
         "vm": "ethereum",
-        "chain": "avalanche",
+        "chainId": 43114,
         "address": "0x0e2A546a53678ee8F8605748193a8c114fA0317F"
       },
       {
         "vm": "ethereum",
-        "chain": "worldchain",
+        "chainId": 480,
         "address": "0x0fC7b3518C03BfA5e01995285b1eF3c4B55c8922"
       },
       {
-        "vm": "sealevel",
-        "chain": "solanamainnet",
-        "address": "21tAY4poz2VXvghqdSQpn9j7gYravQmGpuQi8pHPx9DS"
-      },
-      {
         "vm": "ethereum",
-        "chain": "optimism",
+        "chainId": 10,
         "address": "0xe36c02471e708a9f16da58168da744b059a1c6fe"
       }
     ]
@@ -5062,37 +4904,32 @@
     "connections": [
       {
         "vm": "ethereum",
-        "chain": "base",
+        "chainId": 8453,
         "address": "0x53c0499e7E4aBD3e7994ca161523FD50A12Bb8C8"
       },
       {
         "vm": "ethereum",
-        "chain": "arbitrum",
+        "chainId": 42161,
         "address": "0x5155EB1bcD30189915cF84717550Acfa537068bF"
       },
       {
         "vm": "ethereum",
-        "chain": "flowmainnet",
+        "chainId": 747,
         "address": "0xD3378b419feae4e3A4Bb4f3349DBa43a1B511760"
       },
       {
         "vm": "ethereum",
-        "chain": "form",
+        "chainId": 478,
         "address": "0x8528bAa7d1d386E7967603e480fa2B558a23644c"
       },
       {
         "vm": "ethereum",
-        "chain": "worldchain",
+        "chainId": 480,
         "address": "0x0fC7b3518C03BfA5e01995285b1eF3c4B55c8922"
       },
       {
-        "vm": "sealevel",
-        "chain": "solanamainnet",
-        "address": "21tAY4poz2VXvghqdSQpn9j7gYravQmGpuQi8pHPx9DS"
-      },
-      {
         "vm": "ethereum",
-        "chain": "optimism",
+        "chainId": 10,
         "address": "0xe36c02471e708a9f16da58168da744b059a1c6fe"
       }
     ]
@@ -5108,37 +4945,32 @@
     "connections": [
       {
         "vm": "ethereum",
-        "chain": "arbitrum",
+        "chainId": 42161,
         "address": "0x5155EB1bcD30189915cF84717550Acfa537068bF"
       },
       {
         "vm": "ethereum",
-        "chain": "flowmainnet",
+        "chainId": 747,
         "address": "0xD3378b419feae4e3A4Bb4f3349DBa43a1B511760"
       },
       {
         "vm": "ethereum",
-        "chain": "avalanche",
+        "chainId": 43114,
         "address": "0x0e2A546a53678ee8F8605748193a8c114fA0317F"
       },
       {
         "vm": "ethereum",
-        "chain": "worldchain",
+        "chainId": 480,
         "address": "0x0fC7b3518C03BfA5e01995285b1eF3c4B55c8922"
       },
       {
         "vm": "ethereum",
-        "chain": "base",
+        "chainId": 8453,
         "address": "0x53c0499e7E4aBD3e7994ca161523FD50A12Bb8C8"
       },
       {
-        "vm": "sealevel",
-        "chain": "solanamainnet",
-        "address": "21tAY4poz2VXvghqdSQpn9j7gYravQmGpuQi8pHPx9DS"
-      },
-      {
         "vm": "ethereum",
-        "chain": "optimism",
+        "chainId": 10,
         "address": "0xe36c02471e708a9f16da58168da744b059a1c6fe"
       }
     ]
@@ -5154,37 +4986,32 @@
     "connections": [
       {
         "vm": "ethereum",
-        "chain": "arbitrum",
+        "chainId": 42161,
         "address": "0x5155EB1bcD30189915cF84717550Acfa537068bF"
       },
       {
         "vm": "ethereum",
-        "chain": "flowmainnet",
+        "chainId": 747,
         "address": "0xD3378b419feae4e3A4Bb4f3349DBa43a1B511760"
       },
       {
         "vm": "ethereum",
-        "chain": "form",
+        "chainId": 478,
         "address": "0x8528bAa7d1d386E7967603e480fa2B558a23644c"
       },
       {
         "vm": "ethereum",
-        "chain": "avalanche",
+        "chainId": 43114,
         "address": "0x0e2A546a53678ee8F8605748193a8c114fA0317F"
       },
       {
         "vm": "ethereum",
-        "chain": "base",
+        "chainId": 8453,
         "address": "0x53c0499e7E4aBD3e7994ca161523FD50A12Bb8C8"
       },
       {
-        "vm": "sealevel",
-        "chain": "solanamainnet",
-        "address": "21tAY4poz2VXvghqdSQpn9j7gYravQmGpuQi8pHPx9DS"
-      },
-      {
         "vm": "ethereum",
-        "chain": "optimism",
+        "chainId": 10,
         "address": "0xe36c02471e708a9f16da58168da744b059a1c6fe"
       }
     ]
@@ -5200,38 +5027,33 @@
     "connections": [
       {
         "vm": "ethereum",
-        "chain": "arbitrum",
+        "chainId": 42161,
         "address": "0x5155EB1bcD30189915cF84717550Acfa537068bF"
       },
       {
         "vm": "ethereum",
-        "chain": "flowmainnet",
+        "chainId": 747,
         "address": "0xD3378b419feae4e3A4Bb4f3349DBa43a1B511760"
       },
       {
         "vm": "ethereum",
-        "chain": "form",
+        "chainId": 478,
         "address": "0x8528bAa7d1d386E7967603e480fa2B558a23644c"
       },
       {
         "vm": "ethereum",
-        "chain": "avalanche",
+        "chainId": 43114,
         "address": "0x0e2A546a53678ee8F8605748193a8c114fA0317F"
       },
       {
         "vm": "ethereum",
-        "chain": "worldchain",
+        "chainId": 480,
         "address": "0x0fC7b3518C03BfA5e01995285b1eF3c4B55c8922"
       },
       {
         "vm": "ethereum",
-        "chain": "base",
+        "chainId": 8453,
         "address": "0x53c0499e7E4aBD3e7994ca161523FD50A12Bb8C8"
-      },
-      {
-        "vm": "sealevel",
-        "chain": "solanamainnet",
-        "address": "21tAY4poz2VXvghqdSQpn9j7gYravQmGpuQi8pHPx9DS"
       }
     ]
   },
@@ -5247,7 +5069,7 @@
     "connections": [
       {
         "vm": "ethereum",
-        "chain": "linea",
+        "chainId": 59144,
         "address": "0xB88F86E0c403B02d4cCF893Fc37312A18Fa2Fe1B"
       }
     ]
@@ -5263,7 +5085,7 @@
     "connections": [
       {
         "vm": "ethereum",
-        "chain": "ethereum",
+        "chainId": 1,
         "address": "0x15dE2C58FCF168bf9bB8860ab6EA10e1670C5D4c"
       }
     ]
@@ -5279,12 +5101,12 @@
     "connections": [
       {
         "vm": "ethereum",
-        "chain": "bsquared",
+        "chainId": 223,
         "address": "0x0FC41a92F526A8CD22060A4052e156502D6B9db0"
       },
       {
         "vm": "ethereum",
-        "chain": "swell",
+        "chainId": 1923,
         "address": "0xFA3198ecF05303a6d96E57a45E6c815055D255b1"
       }
     ]
@@ -5301,12 +5123,12 @@
     "connections": [
       {
         "vm": "ethereum",
-        "chain": "boba",
+        "chainId": 288,
         "address": "0xFA3198ecF05303a6d96E57a45E6c815055D255b1"
       },
       {
         "vm": "ethereum",
-        "chain": "swell",
+        "chainId": 1923,
         "address": "0xFA3198ecF05303a6d96E57a45E6c815055D255b1"
       }
     ]
@@ -5323,7 +5145,7 @@
     "connections": [
       {
         "vm": "ethereum",
-        "chain": "zeronetwork",
+        "chainId": 543210,
         "address": "0xB11a9606f3e470abD00b1bbB28AffAC3126c2Acb"
       }
     ]
@@ -5340,7 +5162,7 @@
     "connections": [
       {
         "vm": "ethereum",
-        "chain": "ancient8",
+        "chainId": 888888888,
         "address": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5"
       }
     ]
@@ -5356,7 +5178,7 @@
     "connections": [
       {
         "vm": "ethereum",
-        "chain": "ethereum",
+        "chainId": 1,
         "address": "0x8b4192B9Ad1fCa440A5808641261e5289e6de95D"
       }
     ]
@@ -5373,7 +5195,7 @@
     "connections": [
       {
         "vm": "ethereum",
-        "chain": "appchain",
+        "chainId": 466,
         "address": "0x675C3ce7F43b00045a4Dab954AF36160fb57cB45"
       }
     ]
@@ -5390,7 +5212,7 @@
     "connections": [
       {
         "vm": "ethereum",
-        "chain": "endurance",
+        "chainId": 648,
         "address": "0xa66a9C0112a428d407388Db87659E9C66F3eF29c"
       }
     ]
@@ -5407,7 +5229,7 @@
     "connections": [
       {
         "vm": "ethereum",
-        "chain": "endurance",
+        "chainId": 648,
         "address": "0xa66a9C0112a428d407388Db87659E9C66F3eF29c"
       }
     ]
@@ -5423,32 +5245,32 @@
     "connections": [
       {
         "vm": "ethereum",
-        "chain": "base",
+        "chainId": 8453,
         "address": "0x103C9CF52bBF6A6815a6c7e07C5Fb376De016C7D"
       },
       {
         "vm": "ethereum",
-        "chain": "ethereum",
+        "chainId": 1,
         "address": "0xa6826c7Dd74c4e1B400AEF4a362692f99872F5F5"
       },
       {
         "vm": "ethereum",
-        "chain": "lisk",
+        "chainId": 1135,
         "address": "0x0FC41a92F526A8CD22060A4052e156502D6B9db0"
       },
       {
         "vm": "ethereum",
-        "chain": "optimism",
+        "chainId": 10,
         "address": "0xcA11d580faaE3E6993aA230f437079ac21f3078a"
       },
       {
         "vm": "ethereum",
-        "chain": "polygon",
+        "chainId": 137,
         "address": "0xb805ee88eE76EcE03ba503A2634344804a0Ea59A"
       },
       {
         "vm": "ethereum",
-        "chain": "zeronetwork",
+        "chainId": 543210,
         "address": "0xbb967d98313EDF91751651C0E66ef8A8B7BeD9e1"
       }
     ]
@@ -5464,32 +5286,32 @@
     "connections": [
       {
         "vm": "ethereum",
-        "chain": "arbitrum",
+        "chainId": 42161,
         "address": "0x14adE09354a20ed23E690afc803E64E60a84e7D3"
       },
       {
         "vm": "ethereum",
-        "chain": "ethereum",
+        "chainId": 1,
         "address": "0xa6826c7Dd74c4e1B400AEF4a362692f99872F5F5"
       },
       {
         "vm": "ethereum",
-        "chain": "lisk",
+        "chainId": 1135,
         "address": "0x0FC41a92F526A8CD22060A4052e156502D6B9db0"
       },
       {
         "vm": "ethereum",
-        "chain": "optimism",
+        "chainId": 10,
         "address": "0xcA11d580faaE3E6993aA230f437079ac21f3078a"
       },
       {
         "vm": "ethereum",
-        "chain": "polygon",
+        "chainId": 137,
         "address": "0xb805ee88eE76EcE03ba503A2634344804a0Ea59A"
       },
       {
         "vm": "ethereum",
-        "chain": "zeronetwork",
+        "chainId": 543210,
         "address": "0xbb967d98313EDF91751651C0E66ef8A8B7BeD9e1"
       }
     ]
@@ -5505,32 +5327,32 @@
     "connections": [
       {
         "vm": "ethereum",
-        "chain": "arbitrum",
+        "chainId": 42161,
         "address": "0x14adE09354a20ed23E690afc803E64E60a84e7D3"
       },
       {
         "vm": "ethereum",
-        "chain": "base",
+        "chainId": 8453,
         "address": "0x103C9CF52bBF6A6815a6c7e07C5Fb376De016C7D"
       },
       {
         "vm": "ethereum",
-        "chain": "lisk",
+        "chainId": 1135,
         "address": "0x0FC41a92F526A8CD22060A4052e156502D6B9db0"
       },
       {
         "vm": "ethereum",
-        "chain": "optimism",
+        "chainId": 10,
         "address": "0xcA11d580faaE3E6993aA230f437079ac21f3078a"
       },
       {
         "vm": "ethereum",
-        "chain": "polygon",
+        "chainId": 137,
         "address": "0xb805ee88eE76EcE03ba503A2634344804a0Ea59A"
       },
       {
         "vm": "ethereum",
-        "chain": "zeronetwork",
+        "chainId": 543210,
         "address": "0xbb967d98313EDF91751651C0E66ef8A8B7BeD9e1"
       }
     ]
@@ -5545,32 +5367,32 @@
     "connections": [
       {
         "vm": "ethereum",
-        "chain": "arbitrum",
+        "chainId": 42161,
         "address": "0x14adE09354a20ed23E690afc803E64E60a84e7D3"
       },
       {
         "vm": "ethereum",
-        "chain": "base",
+        "chainId": 8453,
         "address": "0x103C9CF52bBF6A6815a6c7e07C5Fb376De016C7D"
       },
       {
         "vm": "ethereum",
-        "chain": "ethereum",
+        "chainId": 1,
         "address": "0xa6826c7Dd74c4e1B400AEF4a362692f99872F5F5"
       },
       {
         "vm": "ethereum",
-        "chain": "optimism",
+        "chainId": 10,
         "address": "0xcA11d580faaE3E6993aA230f437079ac21f3078a"
       },
       {
         "vm": "ethereum",
-        "chain": "polygon",
+        "chainId": 137,
         "address": "0xb805ee88eE76EcE03ba503A2634344804a0Ea59A"
       },
       {
         "vm": "ethereum",
-        "chain": "zeronetwork",
+        "chainId": 543210,
         "address": "0xbb967d98313EDF91751651C0E66ef8A8B7BeD9e1"
       }
     ]
@@ -5586,32 +5408,32 @@
     "connections": [
       {
         "vm": "ethereum",
-        "chain": "arbitrum",
+        "chainId": 42161,
         "address": "0x14adE09354a20ed23E690afc803E64E60a84e7D3"
       },
       {
         "vm": "ethereum",
-        "chain": "base",
+        "chainId": 8453,
         "address": "0x103C9CF52bBF6A6815a6c7e07C5Fb376De016C7D"
       },
       {
         "vm": "ethereum",
-        "chain": "ethereum",
+        "chainId": 1,
         "address": "0xa6826c7Dd74c4e1B400AEF4a362692f99872F5F5"
       },
       {
         "vm": "ethereum",
-        "chain": "lisk",
+        "chainId": 1135,
         "address": "0x0FC41a92F526A8CD22060A4052e156502D6B9db0"
       },
       {
         "vm": "ethereum",
-        "chain": "polygon",
+        "chainId": 137,
         "address": "0xb805ee88eE76EcE03ba503A2634344804a0Ea59A"
       },
       {
         "vm": "ethereum",
-        "chain": "zeronetwork",
+        "chainId": 543210,
         "address": "0xbb967d98313EDF91751651C0E66ef8A8B7BeD9e1"
       }
     ]
@@ -5627,32 +5449,32 @@
     "connections": [
       {
         "vm": "ethereum",
-        "chain": "arbitrum",
+        "chainId": 42161,
         "address": "0x14adE09354a20ed23E690afc803E64E60a84e7D3"
       },
       {
         "vm": "ethereum",
-        "chain": "base",
+        "chainId": 8453,
         "address": "0x103C9CF52bBF6A6815a6c7e07C5Fb376De016C7D"
       },
       {
         "vm": "ethereum",
-        "chain": "ethereum",
+        "chainId": 1,
         "address": "0xa6826c7Dd74c4e1B400AEF4a362692f99872F5F5"
       },
       {
         "vm": "ethereum",
-        "chain": "lisk",
+        "chainId": 1135,
         "address": "0x0FC41a92F526A8CD22060A4052e156502D6B9db0"
       },
       {
         "vm": "ethereum",
-        "chain": "optimism",
+        "chainId": 10,
         "address": "0xcA11d580faaE3E6993aA230f437079ac21f3078a"
       },
       {
         "vm": "ethereum",
-        "chain": "zeronetwork",
+        "chainId": 543210,
         "address": "0xbb967d98313EDF91751651C0E66ef8A8B7BeD9e1"
       }
     ]
@@ -5668,17 +5490,17 @@
     "connections": [
       {
         "vm": "ethereum",
-        "chain": "bsc",
+        "chainId": 56,
         "address": "0x3d7d707Df6390adB61e0Ec3eA91A8FC20E519dd0"
       },
       {
         "vm": "ethereum",
-        "chain": "kalychain",
+        "chainId": 3888,
         "address": "0x9cAb0c396cF0F4325913f2269a0b72BD4d46E3A9"
       },
       {
         "vm": "ethereum",
-        "chain": "polygon",
+        "chainId": 137,
         "address": "0xB3dF48224FA257D55e01342592f9A24cefc2628e"
       }
     ]
@@ -5694,17 +5516,17 @@
     "connections": [
       {
         "vm": "ethereum",
-        "chain": "arbitrum",
+        "chainId": 42161,
         "address": "0xD0a1d1b8E10625eE7Ed4Be4Aa7afA7f169411FBd"
       },
       {
         "vm": "ethereum",
-        "chain": "kalychain",
+        "chainId": 3888,
         "address": "0x9cAb0c396cF0F4325913f2269a0b72BD4d46E3A9"
       },
       {
         "vm": "ethereum",
-        "chain": "polygon",
+        "chainId": 137,
         "address": "0xB3dF48224FA257D55e01342592f9A24cefc2628e"
       }
     ]
@@ -5720,17 +5542,17 @@
     "connections": [
       {
         "vm": "ethereum",
-        "chain": "arbitrum",
+        "chainId": 42161,
         "address": "0xD0a1d1b8E10625eE7Ed4Be4Aa7afA7f169411FBd"
       },
       {
         "vm": "ethereum",
-        "chain": "bsc",
+        "chainId": 56,
         "address": "0x3d7d707Df6390adB61e0Ec3eA91A8FC20E519dd0"
       },
       {
         "vm": "ethereum",
-        "chain": "kalychain",
+        "chainId": 3888,
         "address": "0x9cAb0c396cF0F4325913f2269a0b72BD4d46E3A9"
       }
     ]
@@ -5747,7 +5569,7 @@
     "connections": [
       {
         "vm": "ethereum",
-        "chain": "cheesechain",
+        "chainId": 383353,
         "address": "0x7D824CCa0FCF6907Fb27f6134431B0649FB7db41"
       }
     ]
@@ -5764,22 +5586,22 @@
     "connections": [
       {
         "vm": "ethereum",
-        "chain": "ethereum",
+        "chainId": 1,
         "address": "0x424712Bec7c94a0F804c50F77B641A24F33A138e"
       },
       {
         "vm": "ethereum",
-        "chain": "optimism",
+        "chainId": 10,
         "address": "0xEa1A15ed2710f860a38091877c6A84b18206b501"
       },
       {
         "vm": "ethereum",
-        "chain": "polygon",
+        "chainId": 137,
         "address": "0x93b637AEA6a0dF51E8E24E49C62da34f616491c5"
       },
       {
         "vm": "ethereum",
-        "chain": "prom",
+        "chainId": 227,
         "address": "0xd9c95e2ad330E11D7Dfa58f18504049f625E955e"
       }
     ]
@@ -5796,22 +5618,22 @@
     "connections": [
       {
         "vm": "ethereum",
-        "chain": "arbitrum",
+        "chainId": 42161,
         "address": "0x736f1150203E88E6aBA183f216A4a51b6ca12156"
       },
       {
         "vm": "ethereum",
-        "chain": "optimism",
+        "chainId": 10,
         "address": "0xEa1A15ed2710f860a38091877c6A84b18206b501"
       },
       {
         "vm": "ethereum",
-        "chain": "polygon",
+        "chainId": 137,
         "address": "0x93b637AEA6a0dF51E8E24E49C62da34f616491c5"
       },
       {
         "vm": "ethereum",
-        "chain": "prom",
+        "chainId": 227,
         "address": "0xd9c95e2ad330E11D7Dfa58f18504049f625E955e"
       }
     ]
@@ -5828,22 +5650,22 @@
     "connections": [
       {
         "vm": "ethereum",
-        "chain": "arbitrum",
+        "chainId": 42161,
         "address": "0x736f1150203E88E6aBA183f216A4a51b6ca12156"
       },
       {
         "vm": "ethereum",
-        "chain": "ethereum",
+        "chainId": 1,
         "address": "0x424712Bec7c94a0F804c50F77B641A24F33A138e"
       },
       {
         "vm": "ethereum",
-        "chain": "polygon",
+        "chainId": 137,
         "address": "0x93b637AEA6a0dF51E8E24E49C62da34f616491c5"
       },
       {
         "vm": "ethereum",
-        "chain": "prom",
+        "chainId": 227,
         "address": "0xd9c95e2ad330E11D7Dfa58f18504049f625E955e"
       }
     ]
@@ -5860,22 +5682,22 @@
     "connections": [
       {
         "vm": "ethereum",
-        "chain": "arbitrum",
+        "chainId": 42161,
         "address": "0x736f1150203E88E6aBA183f216A4a51b6ca12156"
       },
       {
         "vm": "ethereum",
-        "chain": "ethereum",
+        "chainId": 1,
         "address": "0x424712Bec7c94a0F804c50F77B641A24F33A138e"
       },
       {
         "vm": "ethereum",
-        "chain": "optimism",
+        "chainId": 10,
         "address": "0xEa1A15ed2710f860a38091877c6A84b18206b501"
       },
       {
         "vm": "ethereum",
-        "chain": "prom",
+        "chainId": 227,
         "address": "0xd9c95e2ad330E11D7Dfa58f18504049f625E955e"
       }
     ]
@@ -5892,7 +5714,7 @@
     "connections": [
       {
         "vm": "ethereum",
-        "chain": "artela",
+        "chainId": 11820,
         "address": "0x8d9Bd7E9ec3cd799a659EE650DfF6C799309fA91"
       }
     ]
@@ -5909,7 +5731,7 @@
     "connections": [
       {
         "vm": "ethereum",
-        "chain": "optimism",
+        "chainId": 10,
         "address": "0x2DBe8c163f080b244D420be781abD37c1bfc51A6"
       }
     ]
@@ -5925,7 +5747,7 @@
     "connections": [
       {
         "vm": "ethereum",
-        "chain": "base",
+        "chainId": 8453,
         "address": "0x524410b1e64f689eeBa15E7E511110438811B3dC"
       }
     ]
@@ -5942,12 +5764,12 @@
     "connections": [
       {
         "vm": "ethereum",
-        "chain": "polygon",
+        "chainId": 137,
         "address": "0xFDf46770Da4F907c09aEd92299552DC9c7996d99"
       },
       {
         "vm": "ethereum",
-        "chain": "prom",
+        "chainId": 227,
         "address": "0x424712Bec7c94a0F804c50F77B641A24F33A138e"
       }
     ]
@@ -5963,12 +5785,12 @@
     "connections": [
       {
         "vm": "ethereum",
-        "chain": "bsc",
+        "chainId": 56,
         "address": "0x647eeD57dFDd335f9B6f2a9DbDFe09f166b1AdaC"
       },
       {
         "vm": "ethereum",
-        "chain": "prom",
+        "chainId": 227,
         "address": "0x424712Bec7c94a0F804c50F77B641A24F33A138e"
       }
     ]
@@ -5985,25 +5807,8 @@
     "connections": [
       {
         "vm": "ethereum",
-        "chain": "prom",
+        "chainId": 227,
         "address": "0x451c22b06a5f38a43641f6910834C90f3619cEb9"
-      }
-    ]
-  },
-  {
-    "chainId": 1,
-    "address": "0xe1De9910fe71cC216490AC7FCF019e13a34481D7",
-    "name": "USD Coin",
-    "symbol": "USDC",
-    "decimals": 6,
-    "logoURI": "https://raw.githubusercontent.com/hyperlane-xyz/hyperlane-registry/main/deployments/warp_routes/USDC/logo.svg",
-    "standard": "EvmHypCollateral",
-    "collateralAddress": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
-    "connections": [
-      {
-        "vm": "sealevel",
-        "chain": "eclipsemainnet",
-        "address": "EqRSt9aUDMKYKhzd1DGMderr3KNp29VZH3x5P7LFTC8m"
       }
     ]
   },
@@ -6019,7 +5824,7 @@
     "connections": [
       {
         "vm": "ethereum",
-        "chain": "form",
+        "chainId": 478,
         "address": "0xC316C8252B5F2176d0135Ebb0999E99296998F2e"
       }
     ]
@@ -6036,7 +5841,7 @@
     "connections": [
       {
         "vm": "ethereum",
-        "chain": "ethereum",
+        "chainId": 1,
         "address": "0x3551011EA5F210981E9C2a8659444011370f41e2"
       }
     ]
@@ -6053,7 +5858,7 @@
     "connections": [
       {
         "vm": "ethereum",
-        "chain": "inevm",
+        "chainId": 2525,
         "address": "0x8358d8291e3bedb04804975eea0fe9fe0fafb147"
       }
     ]
@@ -6070,7 +5875,7 @@
     "connections": [
       {
         "vm": "ethereum",
-        "chain": "ink",
+        "chainId": 57073,
         "address": "0x23f63C65c474f2A5BF80ea845Ca496Da3689A2B9"
       }
     ]
@@ -6086,7 +5891,7 @@
     "connections": [
       {
         "vm": "ethereum",
-        "chain": "ethereum",
+        "chainId": 1,
         "address": "0xAf4f3329D271655a4287882310dE25Fb77Dc0a14"
       }
     ]
@@ -6102,7 +5907,7 @@
     "connections": [
       {
         "vm": "ethereum",
-        "chain": "superseed",
+        "chainId": 5330,
         "address": "0xa7D6042eEf06E81168e640b5C41632eE5295227D"
       }
     ]
@@ -6118,7 +5923,7 @@
     "connections": [
       {
         "vm": "ethereum",
-        "chain": "ethereum",
+        "chainId": 1,
         "address": "0xc927767CF7bddc5e8b996A0f957e5F22250A2F67"
       }
     ]
@@ -6135,7 +5940,7 @@
     "connections": [
       {
         "vm": "ethereum",
-        "chain": "swell",
+        "chainId": 1923,
         "address": "0x93D41E41cA545a35A81d11b08D2eE8b852C768df"
       }
     ]
@@ -6152,7 +5957,7 @@
     "connections": [
       {
         "vm": "ethereum",
-        "chain": "viction",
+        "chainId": 88,
         "address": "0xbda330ea8f3005c421c8088e638fbb64fa71b9e0"
       }
     ]
@@ -6168,7 +5973,7 @@
     "connections": [
       {
         "vm": "ethereum",
-        "chain": "ethereum",
+        "chainId": 1,
         "address": "0x31Dca7762930f56D81292f85E65c9D67575804fE"
       }
     ]
@@ -6184,17 +5989,17 @@
     "connections": [
       {
         "vm": "ethereum",
-        "chain": "bsc",
+        "chainId": 56,
         "address": "0xf4f62eC5C9d4e5464A9D1Dd738e3f50b1d652101"
       },
       {
         "vm": "ethereum",
-        "chain": "kalychain",
+        "chainId": 3888,
         "address": "0x2CA775C77B922A51FcF3097F52bFFdbc0250D99A"
       },
       {
         "vm": "ethereum",
-        "chain": "polygon",
+        "chainId": 137,
         "address": "0x2f7c83FC82A0e39A997c262e5BAB13176C275104"
       }
     ]
@@ -6210,17 +6015,17 @@
     "connections": [
       {
         "vm": "ethereum",
-        "chain": "arbitrum",
+        "chainId": 42161,
         "address": "0xFDb3307a16442ed5A7C040AE1600a3B3D3C8e7D9"
       },
       {
         "vm": "ethereum",
-        "chain": "kalychain",
+        "chainId": 3888,
         "address": "0x2CA775C77B922A51FcF3097F52bFFdbc0250D99A"
       },
       {
         "vm": "ethereum",
-        "chain": "polygon",
+        "chainId": 137,
         "address": "0x2f7c83FC82A0e39A997c262e5BAB13176C275104"
       }
     ]
@@ -6236,17 +6041,17 @@
     "connections": [
       {
         "vm": "ethereum",
-        "chain": "arbitrum",
+        "chainId": 42161,
         "address": "0xFDb3307a16442ed5A7C040AE1600a3B3D3C8e7D9"
       },
       {
         "vm": "ethereum",
-        "chain": "bsc",
+        "chainId": 56,
         "address": "0xf4f62eC5C9d4e5464A9D1Dd738e3f50b1d652101"
       },
       {
         "vm": "ethereum",
-        "chain": "kalychain",
+        "chainId": 3888,
         "address": "0x2CA775C77B922A51FcF3097F52bFFdbc0250D99A"
       }
     ]
@@ -6263,32 +6068,32 @@
     "connections": [
       {
         "vm": "ethereum",
-        "chain": "mantle",
+        "chainId": 5000,
         "address": "0x803e7524526c579cCF6Ef0474d03012EdFD0d3Ec"
       },
       {
         "vm": "ethereum",
-        "chain": "mode",
+        "chainId": 34443,
         "address": "0x803e7524526c579cCF6Ef0474d03012EdFD0d3Ec"
       },
       {
         "vm": "ethereum",
-        "chain": "polygon",
+        "chainId": 137,
         "address": "0x6701d503369cf6aA9e5EdFfEBFA40A2ffdf3dB21"
       },
       {
         "vm": "ethereum",
-        "chain": "scroll",
+        "chainId": 534352,
         "address": "0x0FC41a92F526A8CD22060A4052e156502D6B9db0"
       },
       {
         "vm": "ethereum",
-        "chain": "zeronetwork",
+        "chainId": 543210,
         "address": "0x36dcfe3A0C6e0b5425F298587159249d780AAfab"
       },
       {
         "vm": "ethereum",
-        "chain": "ethereum",
+        "chainId": 1,
         "address": "0x95fBD1037a307A49587174E06a6600fD05c5f58e"
       }
     ]
@@ -6305,32 +6110,32 @@
     "connections": [
       {
         "vm": "ethereum",
-        "chain": "arbitrum",
+        "chainId": 42161,
         "address": "0x83AF845F002c2dA8748eaB8203D2704BdAE6fB8e"
       },
       {
         "vm": "ethereum",
-        "chain": "mode",
+        "chainId": 34443,
         "address": "0x803e7524526c579cCF6Ef0474d03012EdFD0d3Ec"
       },
       {
         "vm": "ethereum",
-        "chain": "polygon",
+        "chainId": 137,
         "address": "0x6701d503369cf6aA9e5EdFfEBFA40A2ffdf3dB21"
       },
       {
         "vm": "ethereum",
-        "chain": "scroll",
+        "chainId": 534352,
         "address": "0x0FC41a92F526A8CD22060A4052e156502D6B9db0"
       },
       {
         "vm": "ethereum",
-        "chain": "zeronetwork",
+        "chainId": 543210,
         "address": "0x36dcfe3A0C6e0b5425F298587159249d780AAfab"
       },
       {
         "vm": "ethereum",
-        "chain": "ethereum",
+        "chainId": 1,
         "address": "0x95fBD1037a307A49587174E06a6600fD05c5f58e"
       }
     ]
@@ -6347,32 +6152,32 @@
     "connections": [
       {
         "vm": "ethereum",
-        "chain": "arbitrum",
+        "chainId": 42161,
         "address": "0x83AF845F002c2dA8748eaB8203D2704BdAE6fB8e"
       },
       {
         "vm": "ethereum",
-        "chain": "mantle",
+        "chainId": 5000,
         "address": "0x803e7524526c579cCF6Ef0474d03012EdFD0d3Ec"
       },
       {
         "vm": "ethereum",
-        "chain": "polygon",
+        "chainId": 137,
         "address": "0x6701d503369cf6aA9e5EdFfEBFA40A2ffdf3dB21"
       },
       {
         "vm": "ethereum",
-        "chain": "scroll",
+        "chainId": 534352,
         "address": "0x0FC41a92F526A8CD22060A4052e156502D6B9db0"
       },
       {
         "vm": "ethereum",
-        "chain": "zeronetwork",
+        "chainId": 543210,
         "address": "0x36dcfe3A0C6e0b5425F298587159249d780AAfab"
       },
       {
         "vm": "ethereum",
-        "chain": "ethereum",
+        "chainId": 1,
         "address": "0x95fBD1037a307A49587174E06a6600fD05c5f58e"
       }
     ]
@@ -6389,32 +6194,32 @@
     "connections": [
       {
         "vm": "ethereum",
-        "chain": "arbitrum",
+        "chainId": 42161,
         "address": "0x83AF845F002c2dA8748eaB8203D2704BdAE6fB8e"
       },
       {
         "vm": "ethereum",
-        "chain": "mantle",
+        "chainId": 5000,
         "address": "0x803e7524526c579cCF6Ef0474d03012EdFD0d3Ec"
       },
       {
         "vm": "ethereum",
-        "chain": "mode",
+        "chainId": 34443,
         "address": "0x803e7524526c579cCF6Ef0474d03012EdFD0d3Ec"
       },
       {
         "vm": "ethereum",
-        "chain": "scroll",
+        "chainId": 534352,
         "address": "0x0FC41a92F526A8CD22060A4052e156502D6B9db0"
       },
       {
         "vm": "ethereum",
-        "chain": "zeronetwork",
+        "chainId": 543210,
         "address": "0x36dcfe3A0C6e0b5425F298587159249d780AAfab"
       },
       {
         "vm": "ethereum",
-        "chain": "ethereum",
+        "chainId": 1,
         "address": "0x95fBD1037a307A49587174E06a6600fD05c5f58e"
       }
     ]
@@ -6431,32 +6236,32 @@
     "connections": [
       {
         "vm": "ethereum",
-        "chain": "arbitrum",
+        "chainId": 42161,
         "address": "0x83AF845F002c2dA8748eaB8203D2704BdAE6fB8e"
       },
       {
         "vm": "ethereum",
-        "chain": "mantle",
+        "chainId": 5000,
         "address": "0x803e7524526c579cCF6Ef0474d03012EdFD0d3Ec"
       },
       {
         "vm": "ethereum",
-        "chain": "mode",
+        "chainId": 34443,
         "address": "0x803e7524526c579cCF6Ef0474d03012EdFD0d3Ec"
       },
       {
         "vm": "ethereum",
-        "chain": "polygon",
+        "chainId": 137,
         "address": "0x6701d503369cf6aA9e5EdFfEBFA40A2ffdf3dB21"
       },
       {
         "vm": "ethereum",
-        "chain": "zeronetwork",
+        "chainId": 543210,
         "address": "0x36dcfe3A0C6e0b5425F298587159249d780AAfab"
       },
       {
         "vm": "ethereum",
-        "chain": "ethereum",
+        "chainId": 1,
         "address": "0x95fBD1037a307A49587174E06a6600fD05c5f58e"
       }
     ]
@@ -6473,32 +6278,32 @@
     "connections": [
       {
         "vm": "ethereum",
-        "chain": "arbitrum",
+        "chainId": 42161,
         "address": "0x83AF845F002c2dA8748eaB8203D2704BdAE6fB8e"
       },
       {
         "vm": "ethereum",
-        "chain": "mantle",
+        "chainId": 5000,
         "address": "0x803e7524526c579cCF6Ef0474d03012EdFD0d3Ec"
       },
       {
         "vm": "ethereum",
-        "chain": "mode",
+        "chainId": 34443,
         "address": "0x803e7524526c579cCF6Ef0474d03012EdFD0d3Ec"
       },
       {
         "vm": "ethereum",
-        "chain": "polygon",
+        "chainId": 137,
         "address": "0x6701d503369cf6aA9e5EdFfEBFA40A2ffdf3dB21"
       },
       {
         "vm": "ethereum",
-        "chain": "scroll",
+        "chainId": 534352,
         "address": "0x0FC41a92F526A8CD22060A4052e156502D6B9db0"
       },
       {
         "vm": "ethereum",
-        "chain": "zeronetwork",
+        "chainId": 543210,
         "address": "0x36dcfe3A0C6e0b5425F298587159249d780AAfab"
       }
     ]
@@ -6515,22 +6320,22 @@
     "connections": [
       {
         "vm": "ethereum",
-        "chain": "ethereum",
+        "chainId": 1,
         "address": "0xBA18df45758a09647F1902a06807844EA5DD47b4"
       },
       {
         "vm": "ethereum",
-        "chain": "optimism",
+        "chainId": 10,
         "address": "0xE9ef49e77c9f4751fBb0176836da70D062bBae02"
       },
       {
         "vm": "ethereum",
-        "chain": "polygon",
+        "chainId": 137,
         "address": "0x009eA8aBe4CE04fFA4A2b2Ec62cBAC859fc48B19"
       },
       {
         "vm": "ethereum",
-        "chain": "prom",
+        "chainId": 227,
         "address": "0x7e942605B5028E3B751dBB5Ef8afC5CF85a5A7eD"
       }
     ]
@@ -6547,22 +6352,22 @@
     "connections": [
       {
         "vm": "ethereum",
-        "chain": "arbitrum",
+        "chainId": 42161,
         "address": "0xB9D49E18c69628C6D6B12Ab06F1918C4c4fe9546"
       },
       {
         "vm": "ethereum",
-        "chain": "optimism",
+        "chainId": 10,
         "address": "0xE9ef49e77c9f4751fBb0176836da70D062bBae02"
       },
       {
         "vm": "ethereum",
-        "chain": "polygon",
+        "chainId": 137,
         "address": "0x009eA8aBe4CE04fFA4A2b2Ec62cBAC859fc48B19"
       },
       {
         "vm": "ethereum",
-        "chain": "prom",
+        "chainId": 227,
         "address": "0x7e942605B5028E3B751dBB5Ef8afC5CF85a5A7eD"
       }
     ]
@@ -6579,22 +6384,22 @@
     "connections": [
       {
         "vm": "ethereum",
-        "chain": "arbitrum",
+        "chainId": 42161,
         "address": "0xB9D49E18c69628C6D6B12Ab06F1918C4c4fe9546"
       },
       {
         "vm": "ethereum",
-        "chain": "ethereum",
+        "chainId": 1,
         "address": "0xBA18df45758a09647F1902a06807844EA5DD47b4"
       },
       {
         "vm": "ethereum",
-        "chain": "polygon",
+        "chainId": 137,
         "address": "0x009eA8aBe4CE04fFA4A2b2Ec62cBAC859fc48B19"
       },
       {
         "vm": "ethereum",
-        "chain": "prom",
+        "chainId": 227,
         "address": "0x7e942605B5028E3B751dBB5Ef8afC5CF85a5A7eD"
       }
     ]
@@ -6611,22 +6416,22 @@
     "connections": [
       {
         "vm": "ethereum",
-        "chain": "arbitrum",
+        "chainId": 42161,
         "address": "0xB9D49E18c69628C6D6B12Ab06F1918C4c4fe9546"
       },
       {
         "vm": "ethereum",
-        "chain": "ethereum",
+        "chainId": 1,
         "address": "0xBA18df45758a09647F1902a06807844EA5DD47b4"
       },
       {
         "vm": "ethereum",
-        "chain": "optimism",
+        "chainId": 10,
         "address": "0xE9ef49e77c9f4751fBb0176836da70D062bBae02"
       },
       {
         "vm": "ethereum",
-        "chain": "prom",
+        "chainId": 227,
         "address": "0x7e942605B5028E3B751dBB5Ef8afC5CF85a5A7eD"
       }
     ]
@@ -6643,52 +6448,52 @@
     "connections": [
       {
         "vm": "ethereum",
-        "chain": "celo",
+        "chainId": 42220,
         "address": "0xbBa1938ff861c77eA1687225B9C33554379Ef327"
       },
       {
         "vm": "ethereum",
-        "chain": "fraxtal",
+        "chainId": 252,
         "address": "0xa0bD9e96556E27e6FfF0cC0F77496390d9844E1e"
       },
       {
         "vm": "ethereum",
-        "chain": "ink",
+        "chainId": 57073,
         "address": "0x69158d1A7325Ca547aF66C3bA599F8111f7AB519"
       },
       {
         "vm": "ethereum",
-        "chain": "lisk",
+        "chainId": 1135,
         "address": "0x910FF91a92c9141b8352Ad3e50cF13ef9F3169A1"
       },
       {
         "vm": "ethereum",
-        "chain": "mode",
+        "chainId": 34443,
         "address": "0x324d0b921C03b1e42eeFD198086A64beC3d736c2"
       },
       {
         "vm": "ethereum",
-        "chain": "optimism",
+        "chainId": 10,
         "address": "0x7bD2676c85cca9Fa2203ebA324fb8792fbd520b8"
       },
       {
         "vm": "ethereum",
-        "chain": "soneium",
+        "chainId": 1868,
         "address": "0x2dC335bDF489f8e978477Ae53924324697e0f7BB"
       },
       {
         "vm": "ethereum",
-        "chain": "superseed",
+        "chainId": 5330,
         "address": "0x5beADE696E12aBE2839FEfB41c7EE6DA1f074C55"
       },
       {
         "vm": "ethereum",
-        "chain": "unichain",
+        "chainId": 130,
         "address": "0x4A8149B1b9e0122941A69D01D23EaE6bD1441b4f"
       },
       {
         "vm": "ethereum",
-        "chain": "worldchain",
+        "chainId": 480,
         "address": "0xAf6bEdBA6ab73f0a5941d429807C8B9c24Ea95F3"
       }
     ]
@@ -6705,52 +6510,52 @@
     "connections": [
       {
         "vm": "ethereum",
-        "chain": "base",
+        "chainId": 8453,
         "address": "0x4F0654395d621De4d1101c0F98C1Dba73ca0a61f"
       },
       {
         "vm": "ethereum",
-        "chain": "fraxtal",
+        "chainId": 252,
         "address": "0xa0bD9e96556E27e6FfF0cC0F77496390d9844E1e"
       },
       {
         "vm": "ethereum",
-        "chain": "ink",
+        "chainId": 57073,
         "address": "0x69158d1A7325Ca547aF66C3bA599F8111f7AB519"
       },
       {
         "vm": "ethereum",
-        "chain": "lisk",
+        "chainId": 1135,
         "address": "0x910FF91a92c9141b8352Ad3e50cF13ef9F3169A1"
       },
       {
         "vm": "ethereum",
-        "chain": "mode",
+        "chainId": 34443,
         "address": "0x324d0b921C03b1e42eeFD198086A64beC3d736c2"
       },
       {
         "vm": "ethereum",
-        "chain": "optimism",
+        "chainId": 10,
         "address": "0x7bD2676c85cca9Fa2203ebA324fb8792fbd520b8"
       },
       {
         "vm": "ethereum",
-        "chain": "soneium",
+        "chainId": 1868,
         "address": "0x2dC335bDF489f8e978477Ae53924324697e0f7BB"
       },
       {
         "vm": "ethereum",
-        "chain": "superseed",
+        "chainId": 5330,
         "address": "0x5beADE696E12aBE2839FEfB41c7EE6DA1f074C55"
       },
       {
         "vm": "ethereum",
-        "chain": "unichain",
+        "chainId": 130,
         "address": "0x4A8149B1b9e0122941A69D01D23EaE6bD1441b4f"
       },
       {
         "vm": "ethereum",
-        "chain": "worldchain",
+        "chainId": 480,
         "address": "0xAf6bEdBA6ab73f0a5941d429807C8B9c24Ea95F3"
       }
     ]
@@ -6767,52 +6572,52 @@
     "connections": [
       {
         "vm": "ethereum",
-        "chain": "base",
+        "chainId": 8453,
         "address": "0x4F0654395d621De4d1101c0F98C1Dba73ca0a61f"
       },
       {
         "vm": "ethereum",
-        "chain": "celo",
+        "chainId": 42220,
         "address": "0xbBa1938ff861c77eA1687225B9C33554379Ef327"
       },
       {
         "vm": "ethereum",
-        "chain": "ink",
+        "chainId": 57073,
         "address": "0x69158d1A7325Ca547aF66C3bA599F8111f7AB519"
       },
       {
         "vm": "ethereum",
-        "chain": "lisk",
+        "chainId": 1135,
         "address": "0x910FF91a92c9141b8352Ad3e50cF13ef9F3169A1"
       },
       {
         "vm": "ethereum",
-        "chain": "mode",
+        "chainId": 34443,
         "address": "0x324d0b921C03b1e42eeFD198086A64beC3d736c2"
       },
       {
         "vm": "ethereum",
-        "chain": "optimism",
+        "chainId": 10,
         "address": "0x7bD2676c85cca9Fa2203ebA324fb8792fbd520b8"
       },
       {
         "vm": "ethereum",
-        "chain": "soneium",
+        "chainId": 1868,
         "address": "0x2dC335bDF489f8e978477Ae53924324697e0f7BB"
       },
       {
         "vm": "ethereum",
-        "chain": "superseed",
+        "chainId": 5330,
         "address": "0x5beADE696E12aBE2839FEfB41c7EE6DA1f074C55"
       },
       {
         "vm": "ethereum",
-        "chain": "unichain",
+        "chainId": 130,
         "address": "0x4A8149B1b9e0122941A69D01D23EaE6bD1441b4f"
       },
       {
         "vm": "ethereum",
-        "chain": "worldchain",
+        "chainId": 480,
         "address": "0xAf6bEdBA6ab73f0a5941d429807C8B9c24Ea95F3"
       }
     ]
@@ -6829,52 +6634,52 @@
     "connections": [
       {
         "vm": "ethereum",
-        "chain": "base",
+        "chainId": 8453,
         "address": "0x4F0654395d621De4d1101c0F98C1Dba73ca0a61f"
       },
       {
         "vm": "ethereum",
-        "chain": "celo",
+        "chainId": 42220,
         "address": "0xbBa1938ff861c77eA1687225B9C33554379Ef327"
       },
       {
         "vm": "ethereum",
-        "chain": "fraxtal",
+        "chainId": 252,
         "address": "0xa0bD9e96556E27e6FfF0cC0F77496390d9844E1e"
       },
       {
         "vm": "ethereum",
-        "chain": "lisk",
+        "chainId": 1135,
         "address": "0x910FF91a92c9141b8352Ad3e50cF13ef9F3169A1"
       },
       {
         "vm": "ethereum",
-        "chain": "mode",
+        "chainId": 34443,
         "address": "0x324d0b921C03b1e42eeFD198086A64beC3d736c2"
       },
       {
         "vm": "ethereum",
-        "chain": "optimism",
+        "chainId": 10,
         "address": "0x7bD2676c85cca9Fa2203ebA324fb8792fbd520b8"
       },
       {
         "vm": "ethereum",
-        "chain": "soneium",
+        "chainId": 1868,
         "address": "0x2dC335bDF489f8e978477Ae53924324697e0f7BB"
       },
       {
         "vm": "ethereum",
-        "chain": "superseed",
+        "chainId": 5330,
         "address": "0x5beADE696E12aBE2839FEfB41c7EE6DA1f074C55"
       },
       {
         "vm": "ethereum",
-        "chain": "unichain",
+        "chainId": 130,
         "address": "0x4A8149B1b9e0122941A69D01D23EaE6bD1441b4f"
       },
       {
         "vm": "ethereum",
-        "chain": "worldchain",
+        "chainId": 480,
         "address": "0xAf6bEdBA6ab73f0a5941d429807C8B9c24Ea95F3"
       }
     ]
@@ -6891,52 +6696,52 @@
     "connections": [
       {
         "vm": "ethereum",
-        "chain": "base",
+        "chainId": 8453,
         "address": "0x4F0654395d621De4d1101c0F98C1Dba73ca0a61f"
       },
       {
         "vm": "ethereum",
-        "chain": "celo",
+        "chainId": 42220,
         "address": "0xbBa1938ff861c77eA1687225B9C33554379Ef327"
       },
       {
         "vm": "ethereum",
-        "chain": "fraxtal",
+        "chainId": 252,
         "address": "0xa0bD9e96556E27e6FfF0cC0F77496390d9844E1e"
       },
       {
         "vm": "ethereum",
-        "chain": "ink",
+        "chainId": 57073,
         "address": "0x69158d1A7325Ca547aF66C3bA599F8111f7AB519"
       },
       {
         "vm": "ethereum",
-        "chain": "mode",
+        "chainId": 34443,
         "address": "0x324d0b921C03b1e42eeFD198086A64beC3d736c2"
       },
       {
         "vm": "ethereum",
-        "chain": "optimism",
+        "chainId": 10,
         "address": "0x7bD2676c85cca9Fa2203ebA324fb8792fbd520b8"
       },
       {
         "vm": "ethereum",
-        "chain": "soneium",
+        "chainId": 1868,
         "address": "0x2dC335bDF489f8e978477Ae53924324697e0f7BB"
       },
       {
         "vm": "ethereum",
-        "chain": "superseed",
+        "chainId": 5330,
         "address": "0x5beADE696E12aBE2839FEfB41c7EE6DA1f074C55"
       },
       {
         "vm": "ethereum",
-        "chain": "unichain",
+        "chainId": 130,
         "address": "0x4A8149B1b9e0122941A69D01D23EaE6bD1441b4f"
       },
       {
         "vm": "ethereum",
-        "chain": "worldchain",
+        "chainId": 480,
         "address": "0xAf6bEdBA6ab73f0a5941d429807C8B9c24Ea95F3"
       }
     ]
@@ -6953,52 +6758,52 @@
     "connections": [
       {
         "vm": "ethereum",
-        "chain": "base",
+        "chainId": 8453,
         "address": "0x4F0654395d621De4d1101c0F98C1Dba73ca0a61f"
       },
       {
         "vm": "ethereum",
-        "chain": "celo",
+        "chainId": 42220,
         "address": "0xbBa1938ff861c77eA1687225B9C33554379Ef327"
       },
       {
         "vm": "ethereum",
-        "chain": "fraxtal",
+        "chainId": 252,
         "address": "0xa0bD9e96556E27e6FfF0cC0F77496390d9844E1e"
       },
       {
         "vm": "ethereum",
-        "chain": "ink",
+        "chainId": 57073,
         "address": "0x69158d1A7325Ca547aF66C3bA599F8111f7AB519"
       },
       {
         "vm": "ethereum",
-        "chain": "lisk",
+        "chainId": 1135,
         "address": "0x910FF91a92c9141b8352Ad3e50cF13ef9F3169A1"
       },
       {
         "vm": "ethereum",
-        "chain": "optimism",
+        "chainId": 10,
         "address": "0x7bD2676c85cca9Fa2203ebA324fb8792fbd520b8"
       },
       {
         "vm": "ethereum",
-        "chain": "soneium",
+        "chainId": 1868,
         "address": "0x2dC335bDF489f8e978477Ae53924324697e0f7BB"
       },
       {
         "vm": "ethereum",
-        "chain": "superseed",
+        "chainId": 5330,
         "address": "0x5beADE696E12aBE2839FEfB41c7EE6DA1f074C55"
       },
       {
         "vm": "ethereum",
-        "chain": "unichain",
+        "chainId": 130,
         "address": "0x4A8149B1b9e0122941A69D01D23EaE6bD1441b4f"
       },
       {
         "vm": "ethereum",
-        "chain": "worldchain",
+        "chainId": 480,
         "address": "0xAf6bEdBA6ab73f0a5941d429807C8B9c24Ea95F3"
       }
     ]
@@ -7015,52 +6820,52 @@
     "connections": [
       {
         "vm": "ethereum",
-        "chain": "base",
+        "chainId": 8453,
         "address": "0x4F0654395d621De4d1101c0F98C1Dba73ca0a61f"
       },
       {
         "vm": "ethereum",
-        "chain": "celo",
+        "chainId": 42220,
         "address": "0xbBa1938ff861c77eA1687225B9C33554379Ef327"
       },
       {
         "vm": "ethereum",
-        "chain": "fraxtal",
+        "chainId": 252,
         "address": "0xa0bD9e96556E27e6FfF0cC0F77496390d9844E1e"
       },
       {
         "vm": "ethereum",
-        "chain": "ink",
+        "chainId": 57073,
         "address": "0x69158d1A7325Ca547aF66C3bA599F8111f7AB519"
       },
       {
         "vm": "ethereum",
-        "chain": "lisk",
+        "chainId": 1135,
         "address": "0x910FF91a92c9141b8352Ad3e50cF13ef9F3169A1"
       },
       {
         "vm": "ethereum",
-        "chain": "mode",
+        "chainId": 34443,
         "address": "0x324d0b921C03b1e42eeFD198086A64beC3d736c2"
       },
       {
         "vm": "ethereum",
-        "chain": "soneium",
+        "chainId": 1868,
         "address": "0x2dC335bDF489f8e978477Ae53924324697e0f7BB"
       },
       {
         "vm": "ethereum",
-        "chain": "superseed",
+        "chainId": 5330,
         "address": "0x5beADE696E12aBE2839FEfB41c7EE6DA1f074C55"
       },
       {
         "vm": "ethereum",
-        "chain": "unichain",
+        "chainId": 130,
         "address": "0x4A8149B1b9e0122941A69D01D23EaE6bD1441b4f"
       },
       {
         "vm": "ethereum",
-        "chain": "worldchain",
+        "chainId": 480,
         "address": "0xAf6bEdBA6ab73f0a5941d429807C8B9c24Ea95F3"
       }
     ]
@@ -7077,52 +6882,52 @@
     "connections": [
       {
         "vm": "ethereum",
-        "chain": "base",
+        "chainId": 8453,
         "address": "0x4F0654395d621De4d1101c0F98C1Dba73ca0a61f"
       },
       {
         "vm": "ethereum",
-        "chain": "celo",
+        "chainId": 42220,
         "address": "0xbBa1938ff861c77eA1687225B9C33554379Ef327"
       },
       {
         "vm": "ethereum",
-        "chain": "fraxtal",
+        "chainId": 252,
         "address": "0xa0bD9e96556E27e6FfF0cC0F77496390d9844E1e"
       },
       {
         "vm": "ethereum",
-        "chain": "ink",
+        "chainId": 57073,
         "address": "0x69158d1A7325Ca547aF66C3bA599F8111f7AB519"
       },
       {
         "vm": "ethereum",
-        "chain": "lisk",
+        "chainId": 1135,
         "address": "0x910FF91a92c9141b8352Ad3e50cF13ef9F3169A1"
       },
       {
         "vm": "ethereum",
-        "chain": "mode",
+        "chainId": 34443,
         "address": "0x324d0b921C03b1e42eeFD198086A64beC3d736c2"
       },
       {
         "vm": "ethereum",
-        "chain": "optimism",
+        "chainId": 10,
         "address": "0x7bD2676c85cca9Fa2203ebA324fb8792fbd520b8"
       },
       {
         "vm": "ethereum",
-        "chain": "superseed",
+        "chainId": 5330,
         "address": "0x5beADE696E12aBE2839FEfB41c7EE6DA1f074C55"
       },
       {
         "vm": "ethereum",
-        "chain": "unichain",
+        "chainId": 130,
         "address": "0x4A8149B1b9e0122941A69D01D23EaE6bD1441b4f"
       },
       {
         "vm": "ethereum",
-        "chain": "worldchain",
+        "chainId": 480,
         "address": "0xAf6bEdBA6ab73f0a5941d429807C8B9c24Ea95F3"
       }
     ]
@@ -7139,52 +6944,52 @@
     "connections": [
       {
         "vm": "ethereum",
-        "chain": "base",
+        "chainId": 8453,
         "address": "0x4F0654395d621De4d1101c0F98C1Dba73ca0a61f"
       },
       {
         "vm": "ethereum",
-        "chain": "celo",
+        "chainId": 42220,
         "address": "0xbBa1938ff861c77eA1687225B9C33554379Ef327"
       },
       {
         "vm": "ethereum",
-        "chain": "fraxtal",
+        "chainId": 252,
         "address": "0xa0bD9e96556E27e6FfF0cC0F77496390d9844E1e"
       },
       {
         "vm": "ethereum",
-        "chain": "ink",
+        "chainId": 57073,
         "address": "0x69158d1A7325Ca547aF66C3bA599F8111f7AB519"
       },
       {
         "vm": "ethereum",
-        "chain": "lisk",
+        "chainId": 1135,
         "address": "0x910FF91a92c9141b8352Ad3e50cF13ef9F3169A1"
       },
       {
         "vm": "ethereum",
-        "chain": "mode",
+        "chainId": 34443,
         "address": "0x324d0b921C03b1e42eeFD198086A64beC3d736c2"
       },
       {
         "vm": "ethereum",
-        "chain": "optimism",
+        "chainId": 10,
         "address": "0x7bD2676c85cca9Fa2203ebA324fb8792fbd520b8"
       },
       {
         "vm": "ethereum",
-        "chain": "soneium",
+        "chainId": 1868,
         "address": "0x2dC335bDF489f8e978477Ae53924324697e0f7BB"
       },
       {
         "vm": "ethereum",
-        "chain": "unichain",
+        "chainId": 130,
         "address": "0x4A8149B1b9e0122941A69D01D23EaE6bD1441b4f"
       },
       {
         "vm": "ethereum",
-        "chain": "worldchain",
+        "chainId": 480,
         "address": "0xAf6bEdBA6ab73f0a5941d429807C8B9c24Ea95F3"
       }
     ]
@@ -7201,52 +7006,52 @@
     "connections": [
       {
         "vm": "ethereum",
-        "chain": "base",
+        "chainId": 8453,
         "address": "0x4F0654395d621De4d1101c0F98C1Dba73ca0a61f"
       },
       {
         "vm": "ethereum",
-        "chain": "celo",
+        "chainId": 42220,
         "address": "0xbBa1938ff861c77eA1687225B9C33554379Ef327"
       },
       {
         "vm": "ethereum",
-        "chain": "fraxtal",
+        "chainId": 252,
         "address": "0xa0bD9e96556E27e6FfF0cC0F77496390d9844E1e"
       },
       {
         "vm": "ethereum",
-        "chain": "ink",
+        "chainId": 57073,
         "address": "0x69158d1A7325Ca547aF66C3bA599F8111f7AB519"
       },
       {
         "vm": "ethereum",
-        "chain": "lisk",
+        "chainId": 1135,
         "address": "0x910FF91a92c9141b8352Ad3e50cF13ef9F3169A1"
       },
       {
         "vm": "ethereum",
-        "chain": "mode",
+        "chainId": 34443,
         "address": "0x324d0b921C03b1e42eeFD198086A64beC3d736c2"
       },
       {
         "vm": "ethereum",
-        "chain": "optimism",
+        "chainId": 10,
         "address": "0x7bD2676c85cca9Fa2203ebA324fb8792fbd520b8"
       },
       {
         "vm": "ethereum",
-        "chain": "soneium",
+        "chainId": 1868,
         "address": "0x2dC335bDF489f8e978477Ae53924324697e0f7BB"
       },
       {
         "vm": "ethereum",
-        "chain": "superseed",
+        "chainId": 5330,
         "address": "0x5beADE696E12aBE2839FEfB41c7EE6DA1f074C55"
       },
       {
         "vm": "ethereum",
-        "chain": "worldchain",
+        "chainId": 480,
         "address": "0xAf6bEdBA6ab73f0a5941d429807C8B9c24Ea95F3"
       }
     ]
@@ -7263,52 +7068,52 @@
     "connections": [
       {
         "vm": "ethereum",
-        "chain": "base",
+        "chainId": 8453,
         "address": "0x4F0654395d621De4d1101c0F98C1Dba73ca0a61f"
       },
       {
         "vm": "ethereum",
-        "chain": "celo",
+        "chainId": 42220,
         "address": "0xbBa1938ff861c77eA1687225B9C33554379Ef327"
       },
       {
         "vm": "ethereum",
-        "chain": "fraxtal",
+        "chainId": 252,
         "address": "0xa0bD9e96556E27e6FfF0cC0F77496390d9844E1e"
       },
       {
         "vm": "ethereum",
-        "chain": "ink",
+        "chainId": 57073,
         "address": "0x69158d1A7325Ca547aF66C3bA599F8111f7AB519"
       },
       {
         "vm": "ethereum",
-        "chain": "lisk",
+        "chainId": 1135,
         "address": "0x910FF91a92c9141b8352Ad3e50cF13ef9F3169A1"
       },
       {
         "vm": "ethereum",
-        "chain": "mode",
+        "chainId": 34443,
         "address": "0x324d0b921C03b1e42eeFD198086A64beC3d736c2"
       },
       {
         "vm": "ethereum",
-        "chain": "optimism",
+        "chainId": 10,
         "address": "0x7bD2676c85cca9Fa2203ebA324fb8792fbd520b8"
       },
       {
         "vm": "ethereum",
-        "chain": "soneium",
+        "chainId": 1868,
         "address": "0x2dC335bDF489f8e978477Ae53924324697e0f7BB"
       },
       {
         "vm": "ethereum",
-        "chain": "superseed",
+        "chainId": 5330,
         "address": "0x5beADE696E12aBE2839FEfB41c7EE6DA1f074C55"
       },
       {
         "vm": "ethereum",
-        "chain": "unichain",
+        "chainId": 130,
         "address": "0x4A8149B1b9e0122941A69D01D23EaE6bD1441b4f"
       }
     ]
@@ -7325,12 +7130,12 @@
     "connections": [
       {
         "vm": "ethereum",
-        "chain": "polygon",
+        "chainId": 137,
         "address": "0xd9765D5fE176493808202e63E6B73b523D6A1C3A"
       },
       {
         "vm": "ethereum",
-        "chain": "prom",
+        "chainId": 227,
         "address": "0xDf6C58ec668daB037373BC49215722c2b0664484"
       }
     ]
@@ -7346,12 +7151,12 @@
     "connections": [
       {
         "vm": "ethereum",
-        "chain": "bsc",
+        "chainId": 56,
         "address": "0x74e19D0c1828be422dDCd367a6ADa8CA7003d1a9"
       },
       {
         "vm": "ethereum",
-        "chain": "prom",
+        "chainId": 227,
         "address": "0xDf6C58ec668daB037373BC49215722c2b0664484"
       }
     ]
@@ -7368,25 +7173,8 @@
     "connections": [
       {
         "vm": "ethereum",
-        "chain": "prom",
+        "chainId": 227,
         "address": "0x6064C9028d069a7822d30EF17065A57524A5FcAb"
-      }
-    ]
-  },
-  {
-    "chainId": 1,
-    "address": "0x647C621CEb36853Ef6A907E397Adf18568E70543",
-    "name": "Tether USD",
-    "symbol": "USDT",
-    "decimals": 6,
-    "logoURI": "https://raw.githubusercontent.com/hyperlane-xyz/hyperlane-registry/main/deployments/warp_routes/USDT/logo.svg",
-    "standard": "EvmHypCollateral",
-    "collateralAddress": "0xdac17f958d2ee523a2206206994597c13d831ec7",
-    "connections": [
-      {
-        "vm": "sealevel",
-        "chain": "eclipsemainnet",
-        "address": "5g5ujyYUNvdydwyDVCpZwPpgYRqH5RYJRi156cxyE3me"
       }
     ]
   },
@@ -7402,7 +7190,7 @@
     "connections": [
       {
         "vm": "ethereum",
-        "chain": "form",
+        "chainId": 478,
         "address": "0xFA3198ecF05303a6d96E57a45E6c815055D255b1"
       }
     ]
@@ -7418,7 +7206,7 @@
     "connections": [
       {
         "vm": "ethereum",
-        "chain": "ethereum",
+        "chainId": 1,
         "address": "0x6435821A260B6A8EcB4ab723B84e1Bc3BC8b5304"
       }
     ]
@@ -7435,7 +7223,7 @@
     "connections": [
       {
         "vm": "ethereum",
-        "chain": "hyperevm",
+        "chainId": 999,
         "address": "0xbF2D3b1a37D54ce86d0e1455884dA875a97C87a8"
       }
     ]
@@ -7452,7 +7240,7 @@
     "connections": [
       {
         "vm": "ethereum",
-        "chain": "inevm",
+        "chainId": 2525,
         "address": "0x97423a68bae94b5de52d767a17abcc54c157c0e5"
       }
     ]
@@ -7469,7 +7257,7 @@
     "connections": [
       {
         "vm": "ethereum",
-        "chain": "superseed",
+        "chainId": 5330,
         "address": "0xc5068BB6803ADbe5600DE5189fe27A4dAcE31170"
       }
     ]
@@ -7485,7 +7273,7 @@
     "connections": [
       {
         "vm": "ethereum",
-        "chain": "ethereum",
+        "chainId": 1,
         "address": "0xA7Db85E2925e3fec7C33A20d87CC895C948e62b3"
       }
     ]
@@ -7502,7 +7290,7 @@
     "connections": [
       {
         "vm": "ethereum",
-        "chain": "swell",
+        "chainId": 1923,
         "address": "0xb89c6ED617f5F46175E41551350725A09110bbCE"
       }
     ]
@@ -7519,7 +7307,7 @@
     "connections": [
       {
         "vm": "ethereum",
-        "chain": "viction",
+        "chainId": 88,
         "address": "0x48083c69f5a42c6b69abbad48ae195bd36770ee2"
       }
     ]
@@ -7535,7 +7323,7 @@
     "connections": [
       {
         "vm": "ethereum",
-        "chain": "ethereum",
+        "chainId": 1,
         "address": "0x4221a16A01F61c2b38A03C52d828a7041f6AAA49"
       }
     ]
@@ -7550,7 +7338,7 @@
     "connections": [
       {
         "vm": "ethereum",
-        "chain": "vana",
+        "chainId": 1480,
         "address": "0x96b572D2d880cf2Fa2563651BD23ADE6f5516652"
       }
     ]
@@ -7566,17 +7354,17 @@
     "connections": [
       {
         "vm": "ethereum",
-        "chain": "bsc",
+        "chainId": 56,
         "address": "0xD42Af909d323D88e0E933B6c50D3e91c279004ca"
       },
       {
         "vm": "ethereum",
-        "chain": "kalychain",
+        "chainId": 3888,
         "address": "0xaA77D4a26d432B82DB07F8a47B7f7F623fd92455"
       },
       {
         "vm": "ethereum",
-        "chain": "polygon",
+        "chainId": 137,
         "address": "0xfF00e814A0dCB9a614585c212C78Fdc596d02e47"
       }
     ]
@@ -7592,17 +7380,17 @@
     "connections": [
       {
         "vm": "ethereum",
-        "chain": "arbitrum",
+        "chainId": 42161,
         "address": "0x3CDbaBE5Bf4E6cfE10A2A326E0ad31b2d16398D4"
       },
       {
         "vm": "ethereum",
-        "chain": "kalychain",
+        "chainId": 3888,
         "address": "0xaA77D4a26d432B82DB07F8a47B7f7F623fd92455"
       },
       {
         "vm": "ethereum",
-        "chain": "polygon",
+        "chainId": 137,
         "address": "0xfF00e814A0dCB9a614585c212C78Fdc596d02e47"
       }
     ]
@@ -7618,35 +7406,18 @@
     "connections": [
       {
         "vm": "ethereum",
-        "chain": "arbitrum",
+        "chainId": 42161,
         "address": "0x3CDbaBE5Bf4E6cfE10A2A326E0ad31b2d16398D4"
       },
       {
         "vm": "ethereum",
-        "chain": "bsc",
+        "chainId": 56,
         "address": "0xD42Af909d323D88e0E933B6c50D3e91c279004ca"
       },
       {
         "vm": "ethereum",
-        "chain": "kalychain",
+        "chainId": 3888,
         "address": "0xaA77D4a26d432B82DB07F8a47B7f7F623fd92455"
-      }
-    ]
-  },
-  {
-    "chainId": 1,
-    "address": "0x5B4e223DE74ef8c3218e66EEcC541003CAB3121A",
-    "name": "Wrapped BTC",
-    "symbol": "WBTC",
-    "decimals": 8,
-    "logoURI": "https://raw.githubusercontent.com/hyperlane-xyz/hyperlane-registry/main/deployments/warp_routes/WBTC/logo.svg",
-    "standard": "EvmHypCollateral",
-    "collateralAddress": "0x2260fac5e5542a773aa44fbcfedf7c193bc2c599",
-    "connections": [
-      {
-        "vm": "sealevel",
-        "chain": "eclipsemainnet",
-        "address": "A7EGCDYFw5R7Jfm6cYtKvY8dmkrYMgwRCJFkyQwpHTYu"
       }
     ]
   },
@@ -7661,7 +7432,7 @@
     "connections": [
       {
         "vm": "ethereum",
-        "chain": "ethereum",
+        "chainId": 1,
         "address": "0xd0d5271926f352c0161b0365a4156E2Bc0f99FAD"
       }
     ]
@@ -7678,7 +7449,7 @@
     "connections": [
       {
         "vm": "ethereum",
-        "chain": "form",
+        "chainId": 478,
         "address": "0x0dc95Af5156fb0cC34a8c9BD646B748B9989A956"
       }
     ]
@@ -7695,7 +7466,7 @@
     "connections": [
       {
         "vm": "ethereum",
-        "chain": "hyperevm",
+        "chainId": 999,
         "address": "0xE2B36A37bD98ba81658dC5454F2dB2F98438d140"
       }
     ]
@@ -7712,17 +7483,17 @@
     "connections": [
       {
         "vm": "ethereum",
-        "chain": "mode",
+        "chainId": 34443,
         "address": "0x3c38fC01159E7BE0685653A0C896eA49F2BAa7c1"
       },
       {
         "vm": "ethereum",
-        "chain": "scroll",
+        "chainId": 534352,
         "address": "0x10a5263ACED246fCD0977f1a3C6A238a14183096"
       },
       {
         "vm": "ethereum",
-        "chain": "zeronetwork",
+        "chainId": 543210,
         "address": "0xe6ca7C4A9652Fe93190Bd84363f2056Df1fb9A94"
       }
     ]
@@ -7739,17 +7510,17 @@
     "connections": [
       {
         "vm": "ethereum",
-        "chain": "ethereum",
+        "chainId": 1,
         "address": "0x745C75868237F3635c486fe166639Cc4706512A9"
       },
       {
         "vm": "ethereum",
-        "chain": "scroll",
+        "chainId": 534352,
         "address": "0x10a5263ACED246fCD0977f1a3C6A238a14183096"
       },
       {
         "vm": "ethereum",
-        "chain": "zeronetwork",
+        "chainId": 543210,
         "address": "0xe6ca7C4A9652Fe93190Bd84363f2056Df1fb9A94"
       }
     ]
@@ -7766,17 +7537,17 @@
     "connections": [
       {
         "vm": "ethereum",
-        "chain": "ethereum",
+        "chainId": 1,
         "address": "0x745C75868237F3635c486fe166639Cc4706512A9"
       },
       {
         "vm": "ethereum",
-        "chain": "mode",
+        "chainId": 34443,
         "address": "0x3c38fC01159E7BE0685653A0C896eA49F2BAa7c1"
       },
       {
         "vm": "ethereum",
-        "chain": "zeronetwork",
+        "chainId": 543210,
         "address": "0xe6ca7C4A9652Fe93190Bd84363f2056Df1fb9A94"
       }
     ]
@@ -7793,7 +7564,7 @@
     "connections": [
       {
         "vm": "ethereum",
-        "chain": "artela",
+        "chainId": 11820,
         "address": "0xfae4e14D01D9E13FB5db20A0329ED0472A2D96C7"
       }
     ]
@@ -7809,7 +7580,7 @@
     "connections": [
       {
         "vm": "ethereum",
-        "chain": "ethereum",
+        "chainId": 1,
         "address": "0x9c7e8dc6b35E66873dA683aF2dE1BaB4cabc98B5"
       }
     ]
@@ -7826,7 +7597,7 @@
     "connections": [
       {
         "vm": "ethereum",
-        "chain": "form",
+        "chainId": 478,
         "address": "0x5CBD4c5f9CD55747285652f815Cc7b9A2Ef6c586"
       }
     ]
@@ -7843,7 +7614,7 @@
     "connections": [
       {
         "vm": "ethereum",
-        "chain": "hyperevm",
+        "chainId": 999,
         "address": "0xcb98BD947B58445Fc4815f10285F44De42129918"
       }
     ]
@@ -7860,7 +7631,7 @@
     "connections": [
       {
         "vm": "ethereum",
-        "chain": "sei",
+        "chainId": 1329,
         "address": "0x64310A6176979ac8a752fFC98c0FBbC4CF861ACe"
       }
     ]
@@ -7876,7 +7647,7 @@
     "connections": [
       {
         "vm": "ethereum",
-        "chain": "ethereum",
+        "chainId": 1,
         "address": "0x179149B7E74910d2A58b2a737e1a8B6F44388882"
       }
     ]
@@ -7893,7 +7664,7 @@
     "connections": [
       {
         "vm": "ethereum",
-        "chain": "unichain",
+        "chainId": 130,
         "address": "0x854B2BCd07e55A71A05CE90921E419B2dBACB483"
       }
     ]
@@ -7909,7 +7680,7 @@
     "connections": [
       {
         "vm": "ethereum",
-        "chain": "ethereum",
+        "chainId": 1,
         "address": "0x791a257977a147B501dA11013C826063FF2d881e"
       }
     ]
@@ -7925,7 +7696,7 @@
     "connections": [
       {
         "vm": "ethereum",
-        "chain": "zircuit",
+        "chainId": 48900,
         "address": "0xc701aE35d83c812822c992aB293E4e3fAF6E9D3B"
       }
     ]
@@ -7940,7 +7711,7 @@
     "connections": [
       {
         "vm": "ethereum",
-        "chain": "ethereum",
+        "chainId": 1,
         "address": "0x18E5D2ae4fb6F5Cf4e6C5D493C4d0F027FAe5054"
       }
     ]
@@ -7957,58 +7728,8 @@
     "connections": [
       {
         "vm": "ethereum",
-        "chain": "hyperevm",
+        "chainId": 999,
         "address": "0xd2bb5f4d89Ee1e497489503Bdc9a7c9CeBB3918E"
-      }
-    ]
-  },
-  {
-    "chainId": 1,
-    "address": "0x48A612A6da945205a221E94BB9F40B0550Cd2C4e",
-    "name": "stTIA",
-    "symbol": "stTIA",
-    "decimals": 6,
-    "logoURI": "https://raw.githubusercontent.com/hyperlane-xyz/hyperlane-registry/main/deployments/warp_routes/stTIA/logo.svg",
-    "standard": "EvmHypSynthetic",
-    "connections": [
-      {
-        "vm": "cosmos",
-        "chain": "stride",
-        "address": "stride1z3lz9n0549v95q6yllghezugdra6ezm68jtf4ve5hsz8k867k9cq3pc2f8"
-      }
-    ]
-  },
-  {
-    "chainId": 1,
-    "address": "0xc2495f3183F043627CAECD56dAaa726e3B2D9c09",
-    "name": "Eclipse Turbo ETH",
-    "symbol": "tETH",
-    "decimals": 18,
-    "logoURI": "https://raw.githubusercontent.com/hyperlane-xyz/hyperlane-registry/main/deployments/warp_routes/tETH/logo.svg",
-    "standard": "EvmHypCollateral",
-    "collateralAddress": "0x19e099B7aEd41FA52718D780dDA74678113C0b32",
-    "connections": [
-      {
-        "vm": "sealevel",
-        "chain": "eclipsemainnet",
-        "address": "6GM7hy6M6LjhadG1xuKXPQ3jPC1eieEszR8DforoRzUp"
-      }
-    ]
-  },
-  {
-    "chainId": 1,
-    "address": "0xef899e92DA472E014bE795Ecce948308958E25A2",
-    "name": "Super Symbiotic LRT",
-    "symbol": "weETHs",
-    "decimals": 18,
-    "logoURI": "https://raw.githubusercontent.com/hyperlane-xyz/hyperlane-registry/main/deployments/warp_routes/weETHs/logo.svg",
-    "standard": "EvmHypCollateral",
-    "collateralAddress": "0x917cee801a67f933f2e6b33fc0cd1ed2d5909d88",
-    "connections": [
-      {
-        "vm": "sealevel",
-        "chain": "eclipsemainnet",
-        "address": "7Zx4wU1QAw98MfvnPFqRh1oyumek7G5VAX6TKB3U1tcn"
       }
     ]
   }
