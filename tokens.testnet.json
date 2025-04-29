@@ -1,0 +1,149 @@
+[
+  {
+    "symbol": "C",
+    "name": "Token C",
+    "decimals": 18,
+    "standard": "ERC20",
+    "chainId": 11155111,
+    "address": "0x6b821901f606F2216436CACA965c3B89cB4f1240",
+    "hypERC20Collateral": "0x52d13A6d7c7c8C8b4aC5F351eAd0e06Cfe29e77B",
+    "remoteTokens": [
+      {
+        "chainId": 11155420,
+        "address": "0x640C4647858C4FF1a9e72Ce0A2De1ef74641D954",
+        "standard": "HypERC20"
+      },
+      {
+        "chainId": 11156100,
+        "address": "0x5cED2AC3066a17c0A2ed31F95DcDC9fd5C19DAbB",
+        "standard": "HypERC20"
+      }
+    ]
+  },
+  {
+    "symbol": "C",
+    "name": "Token C",
+    "decimals": 18,
+    "standard": "HypERC20",
+    "chainId": 11155420,
+    "address": "0x640C4647858C4FF1a9e72Ce0A2De1ef74641D954",
+    "remoteTokens": [
+      {
+        "chainId": 11155111,
+        "address": "0x6b821901f606F2216436CACA965c3B89cB4f1240",
+        "standard": "ERC20",
+        "hypERC20Collateral": "0x52d13A6d7c7c8C8b4aC5F351eAd0e06Cfe29e77B"
+      },
+      {
+        "chainId": 11156100,
+        "address": "0x5cED2AC3066a17c0A2ed31F95DcDC9fd5C19DAbB",
+        "standard": "HypERC20"
+      }
+    ]
+  },
+  {
+    "symbol": "C",
+    "name": "Token C",
+    "decimals": 18,
+    "standard": "HypERC20",
+    "chainId": 11156100,
+    "address": "0x5cED2AC3066a17c0A2ed31F95DcDC9fd5C19DAbB",
+    "remoteTokens": [
+      {
+        "chainId": 11155111,
+        "address": "0x6b821901f606F2216436CACA965c3B89cB4f1240",
+        "standard": "ERC20",
+        "hypERC20Collateral": "0x52d13A6d7c7c8C8b4aC5F351eAd0e06Cfe29e77B"
+      },
+      {
+        "chainId": 11155420,
+        "address": "0x640C4647858C4FF1a9e72Ce0A2De1ef74641D954",
+        "standard": "HypERC20"
+      }
+    ]
+  },
+  {
+    "symbol": "D",
+    "name": "Token D",
+    "decimals": 18,
+    "standard": "ERC20",
+    "chainId": 11155111,
+    "address": "0x37c6E14d5BB318f211f71e92857794fD9Dd97Ee9",
+    "hypERC20Collateral": "0x4302A9a63EF5bD96Af0eE15b3E5313B1A504E4D0",
+    "remoteTokens": [
+      {
+        "chainId": 11155420,
+        "address": "0xE76f05585813d2736348F6AEeFbD94927813b4Cb",
+        "standard": "HypERC20"
+      },
+      {
+        "chainId": 11156100,
+        "address": "0x82B7EF712a532F9Dd068cd1B3ddf3948c1BBE39D",
+        "standard": "HypERC20"
+      }
+    ]
+  },
+  {
+    "symbol": "D",
+    "name": "Token D",
+    "decimals": 18,
+    "standard": "HypERC20",
+    "chainId": 11155420,
+    "address": "0xE76f05585813d2736348F6AEeFbD94927813b4Cb",
+    "remoteTokens": [
+      {
+        "chainId": 11155111,
+        "address": "0x37c6E14d5BB318f211f71e92857794fD9Dd97Ee9",
+        "standard": "ERC20",
+        "hypERC20Collateral": "0x4302A9a63EF5bD96Af0eE15b3E5313B1A504E4D0"
+      },
+      {
+        "chainId": 11156100,
+        "address": "0x82B7EF712a532F9Dd068cd1B3ddf3948c1BBE39D",
+        "standard": "HypERC20"
+      }
+    ]
+  },
+  {
+    "symbol": "D",
+    "name": "Token D",
+    "decimals": 18,
+    "standard": "HypERC20",
+    "chainId": 11156100,
+    "address": "0x82B7EF712a532F9Dd068cd1B3ddf3948c1BBE39D",
+    "remoteTokens": [
+      {
+        "chainId": 11155111,
+        "address": "0x37c6E14d5BB318f211f71e92857794fD9Dd97Ee9",
+        "standard": "ERC20",
+        "hypERC20Collateral": "0x4302A9a63EF5bD96Af0eE15b3E5313B1A504E4D0"
+      },
+      {
+        "chainId": 11155420,
+        "address": "0xE76f05585813d2736348F6AEeFbD94927813b4Cb",
+        "standard": "HypERC20"
+      }
+    ]
+  },
+  {
+    "symbol": "ETH",
+    "name": "Ether",
+    "decimals": 18,
+    "standard": "Native",
+    "chainId": 11155111
+  },
+  {
+    "symbol": "ETH",
+    "name": "Ether",
+    "decimals": 18,
+    "standard": "Native",
+    "chainId": 11155420
+  },
+  {
+    "symbol": "ETH",
+    "name": "Ether",
+    "decimals": 18,
+    "standard": "Native",
+    "chainId": 11156100
+  }
+]
