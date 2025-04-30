@@ -32,7 +32,7 @@
         "chainId": 11155111,
         "address": "0x6b821901f606F2216436CACA965c3B89cB4f1240",
         "standard": "ERC20",
-        "hypERC20Collateral": "0x52d13A6d7c7c8C8b4aC5F351eAd0e06Cfe29e77B"
+        "hypERC20Collateral": "0x3127Fc42fD0a8fB9E1A342D01C5F89Dd84f78F50"
       },
       {
         "chainId": 11156100,
@@ -53,7 +53,7 @@
         "chainId": 11155111,
         "address": "0x6b821901f606F2216436CACA965c3B89cB4f1240",
         "standard": "ERC20",
-        "hypERC20Collateral": "0x52d13A6d7c7c8C8b4aC5F351eAd0e06Cfe29e77B"
+        "hypERC20Collateral": "0x3127Fc42fD0a8fB9E1A342D01C5F89Dd84f78F50"
       },
       {
         "chainId": 11155420,
@@ -95,7 +95,7 @@
         "chainId": 11155111,
         "address": "0x37c6E14d5BB318f211f71e92857794fD9Dd97Ee9",
         "standard": "ERC20",
-        "hypERC20Collateral": "0x4302A9a63EF5bD96Af0eE15b3E5313B1A504E4D0"
+        "hypERC20Collateral": "0xc6BCbD4B62FA6f088DB0f3D668fbFE235CB014fC"
       },
       {
         "chainId": 11156100,
@@ -116,7 +116,7 @@
         "chainId": 11155111,
         "address": "0x37c6E14d5BB318f211f71e92857794fD9Dd97Ee9",
         "standard": "ERC20",
-        "hypERC20Collateral": "0x4302A9a63EF5bD96Af0eE15b3E5313B1A504E4D0"
+        "hypERC20Collateral": "0xc6BCbD4B62FA6f088DB0f3D668fbFE235CB014fC"
       },
       {
         "chainId": 11155420,
