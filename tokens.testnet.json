@@ -144,6 +144,6 @@
     "name": "Ether",
     "decimals": 18,
     "standard": "Native",
-    "chainId": 11156100
+    "chainId": 1301
   }
 ]
