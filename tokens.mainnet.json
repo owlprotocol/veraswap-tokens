@@ -10,14 +10,10 @@
     "hypERC20Collateral": "0x66477F84bd21697c7781fc3992b3163463e3B224",
     "remoteTokens": [
       {
-        "chainId": 1,
-        "address": "0xcbb7c0000ab88b473b1f5afd9ef808440eed33bf",
-        "standard": "HypERC20"
-      },
-      {
-        "chainId": 999999,
+        "chainId": 5330,
         "address": "0x6f36dbd829de9b7e077db8a35b480d4329ceb331",
-        "standard": "HypERC20"
+        "standard": "ERC20",
+        "hypERC20Collateral": "0x0a78BC3CBBC79C4C6E5d4e5b2bbD042E58e93484"
       }
     ]
   },
@@ -26,20 +22,16 @@
     "name": "Coinbase Wrapped BTC",
     "decimals": 8,
     "logoURI": "https://assets.coingecko.com/coins/images/40143/standard/cbbtc.webp",
-    "standard": "HypERC20",
+    "standard": "ERC20",
     "chainId": 1,
     "address": "0xcbb7c0000ab88b473b1f5afd9ef808440eed33bf",
+    "hypERC20Collateral": "0x7710d2FC9A2E0452b28a2cBf550429b579347199",
     "remoteTokens": [
       {
-        "chainId": 8453,
-        "address": "0xcbB7C0000aB88B473b1f5aFd9ef808440eed33Bf",
-        "standard": "ERC20",
-        "hypERC20Collateral": "0x66477F84bd21697c7781fc3992b3163463e3B224"
-      },
-      {
-        "chainId": 999999,
+        "chainId": 5330,
         "address": "0x6f36dbd829de9b7e077db8a35b480d4329ceb331",
-        "standard": "HypERC20"
+        "standard": "ERC20",
+        "hypERC20Collateral": "0x0a78BC3CBBC79C4C6E5d4e5b2bbD042E58e93484"
       }
     ]
   },
@@ -48,9 +40,10 @@
     "name": "Coinbase Wrapped BTC",
     "decimals": 8,
     "logoURI": "https://assets.coingecko.com/coins/images/40143/standard/cbbtc.webp",
-    "standard": "HypERC20",
-    "chainId": 999999,
+    "standard": "ERC20",
+    "chainId": 5330,
     "address": "0x6f36dbd829de9b7e077db8a35b480d4329ceb331",
+    "hypERC20Collateral": "0x0a78BC3CBBC79C4C6E5d4e5b2bbD042E58e93484",
     "remoteTokens": [
       {
         "chainId": 8453,
@@ -61,7 +54,8 @@
       {
         "chainId": 1,
         "address": "0xcbb7c0000ab88b473b1f5afd9ef808440eed33bf",
-        "standard": "HypERC20"
+        "standard": "ERC20",
+        "hypERC20Collateral": "0x7710d2FC9A2E0452b28a2cBf550429b579347199"
       }
     ]
   },
@@ -71,19 +65,21 @@
     "decimals": 6,
     "logoURI": "https://assets.coingecko.com/coins/images/6319/standard/usdc.png",
     "standard": "ERC20",
-    "chainId": 999999,
+    "chainId": 5330,
     "address": "0xc316c8252b5f2176d0135ebb0999e99296998f2e",
     "hypERC20Collateral": "0xa7D6042eEf06E81168e640b5C41632eE5295227D",
     "remoteTokens": [
       {
         "chainId": 8453,
         "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
-        "standard": "HypERC20"
+        "standard": "ERC20",
+        "hypERC20Collateral": "0x955132016f9B6376B1392aA7BFF50538d21Ababc"
       },
       {
         "chainId": 10,
         "address": "0x0b2C639c533813f4Aa9D7837CAf62653d097Ff85",
-        "standard": "HypERC20"
+        "standard": "ERC20",
+        "hypERC20Collateral": "0x741B077c69FA219CEdb11364706a3880A792423e"
       }
     ]
   },
@@ -92,15 +88,22 @@
     "name": "USD Coin",
     "decimals": 6,
     "logoURI": "https://assets.coingecko.com/coins/images/6319/standard/usdc.png",
-    "standard": "HypERC20",
+    "standard": "ERC20",
     "chainId": 8453,
     "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+    "hypERC20Collateral": "0x955132016f9B6376B1392aA7BFF50538d21Ababc",
     "remoteTokens": [
       {
-        "chainId": 999999,
+        "chainId": 5330,
         "address": "0xc316c8252b5f2176d0135ebb0999e99296998f2e",
         "standard": "ERC20",
         "hypERC20Collateral": "0xa7D6042eEf06E81168e640b5C41632eE5295227D"
+      },
+      {
+        "chainId": 10,
+        "address": "0x0b2C639c533813f4Aa9D7837CAf62653d097Ff85",
+        "standard": "ERC20",
+        "hypERC20Collateral": "0x741B077c69FA219CEdb11364706a3880A792423e"
       }
     ]
   },
@@ -109,15 +112,22 @@
     "name": "USD Coin",
     "decimals": 6,
     "logoURI": "https://assets.coingecko.com/coins/images/6319/standard/usdc.png",
-    "standard": "HypERC20",
+    "standard": "ERC20",
     "chainId": 10,
     "address": "0x0b2C639c533813f4Aa9D7837CAf62653d097Ff85",
+    "hypERC20Collateral": "0x741B077c69FA219CEdb11364706a3880A792423e",
     "remoteTokens": [
       {
-        "chainId": 999999,
+        "chainId": 5330,
         "address": "0xc316c8252b5f2176d0135ebb0999e99296998f2e",
         "standard": "ERC20",
         "hypERC20Collateral": "0xa7D6042eEf06E81168e640b5C41632eE5295227D"
+      },
+      {
+        "chainId": 8453,
+        "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+        "standard": "ERC20",
+        "hypERC20Collateral": "0x955132016f9B6376B1392aA7BFF50538d21Ababc"
       }
     ]
   },
@@ -140,6 +150,6 @@
     "name": "Ether",
     "decimals": 18,
     "standard": "Native",
-    "chainId": 999999
+    "chainId": 5330
   }
 ]
