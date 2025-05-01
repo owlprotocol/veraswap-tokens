@@ -33,7 +33,7 @@
         "address": "0x6b821901f606F2216436CACA965c3B89cB4f1240"
       },
       {
-        "chainId": 11156100,
+        "chainId": 1301,
         "address": "0x5cED2AC3066a17c0A2ed31F95DcDC9fd5C19DAbB"
       }
     ]
@@ -91,7 +91,7 @@
         "address": "0x37c6E14d5BB318f211f71e92857794fD9Dd97Ee9"
       },
       {
-        "chainId": 11156100,
+        "chainId": 1301,
         "address": "0x82B7EF712a532F9Dd068cd1B3ddf3948c1BBE39D"
       }
     ]
