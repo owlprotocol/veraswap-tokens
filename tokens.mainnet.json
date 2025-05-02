@@ -131,5 +131,67 @@
     "decimals": 18,
     "standard": "Native",
     "chainId": 5330
+  },
+  {
+    "symbol": "OP",
+    "name": "Optimism",
+    "decimals": 18,
+    "logoURI": "https://raw.githubusercontent.com/hyperlane-xyz/hyperlane-registry/main/deployments/warp_routes/OP/logo.svg",
+    "standard": "ERC20",
+    "chainId": 10,
+    "address": "0x0Ea3C23A4dC198c289D5443ac302335aBc86E6b1",
+    "hypERC20Collateral": "0x4200000000000000000000000000000000000042",
+    "remoteTokens": [
+      {
+        "chainId": 5330,
+        "address": "0x4e128A1b613A9C9Ecf650FeE461c353612559fcf"
+      }
+    ]
+  },
+  {
+    "symbol": "OP",
+    "name": "Optimism",
+    "decimals": 18,
+    "logoURI": "https://raw.githubusercontent.com/hyperlane-xyz/hyperlane-registry/main/deployments/warp_routes/OP/logo.svg",
+    "standard": "HypERC20",
+    "chainId": 5330,
+    "address": "0x4e128A1b613A9C9Ecf650FeE461c353612559fcf",
+    "remoteTokens": [
+      {
+        "chainId": 10,
+        "address": "0x0Ea3C23A4dC198c289D5443ac302335aBc86E6b1"
+      }
+    ]
+  },
+  {
+    "chainId": 1,
+    "address": "0xA7Db85E2925e3fec7C33A20d87CC895C948e62b3",
+    "name": "Tether USD",
+    "symbol": "USDT",
+    "decimals": 6,
+    "logoURI": "https://raw.githubusercontent.com/hyperlane-xyz/hyperlane-registry/main/deployments/warp_routes/USDT/logo.svg",
+    "standard": "HypERC20",
+    "hypERC20Collateral": "0xdac17f958d2ee523a2206206994597c13d831ec7",
+    "remoteTokens": [
+      {
+        "chainId": 5330,
+        "address": "0xc5068BB6803ADbe5600DE5189fe27A4dAcE31170"
+      }
+    ]
+  },
+  {
+    "chainId": 5330,
+    "address": "0xc5068BB6803ADbe5600DE5189fe27A4dAcE31170",
+    "name": "Tether USD",
+    "symbol": "USDT",
+    "decimals": 6,
+    "logoURI": "https://raw.githubusercontent.com/hyperlane-xyz/hyperlane-registry/main/deployments/warp_routes/USDT/logo.svg",
+    "standard": "HypERC20",
+    "remoteTokens": [
+      {
+        "chainId": 1,
+        "address": "0xA7Db85E2925e3fec7C33A20d87CC895C948e62b3"
+      }
+    ]
   }
 ]
