@@ -116,6 +116,13 @@
     "name": "Ether",
     "decimals": 18,
     "standard": "Native",
+    "chainId": 1
+  },
+  {
+    "symbol": "ETH",
+    "name": "Ether",
+    "decimals": 18,
+    "standard": "Native",
     "chainId": 8453
   },
   {
