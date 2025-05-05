@@ -350,12 +350,12 @@
     "logoURI": "https://assets.coingecko.com/coins/images/34753/large/Ezeth_logo_circle.png",
     "standard": "ERC20",
     "chainId": 8453,
-    "address": "0x2416092f143378750bb29b79eD961ab195CcEea5",
-    "hypERC20Collateral": "0x2552516453368e42705D791F674b312b8b87CD9e",
+    "address": "0x2552516453368e42705D791F674b312b8b87CD9e",
+    "hypERC20Collateral": "0x2416092f143378750bb29b79eD961ab195CcEea5",
     "remoteTokens": [
       {
         "chainId": 42161,
-        "address": "0x2416092f143378750bb29b79eD961ab195CcEea5"
+        "address": "0xB26bBfC6d1F469C821Ea25099017862e7368F4E8"
       },
       {
         "chainId": 1,
