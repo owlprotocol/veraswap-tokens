@@ -130,6 +130,13 @@
     "name": "Ether",
     "decimals": 18,
     "standard": "Native",
+    "chainId": 5330
+  },
+  {
+    "symbol": "ETH",
+    "name": "Ether",
+    "decimals": 18,
+    "standard": "Native",
     "chainId": 10
   },
   {
@@ -198,6 +205,473 @@
       {
         "chainId": 1,
         "address": "0xA7Db85E2925e3fec7C33A20d87CC895C948e62b3"
+      }
+    ]
+  },
+  {
+    "symbol": "HYPER",
+    "name": "Hyperlane",
+    "decimals": 18,
+    "logoURI": "https://raw.githubusercontent.com/hyperlane-xyz/hyperlane-registry/main/deployments/warp_routes/HYPER/logo.svg",
+    "standard": "HypERC20",
+    "chainId": 42161,
+    "address": "0xC9d23ED2ADB0f551369946BD377f8644cE1ca5c4",
+    "remoteTokens": [
+      {
+        "chainId": 8453,
+        "address": "0xC9d23ED2ADB0f551369946BD377f8644cE1ca5c4"
+      },
+      {
+        "chainId": 56,
+        "address": "0xC9d23ED2ADB0f551369946BD377f8644cE1ca5c4"
+      },
+      {
+        "chainId": 1,
+        "address": "0x93A2Db22B7c736B341C32Ff666307F4a9ED910F5"
+      },
+      {
+        "chainId": 10,
+        "address": "0x9923DB8d7FBAcC2E69E87fAd19b886C81cd74979"
+      }
+    ]
+  },
+  {
+    "symbol": "HYPER",
+    "name": "Hyperlane",
+    "decimals": 18,
+    "logoURI": "https://raw.githubusercontent.com/hyperlane-xyz/hyperlane-registry/main/deployments/warp_routes/HYPER/logo.svg",
+    "standard": "HypERC20",
+    "chainId": 8453,
+    "address": "0xC9d23ED2ADB0f551369946BD377f8644cE1ca5c4",
+    "remoteTokens": [
+      {
+        "chainId": 42161,
+        "address": "0xC9d23ED2ADB0f551369946BD377f8644cE1ca5c4"
+      },
+      {
+        "chainId": 56,
+        "address": "0xC9d23ED2ADB0f551369946BD377f8644cE1ca5c4"
+      },
+      {
+        "chainId": 1,
+        "address": "0x93A2Db22B7c736B341C32Ff666307F4a9ED910F5"
+      },
+      {
+        "chainId": 10,
+        "address": "0x9923DB8d7FBAcC2E69E87fAd19b886C81cd74979"
+      }
+    ]
+  },
+  {
+    "symbol": "HYPER",
+    "name": "Hyperlane",
+    "decimals": 18,
+    "logoURI": "https://raw.githubusercontent.com/hyperlane-xyz/hyperlane-registry/main/deployments/warp_routes/HYPER/logo.svg",
+    "standard": "HypERC20",
+    "chainId": 56,
+    "address": "0xC9d23ED2ADB0f551369946BD377f8644cE1ca5c4",
+    "remoteTokens": [
+      {
+        "chainId": 42161,
+        "address": "0xC9d23ED2ADB0f551369946BD377f8644cE1ca5c4"
+      },
+      {
+        "chainId": 8453,
+        "address": "0xC9d23ED2ADB0f551369946BD377f8644cE1ca5c4"
+      },
+      {
+        "chainId": 1,
+        "address": "0x93A2Db22B7c736B341C32Ff666307F4a9ED910F5"
+      },
+      {
+        "chainId": 10,
+        "address": "0x9923DB8d7FBAcC2E69E87fAd19b886C81cd74979"
+      }
+    ]
+  },
+  {
+    "symbol": "HYPER",
+    "name": "Hyperlane",
+    "decimals": 18,
+    "logoURI": "https://raw.githubusercontent.com/hyperlane-xyz/hyperlane-registry/main/deployments/warp_routes/HYPER/logo.svg",
+    "standard": "HypERC20",
+    "chainId": 1,
+    "address": "0x93A2Db22B7c736B341C32Ff666307F4a9ED910F5",
+    "remoteTokens": [
+      {
+        "chainId": 42161,
+        "address": "0xC9d23ED2ADB0f551369946BD377f8644cE1ca5c4"
+      },
+      {
+        "chainId": 8453,
+        "address": "0xC9d23ED2ADB0f551369946BD377f8644cE1ca5c4"
+      },
+      {
+        "chainId": 56,
+        "address": "0xC9d23ED2ADB0f551369946BD377f8644cE1ca5c4"
+      },
+      {
+        "chainId": 10,
+        "address": "0x9923DB8d7FBAcC2E69E87fAd19b886C81cd74979"
+      }
+    ]
+  },
+  {
+    "symbol": "HYPER",
+    "name": "Hyperlane",
+    "decimals": 18,
+    "logoURI": "https://raw.githubusercontent.com/hyperlane-xyz/hyperlane-registry/main/deployments/warp_routes/HYPER/logo.svg",
+    "standard": "HypERC20",
+    "chainId": 10,
+    "address": "0x9923DB8d7FBAcC2E69E87fAd19b886C81cd74979",
+    "remoteTokens": [
+      {
+        "chainId": 42161,
+        "address": "0xC9d23ED2ADB0f551369946BD377f8644cE1ca5c4"
+      },
+      {
+        "chainId": 8453,
+        "address": "0xC9d23ED2ADB0f551369946BD377f8644cE1ca5c4"
+      },
+      {
+        "chainId": 56,
+        "address": "0xC9d23ED2ADB0f551369946BD377f8644cE1ca5c4"
+      },
+      {
+        "chainId": 1,
+        "address": "0x93A2Db22B7c736B341C32Ff666307F4a9ED910F5"
+      }
+    ]
+  },
+  {
+    "symbol": "ezETH",
+    "name": "Renzo Restaked ETH",
+    "decimals": 18,
+    "logoURI": "https://assets.coingecko.com/coins/images/34753/large/Ezeth_logo_circle.png",
+    "standard": "ERC20",
+    "chainId": 8453,
+    "address": "0x2416092f143378750bb29b79eD961ab195CcEea5",
+    "hypERC20Collateral": "0x2552516453368e42705D791F674b312b8b87CD9e",
+    "remoteTokens": [
+      {
+        "chainId": 42161,
+        "address": "0x2416092f143378750bb29b79eD961ab195CcEea5"
+      },
+      {
+        "chainId": 1,
+        "address": "0xC8140dA31E6bCa19b287cC35531c2212763C2059"
+      },
+      {
+        "chainId": 10,
+        "address": "0x2416092f143378750bb29b79eD961ab195CcEea5"
+      },
+      {
+        "chainId": 56,
+        "address": "0xE00C6185a5c19219F1FFeD213b4406a254968c26"
+      },
+      {
+        "chainId": 130,
+        "address": "0xFf0247f72b0d7ceD319D8457dD30622a2bed78B5"
+      }
+    ]
+  },
+  {
+    "symbol": "ezETH",
+    "name": "Renzo Restaked ETH",
+    "decimals": 18,
+    "logoURI": "https://assets.coingecko.com/coins/images/34753/large/Ezeth_logo_circle.png",
+    "standard": "ERC20",
+    "chainId": 1,
+    "address": "0xC59336D8edDa9722B4f1Ec104007191Ec16f7087",
+    "hypERC20Collateral": "0xC8140dA31E6bCa19b287cC35531c2212763C2059",
+    "remoteTokens": [
+      {
+        "chainId": 42161,
+        "address": "0xB26bBfC6d1F469C821Ea25099017862e7368F4E8"
+      },
+      {
+        "chainId": 8453,
+        "address": "0x2552516453368e42705D791F674b312b8b87CD9e"
+      },
+      {
+        "chainId": 10,
+        "address": "0xacEB607CdF59EB8022Cc0699eEF3eCF246d149e2"
+      },
+      {
+        "chainId": 56,
+        "address": "0xE00C6185a5c19219F1FFeD213b4406a254968c26"
+      },
+      {
+        "chainId": 130,
+        "address": "0xFf0247f72b0d7ceD319D8457dD30622a2bed78B5"
+      }
+    ]
+  },
+  {
+    "symbol": "ezETH",
+    "name": "Renzo Restaked ETH",
+    "decimals": 18,
+    "logoURI": "https://assets.coingecko.com/coins/images/34753/large/Ezeth_logo_circle.png",
+    "standard": "ERC20",
+    "chainId": 10,
+    "address": "0xacEB607CdF59EB8022Cc0699eEF3eCF246d149e2",
+    "hypERC20Collateral": "0x2416092f143378750bb29b79eD961ab195CcEea5",
+    "remoteTokens": [
+      {
+        "chainId": 42161,
+        "address": "0xB26bBfC6d1F469C821Ea25099017862e7368F4E8"
+      },
+      {
+        "chainId": 8453,
+        "address": "0x2552516453368e42705D791F674b312b8b87CD9e"
+      },
+      {
+        "chainId": 1,
+        "address": "0xC59336D8edDa9722B4f1Ec104007191Ec16f7087"
+      },
+      {
+        "chainId": 56,
+        "address": "0xE00C6185a5c19219F1FFeD213b4406a254968c26"
+      },
+      {
+        "chainId": 130,
+        "address": "0xFf0247f72b0d7ceD319D8457dD30622a2bed78B5"
+      }
+    ]
+  },
+  {
+    "symbol": "ezETH",
+    "name": "Renzo Restaked ETH",
+    "decimals": 18,
+    "logoURI": "https://assets.coingecko.com/coins/images/34753/large/Ezeth_logo_circle.png",
+    "standard": "ERC20",
+    "chainId": 42161,
+    "address": "0xB26bBfC6d1F469C821Ea25099017862e7368F4E8",
+    "hypERC20Collateral": "0x2416092f143378750bb29b79eD961ab195CcEea5",
+    "remoteTokens": [
+      {
+        "chainId": 8453,
+        "address": "0x2552516453368e42705D791F674b312b8b87CD9e"
+      },
+      {
+        "chainId": 1,
+        "address": "0xC59336D8edDa9722B4f1Ec104007191Ec16f7087"
+      },
+      {
+        "chainId": 10,
+        "address": "0xacEB607CdF59EB8022Cc0699eEF3eCF246d149e2"
+      },
+      {
+        "chainId": 56,
+        "address": "0xE00C6185a5c19219F1FFeD213b4406a254968c26"
+      },
+      {
+        "chainId": 130,
+        "address": "0xFf0247f72b0d7ceD319D8457dD30622a2bed78B5"
+      }
+    ]
+  },
+  {
+    "symbol": "ezETH",
+    "name": "Renzo Restaked ETH",
+    "decimals": 18,
+    "logoURI": "https://assets.coingecko.com/coins/images/34753/large/Ezeth_logo_circle.png",
+    "standard": "ERC20",
+    "chainId": 56,
+    "address": "0xE00C6185a5c19219F1FFeD213b4406a254968c26",
+    "hypERC20Collateral": "0x2416092f143378750bb29b79eD961ab195CcEea5",
+    "remoteTokens": [
+      {
+        "chainId": 42161,
+        "address": "0xB26bBfC6d1F469C821Ea25099017862e7368F4E8"
+      },
+      {
+        "chainId": 8453,
+        "address": "0x2552516453368e42705D791F674b312b8b87CD9e"
+      },
+      {
+        "chainId": 1,
+        "address": "0xC59336D8edDa9722B4f1Ec104007191Ec16f7087"
+      },
+      {
+        "chainId": 10,
+        "address": "0xacEB607CdF59EB8022Cc0699eEF3eCF246d149e2"
+      },
+      {
+        "chainId": 130,
+        "address": "0xFf0247f72b0d7ceD319D8457dD30622a2bed78B5"
+      }
+    ]
+  },
+  {
+    "symbol": "ezETH",
+    "name": "Renzo Restaked ETH",
+    "decimals": 18,
+    "logoURI": "https://assets.coingecko.com/coins/images/34753/large/Ezeth_logo_circle.png",
+    "standard": "ERC20",
+    "chainId": 130,
+    "address": "0xFf0247f72b0d7ceD319D8457dD30622a2bed78B5",
+    "hypERC20Collateral": "0x2416092f143378750bb29b79eD961ab195CcEea5",
+    "remoteTokens": [
+      {
+        "chainId": 42161,
+        "address": "0xB26bBfC6d1F469C821Ea25099017862e7368F4E8"
+      },
+      {
+        "chainId": 8453,
+        "address": "0x2552516453368e42705D791F674b312b8b87CD9e"
+      },
+      {
+        "chainId": 1,
+        "address": "0xC59336D8edDa9722B4f1Ec104007191Ec16f7087"
+      },
+      {
+        "chainId": 10,
+        "address": "0xacEB607CdF59EB8022Cc0699eEF3eCF246d149e2"
+      },
+      {
+        "chainId": 56,
+        "address": "0xE00C6185a5c19219F1FFeD213b4406a254968c26"
+      }
+    ]
+  },
+  {
+    "symbol": "SUPR",
+    "name": "Superseed",
+    "decimals": 18,
+    "logoURI": "https://raw.githubusercontent.com/hyperlane-xyz/hyperlane-registry/main/deployments/warp_routes/SUPR/logo.svg",
+    "standard": "ERC20",
+    "chainId": 8453,
+    "address": "0x458BDDd0793fe4f70912535f172466a5473f2e77",
+    "hypERC20Collateral": "0x17906b1Cd88aA8EfaEfC5e82891B52a22219BD45",
+    "remoteTokens": [
+      {
+        "chainId": 1,
+        "address": "0xbc808c98beA0a097346273A9Fd7a5B231fc2d889"
+      },
+      {
+        "chainId": 57073,
+        "address": "0x6cfDDfa3e0867A873675B80FDEBeB94e9262b5F0"
+      },
+      {
+        "chainId": 10,
+        "address": "0xae1E04F18D1323d8EaC7Ba5b2c683c95DC3baC97"
+      },
+      {
+        "chainId": 5330,
+        "address": "0xA1863B4b02b7DCd7429F62C775816328D63020F4"
+      }
+    ]
+  },
+  {
+    "symbol": "SUPR",
+    "name": "Superseed",
+    "decimals": 18,
+    "logoURI": "https://raw.githubusercontent.com/hyperlane-xyz/hyperlane-registry/main/deployments/warp_routes/SUPR/logo.svg",
+    "standard": "ERC20",
+    "chainId": 1,
+    "address": "0xbc808c98beA0a097346273A9Fd7a5B231fc2d889",
+    "hypERC20Collateral": "0x17906b1Cd88aA8EfaEfC5e82891B52a22219BD45",
+    "remoteTokens": [
+      {
+        "chainId": 8453,
+        "address": "0x458BDDd0793fe4f70912535f172466a5473f2e77"
+      },
+      {
+        "chainId": 57073,
+        "address": "0x6cfDDfa3e0867A873675B80FDEBeB94e9262b5F0"
+      },
+      {
+        "chainId": 10,
+        "address": "0xae1E04F18D1323d8EaC7Ba5b2c683c95DC3baC97"
+      },
+      {
+        "chainId": 5330,
+        "address": "0xA1863B4b02b7DCd7429F62C775816328D63020F4"
+      }
+    ]
+  },
+  {
+    "symbol": "SUPR",
+    "name": "Superseed",
+    "decimals": 18,
+    "logoURI": "https://raw.githubusercontent.com/hyperlane-xyz/hyperlane-registry/main/deployments/warp_routes/SUPR/logo.svg",
+    "standard": "ERC20",
+    "chainId": 57073,
+    "address": "0x6cfDDfa3e0867A873675B80FDEBeB94e9262b5F0",
+    "hypERC20Collateral": "0x17906b1Cd88aA8EfaEfC5e82891B52a22219BD45",
+    "remoteTokens": [
+      {
+        "chainId": 8453,
+        "address": "0x458BDDd0793fe4f70912535f172466a5473f2e77"
+      },
+      {
+        "chainId": 1,
+        "address": "0xbc808c98beA0a097346273A9Fd7a5B231fc2d889"
+      },
+      {
+        "chainId": 10,
+        "address": "0xae1E04F18D1323d8EaC7Ba5b2c683c95DC3baC97"
+      },
+      {
+        "chainId": 5330,
+        "address": "0xA1863B4b02b7DCd7429F62C775816328D63020F4"
+      }
+    ]
+  },
+  {
+    "symbol": "SUPR",
+    "name": "Superseed",
+    "decimals": 18,
+    "logoURI": "https://raw.githubusercontent.com/hyperlane-xyz/hyperlane-registry/main/deployments/warp_routes/SUPR/logo.svg",
+    "standard": "ERC20",
+    "chainId": 10,
+    "address": "0xae1E04F18D1323d8EaC7Ba5b2c683c95DC3baC97",
+    "hypERC20Collateral": "0x17906b1Cd88aA8EfaEfC5e82891B52a22219BD45",
+    "remoteTokens": [
+      {
+        "chainId": 8453,
+        "address": "0x458BDDd0793fe4f70912535f172466a5473f2e77"
+      },
+      {
+        "chainId": 1,
+        "address": "0xbc808c98beA0a097346273A9Fd7a5B231fc2d889"
+      },
+      {
+        "chainId": 57073,
+        "address": "0x6cfDDfa3e0867A873675B80FDEBeB94e9262b5F0"
+      },
+      {
+        "chainId": 5330,
+        "address": "0xA1863B4b02b7DCd7429F62C775816328D63020F4"
+      }
+    ]
+  },
+  {
+    "symbol": "SUPR",
+    "name": "Superseed",
+    "decimals": 18,
+    "logoURI": "https://raw.githubusercontent.com/hyperlane-xyz/hyperlane-registry/main/deployments/warp_routes/SUPR/logo.svg",
+    "standard": "ERC20",
+    "chainId": 5330,
+    "address": "0xA1863B4b02b7DCd7429F62C775816328D63020F4",
+    "hypERC20Collateral": "0xEe64bC3f4A58D638D0845b24e2f51534d01b6549",
+    "remoteTokens": [
+      {
+        "chainId": 8453,
+        "address": "0x458BDDd0793fe4f70912535f172466a5473f2e77"
+      },
+      {
+        "chainId": 1,
+        "address": "0xbc808c98beA0a097346273A9Fd7a5B231fc2d889"
+      },
+      {
+        "chainId": 57073,
+        "address": "0x6cfDDfa3e0867A873675B80FDEBeB94e9262b5F0"
+      },
+      {
+        "chainId": 10,
+        "address": "0xae1E04F18D1323d8EaC7Ba5b2c683c95DC3baC97"
       }
     ]
   }
