@@ -147,6 +147,20 @@
     "chainId": 5330
   },
   {
+    "symbol": "ETH",
+    "name": "Ether",
+    "decimals": 18,
+    "standard": "Native",
+    "chainId": 42161
+  },
+  {
+    "symbol": "ETH",
+    "name": "Ether",
+    "decimals": 18,
+    "standard": "Native",
+    "chainId": 59144
+  },
+  {
     "symbol": "OP",
     "name": "Optimism",
     "decimals": 18,
@@ -712,6 +726,15 @@
     "address": "0x2f2a2543B76A4166549F7aaB2e75Bef0aefC5B0f"
   },
   {
+    "symbol": "WBTC",
+    "name": "Wrapped BTC",
+    "decimals": 8,
+    "logoURI": "https://coin-images.coingecko.com/coins/images/7598/large/wrapped_bitcoin_wbtc.png",
+    "standard": "ERC20",
+    "chainId": 137,
+    "address": "0x1bfd67037b42cf73acf2047067bd4f2c47d9bfd6"
+  },
+  {
     "symbol": "USDC",
     "name": "USD Coin",
     "decimals": 6,
@@ -719,6 +742,42 @@
     "standard": "ERC20",
     "chainId": 56,
     "address": "0x8AC76a51cc950d9822D68b83fE1Ad97B32Cd580d"
+  },
+  {
+    "symbol": "USDC",
+    "name": "USD Coin",
+    "decimals": 6,
+    "logoURI": "https://assets.coingecko.com/coins/images/6319/large/usdc.png",
+    "standard": "ERC20",
+    "chainId": 137,
+    "address": "0x3c499c542cef5e3811e1192ce70d8cc03d5c3359"
+  },
+  {
+    "symbol": "USDC",
+    "name": "USD Coin",
+    "decimals": 6,
+    "logoURI": "https://assets.coingecko.com/coins/images/6319/large/usdc.png",
+    "standard": "ERC20",
+    "chainId": 42220,
+    "address": "0xceba9300f2b948710d2653dd7b07f33a8b32118c"
+  },
+  {
+    "symbol": "USDC",
+    "name": "USD Coin",
+    "decimals": 6,
+    "logoURI": "https://assets.coingecko.com/coins/images/6319/large/usdc.png",
+    "standard": "ERC20",
+    "chainId": 43114,
+    "address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E"
+  },
+  {
+    "symbol": "USDC",
+    "name": "USD Coin",
+    "decimals": 6,
+    "logoURI": "https://assets.coingecko.com/coins/images/6319/large/usdc.png",
+    "standard": "ERC20",
+    "chainId": 7777777,
+    "address": "0xCccCCccc7021b32EBb4e8C08314bD62F7c653EC4"
   },
   {
     "symbol": "USDT",
@@ -746,5 +805,32 @@
     "standard": "ERC20",
     "chainId": 10,
     "address": "0x94b008aA00579c1307B0EF2c499aD98a8ce58e58"
+  },
+  {
+    "symbol": "USDT",
+    "name": "Tether USD",
+    "decimals": 6,
+    "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xdAC17F958D2ee523a2206206994597C13D831ec7/logo.png",
+    "standard": "ERC20",
+    "chainId": 137,
+    "address": "0xc2132d05d31c914a87c6611c10748aeb04b58e8f"
+  },
+  {
+    "symbol": "USDT",
+    "name": "Tether USD",
+    "decimals": 6,
+    "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xdAC17F958D2ee523a2206206994597C13D831ec7/logo.png",
+    "standard": "ERC20",
+    "chainId": 43114,
+    "address": "0x9702230A8Ea53601f5cD2dc00fDBc13d4dF4A8c7"
+  },
+  {
+    "symbol": "CELO",
+    "name": "Celo",
+    "decimals": 18,
+    "logoURI": "https://s2.coinmarketcap.com/static/img/coins/64x64/5567.png",
+    "standard": "ERC20",
+    "chainId": 42220,
+    "address": "0x471EcE3750Da237f93B8E339c536989b8978a438"
   }
 ]
