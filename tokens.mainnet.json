@@ -1,5 +1,233 @@
 [
   {
+    "symbol": "ETH",
+    "name": "Ether",
+    "decimals": 18,
+    "standard": "Native",
+    "chainId": 1,
+    "address": "0x0000000000000000000000000000000000000000"
+  },
+  {
+    "symbol": "ETH",
+    "name": "Ether",
+    "decimals": 18,
+    "standard": "Native",
+    "chainId": 8453,
+    "address": "0x0000000000000000000000000000000000000000"
+  },
+  {
+    "symbol": "ETH",
+    "name": "Ether",
+    "decimals": 18,
+    "standard": "Native",
+    "chainId": 5330,
+    "address": "0x0000000000000000000000000000000000000000"
+  },
+  {
+    "symbol": "ETH",
+    "name": "Ether",
+    "decimals": 18,
+    "standard": "Native",
+    "chainId": 10,
+    "address": "0x0000000000000000000000000000000000000000"
+  },
+  {
+    "symbol": "ETH",
+    "name": "Ether",
+    "decimals": 18,
+    "standard": "Native",
+    "chainId": 42161,
+    "address": "0x0000000000000000000000000000000000000000"
+  },
+  {
+    "symbol": "ETH",
+    "name": "Ether",
+    "decimals": 18,
+    "standard": "Native",
+    "chainId": 59144,
+    "address": "0x0000000000000000000000000000000000000000"
+  },
+  {
+    "symbol": "UNI",
+    "name": "Uniswap",
+    "decimals": 18,
+    "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x1f9840a85d5aF5bf1D1762F925BDADdC4201F984/logo.png",
+    "standard": "ERC20",
+    "chainId": 1,
+    "address": "0x1f9840a85d5aF5bf1D1762F925BDADdC4201F984"
+  },
+  {
+    "symbol": "UNI",
+    "name": "Uniswap",
+    "decimals": 18,
+    "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x1f9840a85d5aF5bf1D1762F925BDADdC4201F984/logo.png",
+    "standard": "ERC20",
+    "chainId": 10,
+    "address": "0x6fd9d7AD17242c41f7131d257212c54A0e816691"
+  },
+  {
+    "symbol": "WBTC",
+    "name": "Wrapped BTC",
+    "decimals": 8,
+    "logoURI": "https://coin-images.coingecko.com/coins/images/7598/large/wrapped_bitcoin_wbtc.png",
+    "standard": "ERC20",
+    "chainId": 56,
+    "address": "0x7130d2A12B9BCbFAe4f2634d864A1Ee1Ce3Ead9c"
+  },
+  {
+    "symbol": "WBTC",
+    "name": "Wrapped BTC",
+    "decimals": 8,
+    "logoURI": "https://coin-images.coingecko.com/coins/images/7598/large/wrapped_bitcoin_wbtc.png",
+    "standard": "ERC20",
+    "chainId": 42161,
+    "address": "0x2f2a2543B76A4166549F7aaB2e75Bef0aefC5B0f"
+  },
+  {
+    "symbol": "WBTC",
+    "name": "Wrapped BTC",
+    "decimals": 8,
+    "logoURI": "https://coin-images.coingecko.com/coins/images/7598/large/wrapped_bitcoin_wbtc.png",
+    "standard": "ERC20",
+    "chainId": 137,
+    "address": "0x1bfd67037b42cf73acf2047067bd4f2c47d9bfd6"
+  },
+  {
+    "symbol": "CELO",
+    "name": "Celo",
+    "decimals": 18,
+    "logoURI": "https://s2.coinmarketcap.com/static/img/coins/64x64/5567.png",
+    "standard": "ERC20",
+    "chainId": 42220,
+    "address": "0x471EcE3750Da237f93B8E339c536989b8978a438"
+  },
+  {
+    "symbol": "USDC",
+    "name": "USD Coin",
+    "decimals": 6,
+    "logoURI": "https://assets.coingecko.com/coins/images/6319/large/usdc.png",
+    "standard": "ERC20",
+    "chainId": 1,
+    "address": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48"
+  },
+  {
+    "symbol": "USDC",
+    "name": "USD Coin",
+    "decimals": 6,
+    "logoURI": "https://assets.coingecko.com/coins/images/6319/large/usdc.png",
+    "standard": "ERC20",
+    "chainId": 42161,
+    "address": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831"
+  },
+  {
+    "symbol": "USDC",
+    "name": "USD Coin",
+    "decimals": 6,
+    "logoURI": "https://assets.coingecko.com/coins/images/6319/large/usdc.png",
+    "standard": "ERC20",
+    "chainId": 480,
+    "address": "0x79A02482A880bCE3F13e09Da970dC34db4CD24d1"
+  },
+  {
+    "symbol": "USDC",
+    "name": "USD Coin",
+    "decimals": 6,
+    "logoURI": "https://assets.coingecko.com/coins/images/6319/large/usdc.png",
+    "standard": "ERC20",
+    "chainId": 324,
+    "address": "0x1d17CBcF0D6D143135aE902365D2E5e2A16538D4"
+  },
+  {
+    "symbol": "USDC",
+    "name": "USD Coin",
+    "decimals": 6,
+    "logoURI": "https://assets.coingecko.com/coins/images/6319/large/usdc.png",
+    "standard": "ERC20",
+    "chainId": 56,
+    "address": "0x8AC76a51cc950d9822D68b83fE1Ad97B32Cd580d"
+  },
+  {
+    "symbol": "USDC",
+    "name": "USD Coin",
+    "decimals": 6,
+    "logoURI": "https://assets.coingecko.com/coins/images/6319/large/usdc.png",
+    "standard": "ERC20",
+    "chainId": 137,
+    "address": "0x3c499c542cef5e3811e1192ce70d8cc03d5c3359"
+  },
+  {
+    "symbol": "USDC",
+    "name": "USD Coin",
+    "decimals": 6,
+    "logoURI": "https://assets.coingecko.com/coins/images/6319/large/usdc.png",
+    "standard": "ERC20",
+    "chainId": 42220,
+    "address": "0xceba9300f2b948710d2653dd7b07f33a8b32118c"
+  },
+  {
+    "symbol": "USDC",
+    "name": "USD Coin",
+    "decimals": 6,
+    "logoURI": "https://assets.coingecko.com/coins/images/6319/large/usdc.png",
+    "standard": "ERC20",
+    "chainId": 43114,
+    "address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E"
+  },
+  {
+    "symbol": "USDC",
+    "name": "USD Coin",
+    "decimals": 6,
+    "logoURI": "https://assets.coingecko.com/coins/images/6319/large/usdc.png",
+    "standard": "ERC20",
+    "chainId": 7777777,
+    "address": "0xCccCCccc7021b32EBb4e8C08314bD62F7c653EC4"
+  },
+  {
+    "symbol": "USDT",
+    "name": "Tether USD",
+    "decimals": 6,
+    "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xdAC17F958D2ee523a2206206994597C13D831ec7/logo.png",
+    "standard": "ERC20",
+    "chainId": 56,
+    "address": "0x55d398326f99059fF775485246999027B3197955"
+  },
+  {
+    "symbol": "USDT",
+    "name": "Tether USD",
+    "decimals": 6,
+    "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xdAC17F958D2ee523a2206206994597C13D831ec7/logo.png",
+    "standard": "ERC20",
+    "chainId": 42161,
+    "address": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9"
+  },
+  {
+    "symbol": "USDT",
+    "name": "Tether USD",
+    "decimals": 6,
+    "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xdAC17F958D2ee523a2206206994597C13D831ec7/logo.png",
+    "standard": "ERC20",
+    "chainId": 10,
+    "address": "0x94b008aA00579c1307B0EF2c499aD98a8ce58e58"
+  },
+  {
+    "symbol": "USDT",
+    "name": "Tether USD",
+    "decimals": 6,
+    "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xdAC17F958D2ee523a2206206994597C13D831ec7/logo.png",
+    "standard": "ERC20",
+    "chainId": 137,
+    "address": "0xc2132d05d31c914a87c6611c10748aeb04b58e8f"
+  },
+  {
+    "symbol": "USDT",
+    "name": "Tether USD",
+    "decimals": 6,
+    "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xdAC17F958D2ee523a2206206994597C13D831ec7/logo.png",
+    "standard": "ERC20",
+    "chainId": 43114,
+    "address": "0x9702230A8Ea53601f5cD2dc00fDBc13d4dF4A8c7"
+  },
+  {
     "symbol": "cbBTC",
     "name": "Coinbase Wrapped BTC",
     "decimals": 8,
@@ -112,48 +340,6 @@
     ]
   },
   {
-    "symbol": "ETH",
-    "name": "Ether",
-    "decimals": 18,
-    "standard": "Native",
-    "chainId": 1
-  },
-  {
-    "symbol": "ETH",
-    "name": "Ether",
-    "decimals": 18,
-    "standard": "Native",
-    "chainId": 8453
-  },
-  {
-    "symbol": "ETH",
-    "name": "Ether",
-    "decimals": 18,
-    "standard": "Native",
-    "chainId": 5330
-  },
-  {
-    "symbol": "ETH",
-    "name": "Ether",
-    "decimals": 18,
-    "standard": "Native",
-    "chainId": 10
-  },
-  {
-    "symbol": "ETH",
-    "name": "Ether",
-    "decimals": 18,
-    "standard": "Native",
-    "chainId": 42161
-  },
-  {
-    "symbol": "ETH",
-    "name": "Ether",
-    "decimals": 18,
-    "standard": "Native",
-    "chainId": 59144
-  },
-  {
     "symbol": "OP",
     "name": "Optimism",
     "decimals": 18,
@@ -185,13 +371,13 @@
     ]
   },
   {
-    "chainId": 1,
-    "address": "0xA7Db85E2925e3fec7C33A20d87CC895C948e62b3",
-    "name": "Tether USD",
     "symbol": "USDT",
+    "name": "Tether USD",
     "decimals": 6,
     "logoURI": "https://raw.githubusercontent.com/hyperlane-xyz/hyperlane-registry/main/deployments/warp_routes/USDT/logo.svg",
     "standard": "ERC20",
+    "chainId": 1,
+    "address": "0xA7Db85E2925e3fec7C33A20d87CC895C948e62b3",
     "hypERC20Collateral": "0xdac17f958d2ee523a2206206994597c13d831ec7",
     "remoteTokens": [
       {
@@ -201,13 +387,13 @@
     ]
   },
   {
-    "chainId": 5330,
-    "address": "0xc5068BB6803ADbe5600DE5189fe27A4dAcE31170",
-    "name": "Tether USD",
     "symbol": "USDT",
+    "name": "Tether USD",
     "decimals": 6,
     "logoURI": "https://raw.githubusercontent.com/hyperlane-xyz/hyperlane-registry/main/deployments/warp_routes/USDT/logo.svg",
     "standard": "HypERC20",
+    "chainId": 5330,
+    "address": "0xc5068BB6803ADbe5600DE5189fe27A4dAcE31170",
     "remoteTokens": [
       {
         "chainId": 1,
@@ -361,16 +547,16 @@
     "hypERC20Collateral": "0x2416092f143378750bb29b79eD961ab195CcEea5",
     "remoteTokens": [
       {
-        "chainId": 42161,
-        "address": "0xB26bBfC6d1F469C821Ea25099017862e7368F4E8"
-      },
-      {
         "chainId": 1,
-        "address": "0xC8140dA31E6bCa19b287cC35531c2212763C2059"
+        "address": "0xC59336D8edDa9722B4f1Ec104007191Ec16f7087"
       },
       {
         "chainId": 10,
-        "address": "0x2416092f143378750bb29b79eD961ab195CcEea5"
+        "address": "0xacEB607CdF59EB8022Cc0699eEF3eCF246d149e2"
+      },
+      {
+        "chainId": 42161,
+        "address": "0xB26bBfC6d1F469C821Ea25099017862e7368F4E8"
       },
       {
         "chainId": 56,
@@ -393,16 +579,16 @@
     "hypERC20Collateral": "0xC8140dA31E6bCa19b287cC35531c2212763C2059",
     "remoteTokens": [
       {
-        "chainId": 42161,
-        "address": "0xB26bBfC6d1F469C821Ea25099017862e7368F4E8"
-      },
-      {
         "chainId": 8453,
         "address": "0x2552516453368e42705D791F674b312b8b87CD9e"
       },
       {
         "chainId": 10,
         "address": "0xacEB607CdF59EB8022Cc0699eEF3eCF246d149e2"
+      },
+      {
+        "chainId": 42161,
+        "address": "0xB26bBfC6d1F469C821Ea25099017862e7368F4E8"
       },
       {
         "chainId": 56,
@@ -425,16 +611,16 @@
     "hypERC20Collateral": "0x2416092f143378750bb29b79eD961ab195CcEea5",
     "remoteTokens": [
       {
-        "chainId": 42161,
-        "address": "0xB26bBfC6d1F469C821Ea25099017862e7368F4E8"
-      },
-      {
         "chainId": 8453,
         "address": "0x2552516453368e42705D791F674b312b8b87CD9e"
       },
       {
         "chainId": 1,
         "address": "0xC59336D8edDa9722B4f1Ec104007191Ec16f7087"
+      },
+      {
+        "chainId": 42161,
+        "address": "0xB26bBfC6d1F469C821Ea25099017862e7368F4E8"
       },
       {
         "chainId": 56,
@@ -489,10 +675,6 @@
     "hypERC20Collateral": "0x2416092f143378750bb29b79eD961ab195CcEea5",
     "remoteTokens": [
       {
-        "chainId": 42161,
-        "address": "0xB26bBfC6d1F469C821Ea25099017862e7368F4E8"
-      },
-      {
         "chainId": 8453,
         "address": "0x2552516453368e42705D791F674b312b8b87CD9e"
       },
@@ -503,6 +685,10 @@
       {
         "chainId": 10,
         "address": "0xacEB607CdF59EB8022Cc0699eEF3eCF246d149e2"
+      },
+      {
+        "chainId": 42161,
+        "address": "0xB26bBfC6d1F469C821Ea25099017862e7368F4E8"
       },
       {
         "chainId": 130,
@@ -521,10 +707,6 @@
     "hypERC20Collateral": "0x2416092f143378750bb29b79eD961ab195CcEea5",
     "remoteTokens": [
       {
-        "chainId": 42161,
-        "address": "0xB26bBfC6d1F469C821Ea25099017862e7368F4E8"
-      },
-      {
         "chainId": 8453,
         "address": "0x2552516453368e42705D791F674b312b8b87CD9e"
       },
@@ -535,6 +717,10 @@
       {
         "chainId": 10,
         "address": "0xacEB607CdF59EB8022Cc0699eEF3eCF246d149e2"
+      },
+      {
+        "chainId": 42161,
+        "address": "0xB26bBfC6d1F469C821Ea25099017862e7368F4E8"
       },
       {
         "chainId": 56,
@@ -658,7 +844,7 @@
     "symbol": "SUPR",
     "name": "Superseed",
     "decimals": 18,
-    "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x1f9840a85d5aF5bf1D1762F925BDADdC4201F984/logo.png",
+    "logoURI": "https://raw.githubusercontent.com/hyperlane-xyz/hyperlane-registry/main/deployments/warp_routes/SUPR/logo.svg",
     "standard": "ERC20",
     "chainId": 5330,
     "address": "0xA1863B4b02b7DCd7429F62C775816328D63020F4",
@@ -681,185 +867,5 @@
         "address": "0xae1E04F18D1323d8EaC7Ba5b2c683c95DC3baC97"
       }
     ]
-  },
-  {
-    "symbol": "UNI",
-    "name": "Uniswap",
-    "decimals": 18,
-    "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x1f9840a85d5aF5bf1D1762F925BDADdC4201F984/logo.png",
-    "standard": "ERC20",
-    "chainId": 1,
-    "address": "0x1f9840a85d5aF5bf1D1762F925BDADdC4201F984"
-  },
-  {
-    "symbol": "UNI",
-    "name": "Uniswap",
-    "decimals": 18,
-    "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x1f9840a85d5aF5bf1D1762F925BDADdC4201F984/logo.png",
-    "standard": "ERC20",
-    "chainId": 10,
-    "address": "0x6fd9d7AD17242c41f7131d257212c54A0e816691"
-  },
-  {
-    "symbol": "WBTC",
-    "name": "Wrapped BTC",
-    "decimals": 8,
-    "logoURI": "https://coin-images.coingecko.com/coins/images/7598/large/wrapped_bitcoin_wbtc.png",
-    "standard": "ERC20",
-    "chainId": 56,
-    "address": "0x7130d2A12B9BCbFAe4f2634d864A1Ee1Ce3Ead9c"
-  },
-  {
-    "symbol": "WBTC",
-    "name": "Wrapped BTC",
-    "decimals": 8,
-    "logoURI": "https://coin-images.coingecko.com/coins/images/7598/large/wrapped_bitcoin_wbtc.png",
-    "standard": "ERC20",
-    "chainId": 42161,
-    "address": "0x2f2a2543B76A4166549F7aaB2e75Bef0aefC5B0f"
-  },
-  {
-    "symbol": "WBTC",
-    "name": "Wrapped BTC",
-    "decimals": 8,
-    "logoURI": "https://coin-images.coingecko.com/coins/images/7598/large/wrapped_bitcoin_wbtc.png",
-    "standard": "ERC20",
-    "chainId": 137,
-    "address": "0x1bfd67037b42cf73acf2047067bd4f2c47d9bfd6"
-  },
-  {
-    "symbol": "USDC",
-    "name": "USD Coin",
-    "decimals": 6,
-    "logoURI": "https://assets.coingecko.com/coins/images/6319/large/usdc.png",
-    "standard": "ERC20",
-    "chainId": 1,
-    "address": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48"
-  },
-  {
-    "symbol": "USDC",
-    "name": "USD Coin",
-    "decimals": 6,
-    "logoURI": "https://assets.coingecko.com/coins/images/6319/large/usdc.png",
-    "standard": "ERC20",
-    "chainId": 42161,
-    "address": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831"
-  },
-  {
-    "symbol": "USDC",
-    "name": "USD Coin",
-    "decimals": 6,
-    "logoURI": "https://assets.coingecko.com/coins/images/6319/large/usdc.png",
-    "standard": "ERC20",
-    "chainId": 480,
-    "address": "0x79A02482A880bCE3F13e09Da970dC34db4CD24d1"
-  },
-  {
-    "symbol": "USDC",
-    "name": "USD Coin",
-    "decimals": 6,
-    "logoURI": "https://assets.coingecko.com/coins/images/6319/large/usdc.png",
-    "standard": "ERC20",
-    "chainId": 324,
-    "address": "0x1d17CBcF0D6D143135aE902365D2E5e2A16538D4"
-  },
-  {
-    "symbol": "USDC",
-    "name": "USD Coin",
-    "decimals": 6,
-    "logoURI": "https://assets.coingecko.com/coins/images/6319/large/usdc.png",
-    "standard": "ERC20",
-    "chainId": 56,
-    "address": "0x8AC76a51cc950d9822D68b83fE1Ad97B32Cd580d"
-  },
-  {
-    "symbol": "USDC",
-    "name": "USD Coin",
-    "decimals": 6,
-    "logoURI": "https://assets.coingecko.com/coins/images/6319/large/usdc.png",
-    "standard": "ERC20",
-    "chainId": 137,
-    "address": "0x3c499c542cef5e3811e1192ce70d8cc03d5c3359"
-  },
-  {
-    "symbol": "USDC",
-    "name": "USD Coin",
-    "decimals": 6,
-    "logoURI": "https://assets.coingecko.com/coins/images/6319/large/usdc.png",
-    "standard": "ERC20",
-    "chainId": 42220,
-    "address": "0xceba9300f2b948710d2653dd7b07f33a8b32118c"
-  },
-  {
-    "symbol": "USDC",
-    "name": "USD Coin",
-    "decimals": 6,
-    "logoURI": "https://assets.coingecko.com/coins/images/6319/large/usdc.png",
-    "standard": "ERC20",
-    "chainId": 43114,
-    "address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E"
-  },
-  {
-    "symbol": "USDC",
-    "name": "USD Coin",
-    "decimals": 6,
-    "logoURI": "https://assets.coingecko.com/coins/images/6319/large/usdc.png",
-    "standard": "ERC20",
-    "chainId": 7777777,
-    "address": "0xCccCCccc7021b32EBb4e8C08314bD62F7c653EC4"
-  },
-  {
-    "symbol": "USDT",
-    "name": "Tether USD",
-    "decimals": 6,
-    "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xdAC17F958D2ee523a2206206994597C13D831ec7/logo.png",
-    "standard": "ERC20",
-    "chainId": 56,
-    "address": "0x55d398326f99059fF775485246999027B3197955"
-  },
-  {
-    "symbol": "USDT",
-    "name": "Tether USD",
-    "decimals": 6,
-    "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xdAC17F958D2ee523a2206206994597C13D831ec7/logo.png",
-    "standard": "ERC20",
-    "chainId": 42161,
-    "address": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9"
-  },
-  {
-    "symbol": "USDT",
-    "name": "Tether USD",
-    "decimals": 6,
-    "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xdAC17F958D2ee523a2206206994597C13D831ec7/logo.png",
-    "standard": "ERC20",
-    "chainId": 10,
-    "address": "0x94b008aA00579c1307B0EF2c499aD98a8ce58e58"
-  },
-  {
-    "symbol": "USDT",
-    "name": "Tether USD",
-    "decimals": 6,
-    "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xdAC17F958D2ee523a2206206994597C13D831ec7/logo.png",
-    "standard": "ERC20",
-    "chainId": 137,
-    "address": "0xc2132d05d31c914a87c6611c10748aeb04b58e8f"
-  },
-  {
-    "symbol": "USDT",
-    "name": "Tether USD",
-    "decimals": 6,
-    "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xdAC17F958D2ee523a2206206994597C13D831ec7/logo.png",
-    "standard": "ERC20",
-    "chainId": 43114,
-    "address": "0x9702230A8Ea53601f5cD2dc00fDBc13d4dF4A8c7"
-  },
-  {
-    "symbol": "CELO",
-    "name": "Celo",
-    "decimals": 18,
-    "logoURI": "https://s2.coinmarketcap.com/static/img/coins/64x64/5567.png",
-    "standard": "ERC20",
-    "chainId": 42220,
-    "address": "0x471EcE3750Da237f93B8E339c536989b8978a438"
   }
 ]
