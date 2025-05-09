@@ -2,7 +2,9 @@ import { writeFile } from "node:fs/promises";
 import { mainnetTokens, testnetTokens } from "./tokens";
 import { generateTokenList } from "./utils/generate-token-list";
 import { fetchTokenList } from "./utils/fetch-token-list";
-import { uniqBy } from "lodash-es";
+import { uniqBy, sortBy } from "lodash-es";
+import { scoreTokens } from "./utils/score-tokens";
+import { filterTokens } from "./utils/filter-tokens";
 
 async function generateTokenFiles() {
   try {
@@ -11,7 +13,10 @@ async function generateTokenFiles() {
     );
 
     const allTokens = [...mainnetTokens, ...externalTokens];
-    const uniqueTokens = uniqBy(allTokens, (token) =>
+
+    const filteredTokens = filterTokens(allTokens);
+
+    const uniqueTokens = uniqBy(filteredTokens, (token) =>
       token.chains
         .map((chain) => `${chain.chainId}-${chain.address.toLowerCase()}`)
         .join("|")
@@ -24,36 +29,44 @@ async function generateTokenFiles() {
 
     for (const { name, tokens } of networks) {
       const tokenList = generateTokenList(tokens);
+      const scoredTokenList = scoreTokens(tokenList);
 
-      const tokenSummary = tokenList.reduce((acc, token) => {
+      const sortedTokenList = sortBy(scoredTokenList, [
+        (token) => -(token.score ?? 0),
+        "symbol",
+      ]);
+
+      const tokenSummary = sortedTokenList.reduce((acc, token) => {
         if (!acc[token.symbol]) {
           acc[token.symbol] = {
             count: 0,
             chains: new Set<number>(),
             standards: new Set<string>(),
+            score: token.score,
           };
         }
         acc[token.symbol].count++;
         acc[token.symbol].chains.add(token.chainId);
         acc[token.symbol].standards.add(token.standard);
         return acc;
-      }, {} as Record<string, { count: number; chains: Set<number>; standards: Set<string> }>);
+      }, {} as Record<string, { count: number; chains: Set<number>; standards: Set<string>; score?: number }>);
 
       const summaryText = Object.entries(tokenSummary)
         .sort(([a], [b]) => a.localeCompare(b))
-        .map(([symbol, { count, chains, standards }]) => {
+        .map(([symbol, { count, chains, standards, score }]) => {
           const chainList = Array.from(chains)
             .sort((a, b) => a - b)
             .join(", ");
           const standardList = Array.from(standards).join(", ");
           return `${symbol}:
   - Count: ${count}
+  - Score: ${score ?? 0}
   - Standards: ${standardList}
   - Chains: [${chainList}]`;
         })
         .join("\n\n");
 
-      const totalTokens = tokenList.length;
+      const totalTokens = sortedTokenList.length;
       const totalUniqueTokens = Object.keys(tokenSummary).length;
       const summaryWithTotal = `Total tokens: ${totalTokens}
 Total unique tokens: ${totalUniqueTokens}
@@ -61,7 +74,10 @@ Total unique tokens: ${totalUniqueTokens}
 ${summaryText}`;
 
       await Promise.all([
-        writeFile(`tokens.${name}.json`, JSON.stringify(tokenList, null, 2)),
+        writeFile(
+          `tokens.${name}.json`,
+          JSON.stringify(sortedTokenList, null, 2)
+        ),
         writeFile(`token-summary.${name}.txt`, summaryWithTotal),
       ]);
     }

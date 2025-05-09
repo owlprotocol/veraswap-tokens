@@ -78,4 +78,5 @@ export interface GeneratedToken {
   address?: Address;
   hypERC20Collateral?: Address;
   remoteTokens?: RemoteToken[];
+  score?: number;
 }

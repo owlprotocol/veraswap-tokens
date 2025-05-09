@@ -1,5 +1,32 @@
 [
   {
+    "symbol": "ETH",
+    "name": "Ether",
+    "decimals": 18,
+    "standard": "Native",
+    "chainId": 11155111,
+    "address": "0x0000000000000000000000000000000000000000",
+    "score": 3
+  },
+  {
+    "symbol": "ETH",
+    "name": "Ether",
+    "decimals": 18,
+    "standard": "Native",
+    "chainId": 11155420,
+    "address": "0x0000000000000000000000000000000000000000",
+    "score": 3
+  },
+  {
+    "symbol": "ETH",
+    "name": "Ether",
+    "decimals": 18,
+    "standard": "Native",
+    "chainId": 1301,
+    "address": "0x0000000000000000000000000000000000000000",
+    "score": 3
+  },
+  {
     "symbol": "C",
     "name": "Token C",
     "decimals": 18,
@@ -17,7 +44,8 @@
         "chainId": 1301,
         "address": "0x5cED2AC3066a17c0A2ed31F95DcDC9fd5C19DAbB"
       }
-    ]
+    ],
+    "score": 0
   },
   {
     "symbol": "C",
@@ -36,7 +64,8 @@
         "chainId": 1301,
         "address": "0x5cED2AC3066a17c0A2ed31F95DcDC9fd5C19DAbB"
       }
-    ]
+    ],
+    "score": 0
   },
   {
     "symbol": "C",
@@ -55,7 +84,8 @@
         "chainId": 11155420,
         "address": "0x640C4647858C4FF1a9e72Ce0A2De1ef74641D954"
       }
-    ]
+    ],
+    "score": 0
   },
   {
     "symbol": "D",
@@ -75,7 +105,8 @@
         "chainId": 1301,
         "address": "0x82B7EF712a532F9Dd068cd1B3ddf3948c1BBE39D"
       }
-    ]
+    ],
+    "score": 0
   },
   {
     "symbol": "D",
@@ -94,7 +125,8 @@
         "chainId": 1301,
         "address": "0x82B7EF712a532F9Dd068cd1B3ddf3948c1BBE39D"
       }
-    ]
+    ],
+    "score": 0
   },
   {
     "symbol": "D",
@@ -113,30 +145,7 @@
         "chainId": 11155420,
         "address": "0xE76f05585813d2736348F6AEeFbD94927813b4Cb"
       }
-    ]
-  },
-  {
-    "symbol": "ETH",
-    "name": "Ether",
-    "decimals": 18,
-    "standard": "Native",
-    "chainId": 11155111,
-    "address": "0x0000000000000000000000000000000000000000"
-  },
-  {
-    "symbol": "ETH",
-    "name": "Ether",
-    "decimals": 18,
-    "standard": "Native",
-    "chainId": 11155420,
-    "address": "0x0000000000000000000000000000000000000000"
-  },
-  {
-    "symbol": "ETH",
-    "name": "Ether",
-    "decimals": 18,
-    "standard": "Native",
-    "chainId": 1301,
-    "address": "0x0000000000000000000000000000000000000000"
+    ],
+    "score": 0
   }
 ]
