@@ -1,0 +1,76 @@
+import { Token } from "../../types/token";
+
+export const testnetTokens: Token[] = [
+  {
+    symbol: "C",
+    name: "Token C",
+    logoURI:
+      "https://i0.wp.com/musically.com/wp-content/uploads/2024/11/Pedro-the-Raccoon.png?resize=1568%2C1176&ssl=1",
+    decimals: 18,
+    chains: [
+      {
+        chainId: 11155111,
+        standard: "ERC20",
+        address: "0x6b821901f606F2216436CACA965c3B89cB4f1240",
+        hypERC20Collateral: "0x3127Fc42fD0a8fB9E1A342D01C5F89Dd84f78F50",
+      },
+      {
+        chainId: 11155420,
+        standard: "HypERC20",
+        address: "0x640C4647858C4FF1a9e72Ce0A2De1ef74641D954",
+      },
+      {
+        chainId: 1301,
+        standard: "HypERC20",
+        address: "0x5cED2AC3066a17c0A2ed31F95DcDC9fd5C19DAbB",
+      },
+    ],
+  },
+  {
+    symbol: "D",
+    name: "Token D",
+    logoURI:
+      "https://static.the-independent.com/2024/10/08/14/moodeng-crypto-price-prediction-memecoin.jpg?quality=75&width=1368&crop=3%3A2%2Csmart&auto=webp",
+    decimals: 18,
+    chains: [
+      {
+        chainId: 11155111,
+        standard: "ERC20",
+        address: "0x37c6E14d5BB318f211f71e92857794fD9Dd97Ee9",
+        hypERC20Collateral: "0xc6BCbD4B62FA6f088DB0f3D668fbFE235CB014fC",
+      },
+      {
+        chainId: 11155420,
+        standard: "HypERC20",
+        address: "0xE76f05585813d2736348F6AEeFbD94927813b4Cb",
+      },
+      {
+        chainId: 1301,
+        standard: "HypERC20",
+        address: "0x82B7EF712a532F9Dd068cd1B3ddf3948c1BBE39D",
+      },
+    ],
+  },
+  {
+    symbol: "ETH",
+    name: "Ether",
+    decimals: 18,
+    chains: [
+      {
+        chainId: 11155111,
+        standard: "Native",
+        address: "0x0000000000000000000000000000000000000000",
+      },
+      {
+        chainId: 11155420,
+        standard: "Native",
+        address: "0x0000000000000000000000000000000000000000",
+      },
+      {
+        chainId: 1301,
+        standard: "Native",
+        address: "0x0000000000000000000000000000000000000000",
+      },
+    ],
+  },
+];

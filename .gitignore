@@ -1,0 +1,13 @@
+token-summary.mainnet.txt
+token-summary.testnet.txt
+
+node_modules/
+.env
+dist/
+build/
+.DS_Store
+*.log
+coverage/
+.idea/
+.vscode/
+
