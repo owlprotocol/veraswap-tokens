@@ -1,11 +1,24 @@
 import { writeFile } from "node:fs/promises";
 import { mainnetTokens, testnetTokens } from "./tokens";
 import { generateTokenList } from "./utils/generate-token-list";
+import { fetchTokenList } from "./utils/fetch-token-list";
+import { uniqBy } from "lodash-es";
 
 async function generateTokenFiles() {
   try {
+    const externalTokens = await fetchTokenList(
+      "https://tokens.1inch.eth.link/"
+    );
+
+    const allTokens = [...mainnetTokens, ...externalTokens];
+    const uniqueTokens = uniqBy(allTokens, (token) =>
+      token.chains
+        .map((chain) => `${chain.chainId}-${chain.address.toLowerCase()}`)
+        .join("|")
+    );
+
     const networks = [
-      { name: "mainnet", tokens: mainnetTokens },
+      { name: "mainnet", tokens: uniqueTokens },
       { name: "testnet", tokens: testnetTokens },
     ];
 
