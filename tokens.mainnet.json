@@ -160,8 +160,8 @@
     "logoURI": "https://raw.githubusercontent.com/hyperlane-xyz/hyperlane-registry/main/deployments/warp_routes/OP/logo.svg",
     "standard": "ERC20",
     "chainId": 10,
-    "address": "0x0Ea3C23A4dC198c289D5443ac302335aBc86E6b1",
-    "hypERC20Collateral": "0x4200000000000000000000000000000000000042",
+    "address": "0x4200000000000000000000000000000000000042",
+    "hypERC20Collateral": "0x0Ea3C23A4dC198c289D5443ac302335aBc86E6b1",
     "remoteTokens": [
       {
         "chainId": 5330,
