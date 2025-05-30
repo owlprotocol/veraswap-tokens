@@ -766,7 +766,7 @@
   {
     "symbol": "USDC",
     "name": "USD Coin",
-    "decimals": 6,
+    "decimals": 18,
     "logoURI": "https://assets.coingecko.com/coins/images/6319/large/usdc.png",
     "standard": "ERC20",
     "chainId": 56,
@@ -811,7 +811,7 @@
   {
     "symbol": "USDT",
     "name": "Tether USD",
-    "decimals": 6,
+    "decimals": 18,
     "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xdAC17F958D2ee523a2206206994597C13D831ec7/logo.png",
     "standard": "ERC20",
     "chainId": 56,

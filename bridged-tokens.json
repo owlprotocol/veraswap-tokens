@@ -5510,7 +5510,7 @@
     "address": "0x3d7d707Df6390adB61e0Ec3eA91A8FC20E519dd0",
     "name": "USD Coin",
     "symbol": "USDC",
-    "decimals": 6,
+    "decimals": 18,
     "standard": "EvmHypCollateral",
     "collateralAddress": "0x8AC76a51cc950d9822D68b83fE1Ad97B32Cd580d",
     "connections": [
@@ -6009,7 +6009,7 @@
     "address": "0xf4f62eC5C9d4e5464A9D1Dd738e3f50b1d652101",
     "name": "Tether USD",
     "symbol": "USDT",
-    "decimals": 6,
+    "decimals": 18,
     "standard": "EvmHypCollateral",
     "collateralAddress": "0x55d398326f99059fF775485246999027B3197955",
     "connections": [
