@@ -180,7 +180,7 @@
     "remoteTokens": [
       {
         "chainId": 10,
-        "address": "0x0Ea3C23A4dC198c289D5443ac302335aBc86E6b1"
+        "address": "0x4200000000000000000000000000000000000042"
       }
     ]
   },
@@ -211,7 +211,7 @@
     "remoteTokens": [
       {
         "chainId": 1,
-        "address": "0xA7Db85E2925e3fec7C33A20d87CC895C948e62b3"
+        "address": "0xdac17f958d2ee523a2206206994597c13d831ec7"
       }
     ]
   },
