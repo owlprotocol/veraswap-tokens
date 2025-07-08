@@ -84,11 +84,6 @@ export const singleChainTokens: ERC20Token[] = [
         address: "0x1d17CBcF0D6D143135aE902365D2E5e2A16538D4",
       },
       {
-        chainId: 56,
-        standard: "ERC20",
-        address: "0x8AC76a51cc950d9822D68b83fE1Ad97B32Cd580d",
-      },
-      {
         chainId: 137,
         standard: "ERC20",
         address: "0x3c499c542cef5e3811e1192ce70d8cc03d5c3359",
@@ -107,6 +102,19 @@ export const singleChainTokens: ERC20Token[] = [
         chainId: 7777777,
         standard: "ERC20",
         address: "0xCccCCccc7021b32EBb4e8C08314bD62F7c653EC4",
+      },
+    ],
+  },
+  {
+    symbol: "USDC",
+    name: "USD Coin",
+    decimals: 18,
+    logoURI: "https://assets.coingecko.com/coins/images/6319/large/usdc.png",
+    chains: [
+      {
+        chainId: 56,
+        standard: "ERC20",
+        address: "0x8AC76a51cc950d9822D68b83fE1Ad97B32Cd580d",
       },
     ],
   },

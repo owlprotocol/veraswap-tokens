@@ -179,16 +179,6 @@
     "decimals": 6,
     "logoURI": "https://assets.coingecko.com/coins/images/6319/large/usdc.png",
     "standard": "ERC20",
-    "chainId": 56,
-    "address": "0x8AC76a51cc950d9822D68b83fE1Ad97B32Cd580d",
-    "score": 3
-  },
-  {
-    "symbol": "USDC",
-    "name": "USD Coin",
-    "decimals": 6,
-    "logoURI": "https://assets.coingecko.com/coins/images/6319/large/usdc.png",
-    "standard": "ERC20",
     "chainId": 137,
     "address": "0x3c499c542cef5e3811e1192ce70d8cc03d5c3359",
     "score": 3
@@ -221,6 +211,16 @@
     "standard": "ERC20",
     "chainId": 7777777,
     "address": "0xCccCCccc7021b32EBb4e8C08314bD62F7c653EC4",
+    "score": 3
+  },
+  {
+    "symbol": "USDC",
+    "name": "USD Coin",
+    "decimals": 18,
+    "logoURI": "https://assets.coingecko.com/coins/images/6319/large/usdc.png",
+    "standard": "ERC20",
+    "chainId": 56,
+    "address": "0x8AC76a51cc950d9822D68b83fE1Ad97B32Cd580d",
     "score": 3
   },
   {
