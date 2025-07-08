@@ -10,8 +10,8 @@ export const OP: HyperlaneToken = {
     {
       chainId: 10,
       standard: "ERC20",
-      address: "0x0Ea3C23A4dC198c289D5443ac302335aBc86E6b1",
-      hypERC20Collateral: "0x4200000000000000000000000000000000000042",
+      address: "0x4200000000000000000000000000000000000042",
+      hypERC20Collateral: "0x0Ea3C23A4dC198c289D5443ac302335aBc86E6b1",
     },
     {
       chainId: 5330,

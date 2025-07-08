@@ -10,8 +10,8 @@ export const USDT: HyperlaneToken = {
     {
       chainId: 1,
       standard: "ERC20",
-      address: "0xA7Db85E2925e3fec7C33A20d87CC895C948e62b3",
-      hypERC20Collateral: "0xdac17f958d2ee523a2206206994597c13d831ec7",
+      address: "0xdac17f958d2ee523a2206206994597c13d831ec7",
+      hypERC20Collateral: "0xA7Db85E2925e3fec7C33A20d87CC895C948e62b3",
     },
     {
       chainId: 5330,

@@ -6,6 +6,10 @@ import { USDT } from "./USDT.js";
 import { HYPER } from "./HYPER.js";
 import { ezETH } from "./ezETH.js";
 import { SUPR } from "./SUPR.js";
+import { VDT } from "./VDT.js";
+import { ATH } from "./ATH.js";
+import { ZEUS } from "./ZEUS.js";
+import { UNDEAD } from "./UNDEAD.js";
 
 export const hyperlaneTokens: HyperlaneToken[] = [
   cbBTC,
@@ -15,4 +19,8 @@ export const hyperlaneTokens: HyperlaneToken[] = [
   HYPER,
   ezETH,
   SUPR,
+  VDT,
+  ATH,
+  ZEUS,
+  UNDEAD,
 ];

@@ -10,8 +10,8 @@ export const VDT: HyperlaneToken = {
     {
       chainId: 137,
       standard: "ERC20",
-      address: "0x38A357A34ea7e9E41718593Bb624CC628698eDc8",
-      hypERC20Collateral: "0x765Af38A6e8FDcB1EFEF8a3dd2213EFD3090B00F",
+      address: "0x765Af38A6e8FDcB1EFEF8a3dd2213EFD3090B00F",
+      hypERC20Collateral: "0x38A357A34ea7e9E41718593Bb624CC628698eDc8",
     },
     {
       chainId: 56,
