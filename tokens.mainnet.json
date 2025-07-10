@@ -59,78 +59,8 @@
     "decimals": 18,
     "logoURI": "https://tokens.1inch.io/0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee.png",
     "standard": "ERC20",
-    "chainId": 10,
-    "address": "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
-    "score": 3
-  },
-  {
-    "symbol": "ETH",
-    "name": "Ether",
-    "decimals": 18,
-    "logoURI": "https://tokens.1inch.io/0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee.png",
-    "standard": "ERC20",
-    "chainId": 1313161554,
-    "address": "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
-    "score": 3
-  },
-  {
-    "symbol": "ETH",
-    "name": "Ether",
-    "decimals": 18,
-    "logoURI": "https://tokens.1inch.io/0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee.png",
-    "standard": "ERC20",
-    "chainId": 42161,
-    "address": "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
-    "score": 3
-  },
-  {
-    "symbol": "ETH",
-    "name": "Ether",
-    "decimals": 18,
-    "logoURI": "https://tokens.1inch.io/0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee.png",
-    "standard": "ERC20",
-    "chainId": 1,
-    "address": "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
-    "score": 3
-  },
-  {
-    "symbol": "ETH",
-    "name": "Ether",
-    "decimals": 18,
-    "logoURI": "https://tokens.1inch.io/0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee.png",
-    "standard": "ERC20",
     "chainId": 56,
     "address": "0x2170ed0880ac9a755fd29b2688956bd959f933f8",
-    "score": 3
-  },
-  {
-    "symbol": "ETH",
-    "name": "Ether",
-    "decimals": 18,
-    "logoURI": "https://tokens.1inch.io/0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee.png",
-    "standard": "ERC20",
-    "chainId": 324,
-    "address": "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
-    "score": 3
-  },
-  {
-    "symbol": "ETH",
-    "name": "Ether",
-    "decimals": 18,
-    "logoURI": "https://tokens.1inch.io/0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee.png",
-    "standard": "ERC20",
-    "chainId": 8453,
-    "address": "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
-    "score": 3
-  },
-  {
-    "symbol": "ETH",
-    "name": "Ether",
-    "decimals": 18,
-    "logoURI": "https://tokens.1inch.io/0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee.png",
-    "standard": "ERC20",
-    "chainId": 59144,
-    "address": "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
     "score": 3
   },
   {
@@ -2476,16 +2406,6 @@
     "score": 0
   },
   {
-    "symbol": "AVAX",
-    "name": "Avalanche Token",
-    "decimals": 18,
-    "logoURI": "https://tokens.1inch.io/0x2c89bbc92bd86f8075d1decc58c7f4e0107f286b.png",
-    "standard": "ERC20",
-    "chainId": 43114,
-    "address": "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
-    "score": 0
-  },
-  {
     "symbol": "AVG",
     "name": "Avocado DAO Token",
     "decimals": 18,
@@ -3263,16 +3183,6 @@
     "standard": "ERC20",
     "chainId": 43114,
     "address": "0x264c1383ea520f73dd837f915ef3a732e204a493",
-    "score": 0
-  },
-  {
-    "symbol": "BNB",
-    "name": "BNB",
-    "decimals": 18,
-    "logoURI": "https://tokens.1inch.io/0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c_1.png",
-    "standard": "ERC20",
-    "chainId": 56,
-    "address": "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
     "score": 0
   },
   {
@@ -6621,16 +6531,6 @@
     "decimals": 18,
     "logoURI": "https://tokens.1inch.io/0x4e15361fd6b4bb609fa63c81a2be19d873717870.png",
     "standard": "ERC20",
-    "chainId": 250,
-    "address": "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
-    "score": 0
-  },
-  {
-    "symbol": "FTM",
-    "name": "Fantom Token",
-    "decimals": 18,
-    "logoURI": "https://tokens.1inch.io/0x4e15361fd6b4bb609fa63c81a2be19d873717870.png",
-    "standard": "ERC20",
     "chainId": 1,
     "address": "0x4e15361fd6b4bb609fa63c81a2be19d873717870",
     "score": 0
@@ -8453,16 +8353,6 @@
     "standard": "ERC20",
     "chainId": 1,
     "address": "0xb9d99c33ea2d86ec5ec6b8a4dd816ebba64404af",
-    "score": 0
-  },
-  {
-    "symbol": "KAIA",
-    "name": "Kaia",
-    "decimals": 18,
-    "logoURI": "https://tokens-data.1inch.io/images/8217/0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee.png",
-    "standard": "ERC20",
-    "chainId": 8217,
-    "address": "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
     "score": 0
   },
   {
@@ -11793,16 +11683,6 @@
     "standard": "ERC20",
     "chainId": 1,
     "address": "0x89ab32156e46f46d02ade3fecbe5fc4243b9aaed",
-    "score": 0
-  },
-  {
-    "symbol": "POL",
-    "name": "Polygon Ecosystem Token",
-    "decimals": 18,
-    "logoURI": "https://tokens.1inch.io/0x7d1afa7b718fb893db30a3abc0cfc608aacfebb0.png",
-    "standard": "ERC20",
-    "chainId": 137,
-    "address": "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
     "score": 0
   },
   {
@@ -20198,16 +20078,6 @@
     "standard": "ERC20",
     "chainId": 8453,
     "address": "0x7fcd174e80f264448ebee8c88a7c4476aaf58ea6",
-    "score": 0
-  },
-  {
-    "symbol": "xDAI",
-    "name": "xDAI",
-    "decimals": 18,
-    "logoURI": "https://tokens.1inch.io/0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee_1.png",
-    "standard": "ERC20",
-    "chainId": 100,
-    "address": "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
     "score": 0
   },
   {
