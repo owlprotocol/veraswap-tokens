@@ -2,6 +2,62 @@ import { ERC20Token } from "../../../types/token";
 
 export const singleChainTokens: ERC20Token[] = [
   {
+    symbol: "TIBBIR",
+    name: "Ribbita by Virtuals",
+    decimals: 18,
+    logoURI:
+      "https://assets.coingecko.com/coins/images/54970/large/Untitled_design.png?1742941268",
+    chains: [
+      {
+        chainId: 8453,
+        address: "0xa4a2e2ca3fbfe21aed83471d28b6f65a233c6e00",
+        standard: "ERC20",
+      },
+    ],
+  },
+  {
+    symbol: "VADER",
+    name: "VaderAI by Virtuals",
+    decimals: 18,
+    logoURI:
+      "https://assets.coingecko.com/coins/images/51910/large/kare_pepe.png?1733345833",
+    chains: [
+      {
+        chainId: 8453,
+        address: "0x731814e491571a2e9ee3c5b1f7f3b962ee8f4870",
+        standard: "ERC20",
+      },
+    ],
+  },
+  {
+    symbol: "LUNA",
+    name: "Luna by Virtuals",
+    decimals: 18,
+    logoURI:
+      "https://assets.coingecko.com/coins/images/50880/large/luna.png?1729478763",
+    chains: [
+      {
+        chainId: 8453,
+        address: "0x55cd6469f597452b5a7536e2cd98fde4c1247ee4",
+        standard: "ERC20",
+      },
+    ],
+  },
+  {
+    symbol: "AXR",
+    name: "Axelrod by Virtuals",
+    decimals: 18,
+    logoURI:
+      "https://assets.coingecko.com/coins/images/66200/large/Axelrod_1.png?1748668901",
+    chains: [
+      {
+        chainId: 8453,
+        address: "0x58db197e91bc8cf1587f75850683e4bd0730e6bf",
+        standard: "ERC20",
+      },
+    ],
+  },
+  {
     symbol: "UNI",
     name: "Uniswap",
     decimals: 18,
