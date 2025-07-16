@@ -2446,6 +2446,16 @@
     "score": 0
   },
   {
+    "symbol": "AXR",
+    "name": "Axelrod by Virtuals",
+    "decimals": 18,
+    "logoURI": "https://assets.coingecko.com/coins/images/66200/large/Axelrod_1.png?1748668901",
+    "standard": "ERC20",
+    "chainId": 8453,
+    "address": "0x58db197e91bc8cf1587f75850683e4bd0730e6bf",
+    "score": 0
+  },
+  {
     "symbol": "AXS",
     "name": "Axie Infinity Shard",
     "decimals": 18,
@@ -9096,6 +9106,16 @@
     "score": 0
   },
   {
+    "symbol": "LUNA",
+    "name": "Luna by Virtuals",
+    "decimals": 18,
+    "logoURI": "https://assets.coingecko.com/coins/images/50880/large/luna.png?1729478763",
+    "standard": "ERC20",
+    "chainId": 8453,
+    "address": "0x55cd6469f597452b5a7536e2cd98fde4c1247ee4",
+    "score": 0
+  },
+  {
     "symbol": "LUNAR",
     "name": "LunarHighway",
     "decimals": 9,
@@ -9193,6 +9213,16 @@
     "standard": "ERC20",
     "chainId": 59144,
     "address": "0x1a51b19ce03dbe0cb44c1528e34a7edd7771e9af",
+    "score": 0
+  },
+  {
+    "symbol": "LYRA",
+    "name": "Lyra by Virtuals",
+    "decimals": 18,
+    "logoURI": "https://s3.ap-southeast-1.amazonaws.com/virtualprotocolcdn/name_6c5dd2b00d.png",
+    "standard": "ERC20",
+    "chainId": 8453,
+    "address": "0x99956f143dCCa77cdDf4B4b2a0fA4d491703244d",
     "score": 0
   },
   {
@@ -14581,6 +14611,16 @@
     "score": 0
   },
   {
+    "symbol": "TIBBIR",
+    "name": "Ribbita by Virtuals",
+    "decimals": 18,
+    "logoURI": "https://assets.coingecko.com/coins/images/54970/large/Untitled_design.png?1742941268",
+    "standard": "ERC20",
+    "chainId": 8453,
+    "address": "0xa4a2e2ca3fbfe21aed83471d28b6f65a233c6e00",
+    "score": 0
+  },
+  {
     "symbol": "TIC",
     "name": "ElasticSwap Tic Token",
     "decimals": 18,
@@ -15781,6 +15821,16 @@
     "standard": "ERC20",
     "chainId": 1,
     "address": "0x55c08ca52497e2f1534b59e2917bf524d4765257",
+    "score": 0
+  },
+  {
+    "symbol": "VADER",
+    "name": "VaderAI by Virtuals",
+    "decimals": 18,
+    "logoURI": "https://assets.coingecko.com/coins/images/51910/large/kare_pepe.png?1733345833",
+    "standard": "ERC20",
+    "chainId": 8453,
+    "address": "0x731814e491571a2e9ee3c5b1f7f3b962ee8f4870",
     "score": 0
   },
   {
