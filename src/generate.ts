@@ -1,10 +1,11 @@
 import { writeFile } from "node:fs/promises";
-import { mainnetTokens, testnetTokens } from "./tokens";
-import { generateTokenList } from "./utils/generate-token-list";
-import { fetchTokenList } from "./utils/fetch-token-list";
+import { mainnetTokens, testnetTokens } from "@/tokens";
+import { generateTokenList } from "@/utils/generate-token-list";
+import { fetchTokenList } from "@/utils/fetch-token-list";
+import { generateVirtualsTokenList } from "@/utils/transform-virtuals-tokens";
 import { uniqBy, sortBy } from "lodash-es";
-import { scoreTokens } from "./utils/score-tokens";
-import { filterTokens } from "./utils/filter-tokens";
+import { scoreTokens } from "@/utils/score-tokens";
+import { filterTokens } from "@/utils/filter-tokens";
 
 async function generateTokenFiles() {
   try {
@@ -81,7 +82,21 @@ ${summaryText}`;
         writeFile(`token-summary.${name}.txt`, summaryWithTotal),
       ]);
     }
+
+    console.log("Generating virtuals tokens...");
+    const virtualsTokens = await generateVirtualsTokenList(
+      "src/assets/data/virtuals-tokens.json"
+    );
+    const sortedVirtualsTokens = sortBy(virtualsTokens, "symbol");
+
+    await writeFile(
+      "tokens.virtuals.json",
+      JSON.stringify(sortedVirtualsTokens, null, 2)
+    );
+
+    console.log(`Generated ${sortedVirtualsTokens.length} virtuals tokens`);
   } catch (error) {
+    console.error("Error generating token files:", error);
     process.exit(1);
   }
 }
