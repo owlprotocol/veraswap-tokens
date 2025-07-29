@@ -11,6 +11,7 @@ import { ATH } from "./ATH.js";
 import { ZEUS } from "./ZEUS.js";
 import { UNDEAD } from "./UNDEAD.js";
 import { TIAN } from "./TIAN.js";
+import { LYRA } from "./LYRA.js";
 
 export const hyperlaneTokens: HyperlaneToken[] = [
   cbBTC,
@@ -25,4 +26,5 @@ export const hyperlaneTokens: HyperlaneToken[] = [
   ZEUS,
   UNDEAD,
   TIAN,
+  LYRA,
 ];
