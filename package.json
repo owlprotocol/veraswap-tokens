@@ -3,8 +3,10 @@
   "version": "1.0.0",
   "description": "Supported Tokens by Veraswap",
   "scripts": {
-    "build": "tsx src/generate.ts",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "npm run preprocess && npm run generate",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "preprocess": "tsx src/preprocess.ts",
+    "generate": "tsx src/generate.ts"
   },
   "keywords": [],
   "author": "",

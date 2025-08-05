@@ -1,5 +1,4 @@
-token-summary.mainnet.txt
-token-summary.testnet.txt
+*.txt
 
 node_modules/
 .env
