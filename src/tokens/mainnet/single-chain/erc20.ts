@@ -2,20 +2,6 @@ import { ERC20Token } from "../../../types/token";
 
 export const singleChainTokens: ERC20Token[] = [
   {
-    symbol: "LYRA",
-    name: "Lyra by Virtuals",
-    decimals: 18,
-    logoURI:
-      "https://s3.ap-southeast-1.amazonaws.com/virtualprotocolcdn/name_6c5dd2b00d.png",
-    chains: [
-      {
-        chainId: 8453,
-        address: "0x99956f143dCCa77cdDf4B4b2a0fA4d491703244d",
-        standard: "ERC20",
-      },
-    ],
-  },
-  {
     symbol: "TIBBIR",
     name: "Ribbita by Virtuals",
     decimals: 18,
