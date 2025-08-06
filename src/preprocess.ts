@@ -4,6 +4,7 @@ import { Address } from "viem";
 import { groupBy, map } from "lodash-es";
 import { mainnetTokens, testnetTokens } from "@/tokens";
 import { getSuccessfulQuotes } from "./utils/quote-tokens";
+import { UNISWAP_CONTRACTS } from "./constants/contracts";
 
 interface ExternalToken {
   address: string;
@@ -47,7 +48,7 @@ async function fetch1inchTokens(): Promise<Token[]> {
     const data = (await response.json()) as ExternalTokenList;
 
     const filteredTokens = data.tokens.filter((token) => {
-      const isSupported = Object.values(CHAIN_ID_MAP).includes(token.chainId);
+      const isSupported = UNISWAP_CONTRACTS[token.chainId] !== undefined;
       if (!isSupported) {
         console.warn(
           `Skipping 1inch token ${token.symbol} on unsupported chain: ${token.chainId}`
@@ -172,13 +173,13 @@ async function preprocessTokens() {
     console.log("Filtering tokens that have quotes");
 
     console.log("Checking tokens for quotes");
-    const [quotable1inchTokens, quotableVirtualsTokens] = await Promise.all([
+    const [quotableOneInchTokens, quotableVirtualsTokens] = await Promise.all([
       getSuccessfulQuotes(oneinchTokens),
       getSuccessfulQuotes(virtualsTokens),
     ]);
 
     console.log(
-      `Found quotes for ${quotable1inchTokens.length}/${oneinchTokens.length} 1inch tokens`
+      `Found quotes for ${quotableOneInchTokens.length}/${oneinchTokens.length} 1inch tokens`
     );
     console.log(
       `Found quotes for ${quotableVirtualsTokens.length}/${virtualsTokens.length} virtuals tokens`
@@ -187,7 +188,7 @@ async function preprocessTokens() {
     await Promise.all([
       writeFile(
         "src/assets/data/processed/1inch-tokens.json",
-        JSON.stringify(quotable1inchTokens, null, 2)
+        JSON.stringify(quotableOneInchTokens, null, 2)
       ),
       writeFile(
         "src/assets/data/processed/virtuals-tokens.json",
@@ -205,7 +206,7 @@ async function preprocessTokens() {
 
     console.log("Preprocessing completed");
     console.log(
-      `- 1inch tokens: ${quotable1inchTokens.length} (filtered from ${oneinchTokens.length})`
+      `- 1inch tokens: ${quotableOneInchTokens.length} (filtered from ${oneinchTokens.length})`
     );
     console.log(
       `- Virtuals tokens: ${quotableVirtualsTokens.length} (filtered from ${virtualsTokens.length})`

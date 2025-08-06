@@ -17,6 +17,7 @@ import {
 import { metaQuoteExactInputBest } from "../artifacts/metaQuoteExactInputBest";
 import { UNISWAP_CONTRACTS } from "../constants/contracts";
 import { CURRENCY_HOPS } from "../constants/hopCurrencies";
+import { DEFAULT_POOL_PARAMS } from "../constants/poolKeys";
 import { Token } from "../types";
 
 const CHAIN_MAP = {
@@ -51,7 +52,7 @@ async function canQuoteToken(token: Token): Promise<boolean> {
       exactCurrency: contracts.weth9 as Address,
       variableCurrency: chain.address as Address,
       exactAmount: parseEther("0.01"),
-      poolKeyOptions: [{ fee: 3000, tickSpacing: 60, hooks: zeroAddress }],
+      poolKeyOptions: Object.values(DEFAULT_POOL_PARAMS),
     };
 
     const hopCurrencies =
