@@ -3,6 +3,7 @@ import { Token, TokenStandard, ERC20Token } from "@/types/token";
 import { Address } from "viem";
 import { groupBy, map } from "lodash-es";
 import { mainnetTokens, testnetTokens } from "@/tokens";
+import { getSuccessfulQuotes } from "./utils/quote-tokens";
 
 interface ExternalToken {
   address: string;
@@ -45,7 +46,17 @@ async function fetch1inchTokens(): Promise<Token[]> {
 
     const data = (await response.json()) as ExternalTokenList;
 
-    const groupedTokens = groupBy(data.tokens, "symbol");
+    const filteredTokens = data.tokens.filter((token) => {
+      const isSupported = Object.values(CHAIN_ID_MAP).includes(token.chainId);
+      if (!isSupported) {
+        console.warn(
+          `Skipping 1inch token ${token.symbol} on unsupported chain: ${token.chainId}`
+        );
+      }
+      return isSupported;
+    });
+
+    const groupedTokens = groupBy(filteredTokens, "symbol");
 
     const tokens = map(
       groupedTokens,
@@ -158,14 +169,29 @@ async function preprocessTokens() {
       processLocalTokens(),
     ]);
 
+    console.log("Filtering tokens that have quotes");
+
+    console.log("Checking tokens for quotes");
+    const [quotable1inchTokens, quotableVirtualsTokens] = await Promise.all([
+      getSuccessfulQuotes(oneinchTokens),
+      getSuccessfulQuotes(virtualsTokens),
+    ]);
+
+    console.log(
+      `Found quotes for ${quotable1inchTokens.length}/${oneinchTokens.length} 1inch tokens`
+    );
+    console.log(
+      `Found quotes for ${quotableVirtualsTokens.length}/${virtualsTokens.length} virtuals tokens`
+    );
+
     await Promise.all([
       writeFile(
         "src/assets/data/processed/1inch-tokens.json",
-        JSON.stringify(oneinchTokens, null, 2)
+        JSON.stringify(quotable1inchTokens, null, 2)
       ),
       writeFile(
         "src/assets/data/processed/virtuals-tokens.json",
-        JSON.stringify(virtualsTokens, null, 2)
+        JSON.stringify(quotableVirtualsTokens, null, 2)
       ),
       writeFile(
         "src/assets/data/processed/local-mainnet-tokens.json",
@@ -177,9 +203,13 @@ async function preprocessTokens() {
       ),
     ]);
 
-    console.log("✅ Preprocessing completed successfully!");
-    console.log(`- 1inch tokens: ${oneinchTokens.length}`);
-    console.log(`- Virtuals tokens: ${virtualsTokens.length}`);
+    console.log("Preprocessing completed");
+    console.log(
+      `- 1inch tokens: ${quotable1inchTokens.length} (filtered from ${oneinchTokens.length})`
+    );
+    console.log(
+      `- Virtuals tokens: ${quotableVirtualsTokens.length} (filtered from ${virtualsTokens.length})`
+    );
     console.log(`- Local mainnet tokens: ${localTokens.mainnet.length}`);
     console.log(`- Local testnet tokens: ${localTokens.testnet.length}`);
   } catch (error) {

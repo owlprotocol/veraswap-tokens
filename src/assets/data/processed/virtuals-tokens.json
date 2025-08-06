@@ -9776,19 +9776,6 @@
     ]
   },
   {
-    "symbol": "STRATOS",
-    "name": "STRATOS",
-    "decimals": 18,
-    "logoURI": "https://s3.ap-southeast-1.amazonaws.com/virtualprotocolcdn/27740_STRATOS_1015d2df12.jpeg",
-    "chains": [
-      {
-        "chainId": 1,
-        "standard": "ERC20",
-        "address": "0xd79D6585D00a37D115D8FA4E2762b95AdC369351"
-      }
-    ]
-  },
-  {
     "symbol": "PRIMO",
     "name": "PrimoAI",
     "decimals": 18,

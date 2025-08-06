@@ -3,11 +3,11 @@ import {
   bsc,
   base,
   polygon,
-  mainnet,
+  ethereum as mainnet,
   arbitrum,
   avalanche,
   optimism,
-} from "viem/chains";
+} from "../chains/index.js";
 
 export const CURRENCY_HOPS = {
   [bsc.id]: [

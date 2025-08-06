@@ -7309,16 +7309,6 @@
     "score": 0
   },
   {
-    "symbol": "STRATOS",
-    "name": "STRATOS",
-    "decimals": 18,
-    "logoURI": "https://s3.ap-southeast-1.amazonaws.com/virtualprotocolcdn/27740_STRATOS_1015d2df12.jpeg",
-    "standard": "ERC20",
-    "chainId": 1,
-    "address": "0xd79D6585D00a37D115D8FA4E2762b95AdC369351",
-    "score": 0
-  },
-  {
     "symbol": "SUEDE",
     "name": "Johnny Suede",
     "decimals": 18,

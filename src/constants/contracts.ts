@@ -7,9 +7,9 @@ import {
   bsc,
   optimism,
   polygon,
-  mainnet,
+  ethereum as mainnet,
   avalanche,
-} from "viem/chains";
+} from "../chains/index.js";
 import { zeroAddress } from "viem";
 
 interface UniswapContracts {
