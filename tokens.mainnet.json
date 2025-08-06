@@ -1283,16 +1283,6 @@
     "score": 0
   },
   {
-    "symbol": "AIXBT",
-    "name": "aixbt by Virtuals",
-    "decimals": 18,
-    "logoURI": "https://tokens-data.1inch.io/images/8453/0x4f9fd6be4a90f2620860d680c0d4d5fb53d1a825_0xef7a2f00773e2a96a830faaf5788c6b8444537e25361b9cec6dfcd0495781f00.png",
-    "standard": "ERC20",
-    "chainId": 8453,
-    "address": "0x4f9fd6be4a90f2620860d680c0d4d5fb53d1a825",
-    "score": 0
-  },
-  {
     "symbol": "AJNA",
     "name": "Ajna Protocol",
     "decimals": 18,
@@ -1973,16 +1963,6 @@
     "standard": "ERC20",
     "chainId": 56,
     "address": "0x8b1f4432f943c465a973fedc6d7aa50fc96f1f65",
-    "score": 0
-  },
-  {
-    "symbol": "AXR",
-    "name": "Axelrod by Virtuals",
-    "decimals": 18,
-    "logoURI": "https://assets.coingecko.com/coins/images/66200/large/Axelrod_1.png?1748668901",
-    "standard": "ERC20",
-    "chainId": 8453,
-    "address": "0x58db197e91bc8cf1587f75850683e4bd0730e6bf",
     "score": 0
   },
   {
@@ -7356,39 +7336,6 @@
     "score": 0
   },
   {
-    "symbol": "LYRA",
-    "name": "Lyra by Virtuals",
-    "decimals": 18,
-    "logoURI": "https://s3.ap-southeast-1.amazonaws.com/virtualprotocolcdn/name_6c5dd2b00d.png",
-    "standard": "ERC20",
-    "chainId": 8453,
-    "address": "0x99956f143dcca77cddf4b4b2a0fa4d491703244d",
-    "hypERC20Collateral": "0xa29936A8cff86D4aAd515C105dE508d1f860D6D6",
-    "remoteTokens": [
-      {
-        "chainId": 1514,
-        "address": "0xa4f5c615f72DDeB2220471694ffF1c0c3dE051e1"
-      }
-    ],
-    "score": 0
-  },
-  {
-    "symbol": "LYRA",
-    "name": "Lyra by Virtuals",
-    "decimals": 18,
-    "logoURI": "https://s3.ap-southeast-1.amazonaws.com/virtualprotocolcdn/name_6c5dd2b00d.png",
-    "standard": "HypERC20",
-    "chainId": 1514,
-    "address": "0xa4f5c615f72DDeB2220471694ffF1c0c3dE051e1",
-    "remoteTokens": [
-      {
-        "chainId": 8453,
-        "address": "0x99956f143dcca77cddf4b4b2a0fa4d491703244d"
-      }
-    ],
-    "score": 0
-  },
-  {
     "symbol": "LYXe",
     "name": "LUKSO Token",
     "decimals": 18,
@@ -11564,157 +11511,6 @@
     "score": 0
   },
   {
-    "symbol": "TIAN",
-    "name": "AskTianAI by Virtuals",
-    "decimals": 18,
-    "logoURI": "https://coin-images.coingecko.com/coins/images/55320/large/AskTian_logo_%28200px%29.png",
-    "standard": "ERC20",
-    "chainId": 8453,
-    "address": "0x795abcb2a9901f6ec510e18d40de08b84628c354",
-    "hypERC20Collateral": "0x0a905B4670c9f1A08F45f941374895eE7257a0F8",
-    "remoteTokens": [
-      {
-        "chainId": 56,
-        "address": "0xEeCaBf21e847aFA53B9b77111cd4ee7a1A84E6fB"
-      },
-      {
-        "chainId": 10,
-        "address": "0xB1Bc80180E10C4EE095834ce5fA9794CF9501C2E"
-      },
-      {
-        "chainId": 1329,
-        "address": "0xE567662Dc68acE9F00BCcedfa9205D164399a1Bb"
-      },
-      {
-        "chainId": 42161,
-        "address": "0x3aeB2251F92D83cf60808C1E2a5E44a93F719921"
-      }
-    ],
-    "score": 0
-  },
-  {
-    "symbol": "TIAN",
-    "name": "AskTianAI by Virtuals",
-    "decimals": 18,
-    "logoURI": "https://coin-images.coingecko.com/coins/images/55320/large/AskTian_logo_%28200px%29.png",
-    "standard": "HypERC20",
-    "chainId": 56,
-    "address": "0xEeCaBf21e847aFA53B9b77111cd4ee7a1A84E6fB",
-    "remoteTokens": [
-      {
-        "chainId": 8453,
-        "address": "0x795abcb2a9901f6ec510e18d40de08b84628c354"
-      },
-      {
-        "chainId": 10,
-        "address": "0xB1Bc80180E10C4EE095834ce5fA9794CF9501C2E"
-      },
-      {
-        "chainId": 1329,
-        "address": "0xE567662Dc68acE9F00BCcedfa9205D164399a1Bb"
-      },
-      {
-        "chainId": 42161,
-        "address": "0x3aeB2251F92D83cf60808C1E2a5E44a93F719921"
-      }
-    ],
-    "score": 0
-  },
-  {
-    "symbol": "TIAN",
-    "name": "AskTianAI by Virtuals",
-    "decimals": 18,
-    "logoURI": "https://coin-images.coingecko.com/coins/images/55320/large/AskTian_logo_%28200px%29.png",
-    "standard": "HypERC20",
-    "chainId": 10,
-    "address": "0xB1Bc80180E10C4EE095834ce5fA9794CF9501C2E",
-    "remoteTokens": [
-      {
-        "chainId": 8453,
-        "address": "0x795abcb2a9901f6ec510e18d40de08b84628c354"
-      },
-      {
-        "chainId": 56,
-        "address": "0xEeCaBf21e847aFA53B9b77111cd4ee7a1A84E6fB"
-      },
-      {
-        "chainId": 1329,
-        "address": "0xE567662Dc68acE9F00BCcedfa9205D164399a1Bb"
-      },
-      {
-        "chainId": 42161,
-        "address": "0x3aeB2251F92D83cf60808C1E2a5E44a93F719921"
-      }
-    ],
-    "score": 0
-  },
-  {
-    "symbol": "TIAN",
-    "name": "AskTianAI by Virtuals",
-    "decimals": 18,
-    "logoURI": "https://coin-images.coingecko.com/coins/images/55320/large/AskTian_logo_%28200px%29.png",
-    "standard": "HypERC20",
-    "chainId": 1329,
-    "address": "0xE567662Dc68acE9F00BCcedfa9205D164399a1Bb",
-    "remoteTokens": [
-      {
-        "chainId": 8453,
-        "address": "0x795abcb2a9901f6ec510e18d40de08b84628c354"
-      },
-      {
-        "chainId": 56,
-        "address": "0xEeCaBf21e847aFA53B9b77111cd4ee7a1A84E6fB"
-      },
-      {
-        "chainId": 10,
-        "address": "0xB1Bc80180E10C4EE095834ce5fA9794CF9501C2E"
-      },
-      {
-        "chainId": 42161,
-        "address": "0x3aeB2251F92D83cf60808C1E2a5E44a93F719921"
-      }
-    ],
-    "score": 0
-  },
-  {
-    "symbol": "TIAN",
-    "name": "AskTianAI by Virtuals",
-    "decimals": 18,
-    "logoURI": "https://coin-images.coingecko.com/coins/images/55320/large/AskTian_logo_%28200px%29.png",
-    "standard": "HypERC20",
-    "chainId": 42161,
-    "address": "0x3aeB2251F92D83cf60808C1E2a5E44a93F719921",
-    "remoteTokens": [
-      {
-        "chainId": 8453,
-        "address": "0x795abcb2a9901f6ec510e18d40de08b84628c354"
-      },
-      {
-        "chainId": 56,
-        "address": "0xEeCaBf21e847aFA53B9b77111cd4ee7a1A84E6fB"
-      },
-      {
-        "chainId": 10,
-        "address": "0xB1Bc80180E10C4EE095834ce5fA9794CF9501C2E"
-      },
-      {
-        "chainId": 1329,
-        "address": "0xE567662Dc68acE9F00BCcedfa9205D164399a1Bb"
-      }
-    ],
-    "score": 0
-  },
-  {
-    "symbol": "TIBBIR",
-    "name": "Ribbita by Virtuals",
-    "decimals": 18,
-    "logoURI": "https://assets.coingecko.com/coins/images/54970/large/Untitled_design.png?1742941268",
-    "standard": "ERC20",
-    "chainId": 8453,
-    "address": "0xa4a2e2ca3fbfe21aed83471d28b6f65a233c6e00",
-    "score": 0
-  },
-  {
     "symbol": "TIDAL",
     "name": "Tidal Token",
     "decimals": 18,
@@ -12625,16 +12421,6 @@
     "standard": "ERC20",
     "chainId": 1,
     "address": "0x55c08ca52497e2f1534b59e2917bf524d4765257",
-    "score": 0
-  },
-  {
-    "symbol": "VADER",
-    "name": "VaderAI by Virtuals",
-    "decimals": 18,
-    "logoURI": "https://assets.coingecko.com/coins/images/51910/large/kare_pepe.png?1733345833",
-    "standard": "ERC20",
-    "chainId": 8453,
-    "address": "0x731814e491571a2e9ee3c5b1f7f3b962ee8f4870",
     "score": 0
   },
   {

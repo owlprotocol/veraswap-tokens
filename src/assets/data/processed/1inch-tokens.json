@@ -15463,19 +15463,6 @@
     ]
   },
   {
-    "symbol": "AIXBT",
-    "name": "aixbt by Virtuals",
-    "decimals": 18,
-    "logoURI": "https://tokens-data.1inch.io/images/8453/0x4f9fd6be4a90f2620860d680c0d4d5fb53d1a825_0xef7a2f00773e2a96a830faaf5788c6b8444537e25361b9cec6dfcd0495781f00.png",
-    "chains": [
-      {
-        "chainId": 8453,
-        "standard": "ERC20",
-        "address": "0x4f9fd6be4a90f2620860d680c0d4d5fb53d1a825"
-      }
-    ]
-  },
-  {
     "symbol": "CLANKER",
     "name": "tokenbot",
     "decimals": 18,

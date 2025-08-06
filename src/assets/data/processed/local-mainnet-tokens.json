@@ -37,32 +37,6 @@
     ]
   },
   {
-    "symbol": "TIBBIR",
-    "name": "Ribbita by Virtuals",
-    "decimals": 18,
-    "logoURI": "https://assets.coingecko.com/coins/images/54970/large/Untitled_design.png?1742941268",
-    "chains": [
-      {
-        "chainId": 8453,
-        "address": "0xa4a2e2ca3fbfe21aed83471d28b6f65a233c6e00",
-        "standard": "ERC20"
-      }
-    ]
-  },
-  {
-    "symbol": "VADER",
-    "name": "VaderAI by Virtuals",
-    "decimals": 18,
-    "logoURI": "https://assets.coingecko.com/coins/images/51910/large/kare_pepe.png?1733345833",
-    "chains": [
-      {
-        "chainId": 8453,
-        "address": "0x731814e491571a2e9ee3c5b1f7f3b962ee8f4870",
-        "standard": "ERC20"
-      }
-    ]
-  },
-  {
     "symbol": "LUNA",
     "name": "Luna by Virtuals",
     "decimals": 18,
@@ -71,19 +45,6 @@
       {
         "chainId": 8453,
         "address": "0x55cd6469f597452b5a7536e2cd98fde4c1247ee4",
-        "standard": "ERC20"
-      }
-    ]
-  },
-  {
-    "symbol": "AXR",
-    "name": "Axelrod by Virtuals",
-    "decimals": 18,
-    "logoURI": "https://assets.coingecko.com/coins/images/66200/large/Axelrod_1.png?1748668901",
-    "chains": [
-      {
-        "chainId": 8453,
-        "address": "0x58db197e91bc8cf1587f75850683e4bd0730e6bf",
         "standard": "ERC20"
       }
     ]
@@ -541,59 +502,6 @@
         "chainId": 43114,
         "standard": "HypERC20",
         "address": "0x5a3534720A4f29FA0dc53cE474Db88973A95f65C"
-      }
-    ]
-  },
-  {
-    "symbol": "TIAN",
-    "name": "AskTianAI by Virtuals",
-    "decimals": 18,
-    "logoURI": "https://coin-images.coingecko.com/coins/images/55320/large/AskTian_logo_%28200px%29.png",
-    "chains": [
-      {
-        "chainId": 8453,
-        "standard": "ERC20",
-        "address": "0x795abcb2a9901f6ec510e18d40de08b84628c354",
-        "hypERC20Collateral": "0x0a905B4670c9f1A08F45f941374895eE7257a0F8"
-      },
-      {
-        "chainId": 56,
-        "standard": "HypERC20",
-        "address": "0xEeCaBf21e847aFA53B9b77111cd4ee7a1A84E6fB"
-      },
-      {
-        "chainId": 10,
-        "standard": "HypERC20",
-        "address": "0xB1Bc80180E10C4EE095834ce5fA9794CF9501C2E"
-      },
-      {
-        "chainId": 1329,
-        "standard": "HypERC20",
-        "address": "0xE567662Dc68acE9F00BCcedfa9205D164399a1Bb"
-      },
-      {
-        "chainId": 42161,
-        "standard": "HypERC20",
-        "address": "0x3aeB2251F92D83cf60808C1E2a5E44a93F719921"
-      }
-    ]
-  },
-  {
-    "symbol": "LYRA",
-    "name": "Lyra by Virtuals",
-    "decimals": 18,
-    "logoURI": "https://s3.ap-southeast-1.amazonaws.com/virtualprotocolcdn/name_6c5dd2b00d.png",
-    "chains": [
-      {
-        "chainId": 8453,
-        "address": "0x99956f143dcca77cddf4b4b2a0fa4d491703244d",
-        "standard": "ERC20",
-        "hypERC20Collateral": "0xa29936A8cff86D4aAd515C105dE508d1f860D6D6"
-      },
-      {
-        "chainId": 1514,
-        "address": "0xa4f5c615f72DDeB2220471694ffF1c0c3dE051e1",
-        "standard": "HypERC20"
       }
     ]
   }

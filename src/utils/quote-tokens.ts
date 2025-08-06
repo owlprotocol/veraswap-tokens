@@ -1,34 +1,10 @@
-import {
-  createPublicClient,
-  http,
-  zeroAddress,
-  parseEther,
-  type Address,
-} from "viem";
-import {
-  ethereum as mainnet,
-  base,
-  polygon,
-  arbitrum,
-  avalanche,
-  optimism,
-  bsc,
-} from "../chains/index.js";
+import { createPublicClient, http, parseEther, Address } from "viem";
 import { metaQuoteExactInputBest } from "../artifacts/metaQuoteExactInputBest";
 import { UNISWAP_CONTRACTS } from "../constants/contracts";
 import { CURRENCY_HOPS } from "../constants/hopCurrencies";
 import { DEFAULT_POOL_PARAMS } from "../constants/poolKeys";
 import { Token } from "../types";
-
-const CHAIN_MAP = {
-  1: mainnet,
-  8453: base,
-  137: polygon,
-  42161: arbitrum,
-  43114: avalanche,
-  10: optimism,
-  56: bsc,
-} as const;
+import { CHAIN_MAP } from "@/constants/chainMap.js";
 
 async function canQuoteToken(token: Token): Promise<boolean> {
   for (const chain of token.chains) {
