@@ -27,6 +27,24 @@
     "score": 3
   },
   {
+    "symbol": "ETH",
+    "name": "Ether",
+    "decimals": 18,
+    "standard": "Native",
+    "chainId": 4661,
+    "address": "0x0000000000000000000000000000000000000000",
+    "score": 3
+  },
+  {
+    "symbol": "ETH",
+    "name": "Ether",
+    "decimals": 18,
+    "standard": "Native",
+    "chainId": 1918988905,
+    "address": "0x0000000000000000000000000000000000000000",
+    "score": 3
+  },
+  {
     "symbol": "C",
     "name": "Token C",
     "decimals": 18,
