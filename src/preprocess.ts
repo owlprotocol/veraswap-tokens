@@ -3,6 +3,9 @@ import { Token, TokenStandard, ERC20Token } from "@/types/token";
 import { Address } from "viem";
 import { groupBy, map } from "lodash-es";
 import { mainnetTokens, testnetTokens } from "@/tokens";
+import { getSuccessfulQuotes } from "./utils/quote-tokens";
+import { filterTaxTokens } from "./utils/filter-tax-tokens";
+import { UNISWAP_CONTRACTS } from "./constants/contracts";
 
 interface ExternalToken {
   address: string;
@@ -45,7 +48,17 @@ async function fetch1inchTokens(): Promise<Token[]> {
 
     const data = (await response.json()) as ExternalTokenList;
 
-    const groupedTokens = groupBy(data.tokens, "symbol");
+    const filteredTokens = data.tokens.filter((token) => {
+      const isSupported = UNISWAP_CONTRACTS[token.chainId] !== undefined;
+      if (!isSupported) {
+        console.warn(
+          `Skipping 1inch token ${token.symbol} on unsupported chain: ${token.chainId}`
+        );
+      }
+      return isSupported;
+    });
+
+    const groupedTokens = groupBy(filteredTokens, "symbol");
 
     const tokens = map(
       groupedTokens,
@@ -158,18 +171,50 @@ async function preprocessTokens() {
       processLocalTokens(),
     ]);
 
+    console.log("Filtering tokens that have quotes");
+
+    console.log("Filtering out tax tokens and checking quotes");
+    const [cleanOneInchTokens, cleanVirtualsTokens, cleanLocalMainnetTokens] =
+      await Promise.all([
+        filterTaxTokens(oneinchTokens),
+        filterTaxTokens(virtualsTokens),
+        filterTaxTokens(localTokens.mainnet),
+      ]);
+
+    console.log(
+      `Filtered out tax tokens: ${
+        oneinchTokens.length - cleanOneInchTokens.length
+      } 1inch, ${
+        virtualsTokens.length - cleanVirtualsTokens.length
+      } virtuals, ${
+        localTokens.mainnet.length - cleanLocalMainnetTokens.length
+      } local mainnet`
+    );
+
+    const [quotableOneInchTokens, quotableVirtualsTokens] = await Promise.all([
+      getSuccessfulQuotes(cleanOneInchTokens),
+      getSuccessfulQuotes(cleanVirtualsTokens),
+    ]);
+
+    console.log(
+      `Found quotes for ${quotableOneInchTokens.length}/${cleanOneInchTokens.length} clean 1inch tokens`
+    );
+    console.log(
+      `Found quotes for ${quotableVirtualsTokens.length}/${cleanVirtualsTokens.length} clean virtuals tokens`
+    );
+
     await Promise.all([
       writeFile(
         "src/assets/data/processed/1inch-tokens.json",
-        JSON.stringify(oneinchTokens, null, 2)
+        JSON.stringify(quotableOneInchTokens, null, 2)
       ),
       writeFile(
         "src/assets/data/processed/virtuals-tokens.json",
-        JSON.stringify(virtualsTokens, null, 2)
+        JSON.stringify(quotableVirtualsTokens, null, 2)
       ),
       writeFile(
         "src/assets/data/processed/local-mainnet-tokens.json",
-        JSON.stringify(localTokens.mainnet, null, 2)
+        JSON.stringify(cleanLocalMainnetTokens, null, 2)
       ),
       writeFile(
         "src/assets/data/processed/local-testnet-tokens.json",
@@ -177,10 +222,16 @@ async function preprocessTokens() {
       ),
     ]);
 
-    console.log("✅ Preprocessing completed successfully!");
-    console.log(`- 1inch tokens: ${oneinchTokens.length}`);
-    console.log(`- Virtuals tokens: ${virtualsTokens.length}`);
-    console.log(`- Local mainnet tokens: ${localTokens.mainnet.length}`);
+    console.log("Preprocessing completed");
+    console.log(
+      `- 1inch tokens: ${quotableOneInchTokens.length} (filtered from ${oneinchTokens.length})`
+    );
+    console.log(
+      `- Virtuals tokens: ${quotableVirtualsTokens.length} (filtered from ${virtualsTokens.length})`
+    );
+    console.log(
+      `- Local mainnet tokens: ${cleanLocalMainnetTokens.length} (filtered from ${localTokens.mainnet.length})`
+    );
     console.log(`- Local testnet tokens: ${localTokens.testnet.length}`);
   } catch (error) {
     console.error("Error during preprocessing:", error);
